@@ -6,10 +6,11 @@ import logo from "../../public/logo.png";
 import Nav from "./Nav";
 import { IoLogoFacebook } from "react-icons/io";
 import { Button } from "./ui/button";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [active, setActive] = useState(false);
-
+  const currentRoute = usePathname();
   useEffect(() => {
     const handleScroll = () => {
       setActive(window.scrollY > 100);
@@ -21,12 +22,14 @@ const Header = () => {
   }, []);
   return (
     <header
-      className={`${
-        active
-          ? "bg-body border-b border-black-text/90 shadow-nav"
-          : "bg-body-transparent bg-opacity-[14%] backdrop-blur-[10px] text-white"
-      } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
-    >
+    className={`${
+      currentRoute === '/'
+        ? (active
+            ? "bg-body border-b border-black-text/90 shadow-nav"
+            : "bg-body-transparent bg-opacity-[14%] backdrop-blur-[10px] text-white")
+        : "bg-body border-b border-black-text/90 shadow-nav"
+    } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
+  >
       {/* Container */}
       <div className="flex items-center justify-between">
         {/* Logo */}

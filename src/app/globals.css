@@ -14,17 +14,20 @@
   h1,
   h2,
   h3 {
-    @apply leading-[72px] tracking-[1px];
+    @apply leading-[85px] tracking-[1px];
   }
 
   h1 {
-    @apply xl:text-[65px] font-bold;
+    @apply xl:text-[75px] font-bold;
   }
   h2 {
     @apply xl:text-[45px] font-medium;
   }
   h3 {
     @apply xl:text-[32px] font-medium;
+  }
+  h4 {
+    @apply xl:text-[23px] font-medium;
   }
   p {
     @apply text-black-text xl:text-[18px] font-normal leading-[30px];

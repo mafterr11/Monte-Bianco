@@ -44,11 +44,11 @@ const Header = () => {
         {/* Navigation */}
         {/* Desktop */}
         <Nav
-          containerStyles="hidden xl:flex gap-x-12 bg-body-transparent bg-opacity-0"
+          containerStyles="hidden xl:flex gap-x-12 bg-body-transparent bg-opacity-0 ml-16"
           linkStyles=""
         />
         {/* Right side */}
-        <div className="flex items-center justify-center gap-x-4">
+        <div className="flex items-center justify-center gap-x-8">
             {/* Descarca Catalog */}
             <div>
                 <Button size="thin">Descarca catalogul</Button>

@@ -35,6 +35,7 @@ module.exports = {
         DEFAULT: "#F9FAFF",
         accent: "#ECECEC",
         transparent: "#F9FAFF",
+        hover: "#F1F3FF",
       },
       white: {
         DEFAULT: "#FFFFFF",

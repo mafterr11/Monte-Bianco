@@ -12,8 +12,10 @@ const buttonVariants = cva(
         default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button",
       },
       size: {
-        default: "h-10 px-4 py-2",
-        thin: "h-9 rounded-md py-5 px-4",
+        default: "h-10 px-6 py-6",
+        lg: "h-10 py-7 px-10",
+        thin: "h-9 rounded-[5px] px-3",
+      
       },
     },
     defaultVariants: {

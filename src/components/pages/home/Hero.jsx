@@ -55,7 +55,7 @@ export function Hero() {
           </Link>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/35 z-10"></div>
     </div>
   );
 }

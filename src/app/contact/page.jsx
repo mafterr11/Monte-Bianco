@@ -1,3 +1,5 @@
+import Brands from "@/components/Brands";
+
 const Contact = () => {
   return (
     <div className='mt-40'>
@@ -7,7 +9,7 @@ const Contact = () => {
         <h3>Nu ezita să ne contactezi</h3>
       </div>
       {/* Harta */}
-      <div className='container max-w-[1440px] mt-56 px-5 py-12 md:py-40 mx-auto flex flex-col-reverse h-[900px] gap-y-10'>
+      <div className='container max-w-[1440px] mt-32 px-5 py-12 md:pt-40 mx-auto flex flex-col-reverse h-[900px] gap-y-10'>
         <div className='w-full h-full rounded-lg overflow-hidden p-10 flex flex-col md:flex-row md:items-end md:justify-start justify-end relative iframe-container'>
           <iframe
             width='100%'
@@ -78,8 +80,7 @@ const Contact = () => {
           </div>
         </div>
         {/* Mobile Panel */}
-        <div className='flex md:hidden flex-col gap-y-6'>
-          {/* Program */}
+        {/* <div className='flex md:hidden flex-col gap-y-6'>
           <div className='lg:w-1/3 md:w-1/2 bg-white/90 z-[7] flex flex-col md:ml-auto w-full p-4 mt-8 md:mt-0 mr-4 lg:mb-[24rem] rounded shadow-md'>
             <h2 className='font-semibold tracking-widest mb-1'>Program:</h2>
             <div className='relative mb-4'>
@@ -94,7 +95,6 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          {/* Detalii */}
           <div className='bg-white/90 relative flex flex-wrap py-4 mb-4 rounded shadow-md items-center justify-start'>
             <div className='lg:w-1/2 px-6 mb-4 lg:mt-0'>
               <h2 className='title-font font-semibold tracking-widest text-sm'>
@@ -130,7 +130,11 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
+      </div>
+      {/* Brands */}
+      <div className="mb-8">
+      <Brands />
       </div>
     </div>
   );

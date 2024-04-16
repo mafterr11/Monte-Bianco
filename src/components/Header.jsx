@@ -23,9 +23,9 @@ const Header = () => {
     <header
       className={`${
         active
-          ? "bg-body text-white"
-          : "bg-body-transparent bg-opacity-[14%] text-white"
-      } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-200 py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
+          ? "bg-body border-b border-black-text/90 shadow-nav"
+          : "bg-body-transparent bg-opacity-[14%] backdrop-blur-[10px] text-white"
+      } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
     >
       {/* Container */}
       <div className="flex items-center justify-between">
@@ -45,18 +45,18 @@ const Header = () => {
         {/* Desktop */}
         <Nav
           containerStyles="hidden xl:flex gap-x-12 bg-body-transparent bg-opacity-0 ml-16"
-          linkStyles=""
+          linkStyles="font-medium"
         />
         {/* Right side */}
         <div className="flex items-center justify-center gap-x-8">
             {/* Descarca Catalog */}
-            <div>
+            <div className="text-white">
                 <Button size="thin">Descarca catalogul</Button>
             </div>
             {/* Facebook */}
           <div className="hover:scale-[0.97] shadow-button">
             <Link href="https://web.facebook.com/MonteBiancoRo">
-              <Image src="/facebook.svg" width={46} height={46} />
+              <Image src="/facebook.svg" width={46} height={46} alt="Monte Bianco facebook link"/>
             </Link>
           </div>
         </div>

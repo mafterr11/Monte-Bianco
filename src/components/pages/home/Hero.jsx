@@ -18,7 +18,7 @@ export const pictures = [
 
 export function Hero() {
   return (
-    <div className="relative overflow-x-hidden border-b border-accent">
+    <section className="relative overflow-x-hidden border-b border-accent">
       <Carousel
         plugins={[
           Autoplay({
@@ -45,7 +45,7 @@ export function Hero() {
         </CarouselContent>
       </Carousel>
       <div className="absolute top-0 left-0 w-full h-full xl:pl-60 xl:pb-20 flex flex-col items-center xl:items-start justify-center z-20 text-white gap-y-2">
-        <h4 className=" mb-[10px] text-white-text">Parerea dumneavoastra conteaza!</h4>
+        <h4 className=" mb-[5px] text-white-text">Parerea dumneavoastra conteaza!</h4>
         <h1 className="max-w-4xl mb-[35px]">30 de ani dedicati satisfactiei clientilor</h1>
         <p className="max-w-xl mb-[35px] text-white-text">Apreciem in mod deosebit faptul ca ne-ati acordat increderea voastra si ca ne-ati oferit oportunitatea de a servi in mod constant.</p>
           <Link href="/portofoliu">
@@ -56,6 +56,6 @@ export function Hero() {
       </div>
 
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/35 z-10"></div>
-    </div>
+    </section>
   );
 }

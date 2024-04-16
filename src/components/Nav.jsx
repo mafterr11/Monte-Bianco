@@ -109,7 +109,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
                           <div className="px-2 my-6 w-[18rem] h-[1.5rem] text-center flex items-center justify-center gap-x-[4px]">
-                           <Image src={dropdownLink.icon} width={115} height={30} />
+                           <Image src={dropdownLink.icon} width={115} height={30} alt="Marcile Monte Bianco"/>
                           </div>
                         </NavigationMenuLink>
                       </Link>

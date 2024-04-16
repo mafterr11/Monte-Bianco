@@ -17,7 +17,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "15px",
     },
     screens: {
       xs: "400px",
@@ -58,6 +57,7 @@ module.exports = {
     extend: {
       boxShadow: {
         'button': '2px 3px 3px rgba(0, 0, 0, 0.25)',
+        'nav': '0px 3px 5px rgba(0, 0, 0, 0.14)'
       },
       fontFamily: {
         poppins: [`var(--font-poppins)`, "sans-serif"],

@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button",
+        default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button text-white",
       },
       size: {
         default: "h-10 px-6 py-6",

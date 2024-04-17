@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='mt-40'>
       {/* Titlu */}
-      <div className='text-center'>
+      <div className='text-center text-shadow'>
         <h2>Suntem aici pentru tine</h2>
         <h3>Nu ezita să ne contactezi</h3>
       </div>

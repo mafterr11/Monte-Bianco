@@ -8,7 +8,7 @@ const CTA = () => {
     <div  className="container mx-auto">
         <div className="flex flex-col items-center">
             <h3 className="max-w-5xl text-center mb-6 flex flex-col items-center justify-center">
-            Pentru informații despre produse sau companie, nu ezitati sa ne contactați!
+            Nu ezitati sa ne contactați! <br /> Parerea dumneavoastra conteaza
             </h3>
             <Link href="/contact">
                 <Button className="gap-x-2"> 

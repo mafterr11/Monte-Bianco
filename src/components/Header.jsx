@@ -13,7 +13,7 @@ const Header = () => {
   const currentRoute = usePathname();
   useEffect(() => {
     const handleScroll = () => {
-      setActive(window.scrollY > 100);
+      setActive(window.scrollY > 830);
     };
     window.addEventListener("scroll", handleScroll);
     return () => {

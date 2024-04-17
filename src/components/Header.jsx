@@ -26,7 +26,7 @@ const Header = () => {
       currentRoute === '/'
         ? (active
             ? "bg-body border-b border-black-text/90 shadow-nav"
-            : "bg-body-transparent bg-opacity-[14%] backdrop-blur-[10px] text-white")
+            : "bg-body-transparent bg-opacity-[14%] xl:backdrop-blur-[10px] text-white")
         : "bg-body border-b border-black-text/90 shadow-nav"
     } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
   >
@@ -51,7 +51,7 @@ const Header = () => {
           linkStyles="font-medium"
         />
         {/* Right side */}
-        <div className="flex items-center justify-center gap-x-8">
+        <div className="hidden xl:flex items-center justify-center gap-x-8">
             {/* Descarca Catalog */}
             <div className="text-white">
                 <Button size="thin">Descarca catalogul</Button>

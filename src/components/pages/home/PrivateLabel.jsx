@@ -39,8 +39,8 @@ export function HealthiconsToiletPaperOutline(props) {
 
 const PrivateLabel = () => {
   return (
-    <section className="container relative py-56">
-      <div className="absolute inset-0 z-0 flex items-center justify-center rotate-[25deg]">
+    <section className="container relative max-md:py-12 py-56">
+      <div className="hidden xl:absolute inset-0 z-0 xl:flex items-center justify-center rotate-[25deg]">
         <HealthiconsToiletPaperOutline />
       </div>
       {/* Added position-relative and z-index classes to raise text content above the SVG */}

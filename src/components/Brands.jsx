@@ -25,7 +25,7 @@ const brands = [
 
 const Brands = () => {
   return (
-    <section className="flex flex-row items-center justify-center gap-x-40 py-24">
+    <section className="max-md:container max-md:grid max-md:grid-cols-2 max-md:gap-12 flex flex-row items-center justify-center xl:gap-x-40 max-md:pt-32 py-24">
       {brands.map((brand, index) => (
         <div  key={index}>
           <Image src={brand.icon} width={150} height={70} alt={brand.name} />

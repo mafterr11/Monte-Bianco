@@ -25,7 +25,7 @@ const certificate = [
 
 const Certificari = () => {
   return (
-    <section className="flex flex-row items-center justify-center gap-x-40 py-24">
+    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center xl:gap-x-40 py-24">
       {certificate.map((certificat, index) => (
         <div key={index}>
           <Image src={certificat.icon} width={120} height={70} alt={certificat.name} />

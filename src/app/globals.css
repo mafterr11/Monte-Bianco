@@ -21,10 +21,10 @@
     @apply text-[28px] xl:text-[75px] font-bold leading-[85px];
   }
   h2 {
-    @apply xl:text-[45px] font-medium;
+    @apply xl:text-[40px] font-medium;
   }
   h3 {
-    @apply text-[22px] xl:text-[32px] font-medium leading-[47px];
+    @apply text-[22px] xl:text-[30px] font-medium leading-[47px];
   }
   h4 {
     @apply text-[18px] xl:text-[23px] font-medium;

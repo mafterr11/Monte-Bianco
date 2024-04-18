@@ -22,14 +22,14 @@ const Header = () => {
   }, []);
   return (
     <header
-    className={`${
-      currentRoute === '/'
-        ? (active
+      className={`${
+        currentRoute === "/"
+          ? active
             ? "bg-body border-b border-black-text/90 shadow-nav"
-            : "bg-body-transparent bg-opacity-[14%] xl:backdrop-blur-[10px] text-white")
-        : "bg-body border-b border-black-text/90 shadow-nav"
-    } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
-  >
+            : "bg-body-transparent bg-opacity-[14%] xl:backdrop-blur-[10px] text-white"
+          : "bg-body border-b border-black-text/90 shadow-nav"
+      } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] px-[55px] border-b-[0.5px] border-black/50`}
+    >
       {/* Container */}
       <div className="flex items-center justify-between">
         {/* Logo */}
@@ -52,14 +52,26 @@ const Header = () => {
         />
         {/* Right side */}
         <div className="hidden xl:flex items-center justify-center gap-x-8">
-            {/* Descarca Catalog */}
-            <div className="text-white">
-                <Button size="thin">Descarca catalogul</Button>
-            </div>
-            {/* Facebook */}
+          {/* Descarca Catalog */}
+          <div className="text-white">
+            <a
+              href="/Monte Bianco - Catalog.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              <Button size="thin">Descarca catalogul</Button>
+            </a>
+          </div>
+          {/* Facebook */}
           <div className="hover:scale-[0.97] shadow-button">
             <Link href="https://web.facebook.com/MonteBiancoRo">
-              <Image src="/facebook.svg" width={46} height={46} alt="Monte Bianco facebook link"/>
+              <Image
+                src="/facebook.svg"
+                width={46}
+                height={46}
+                alt="Monte Bianco facebook link"
+              />
             </Link>
           </div>
         </div>

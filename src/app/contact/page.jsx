@@ -1,4 +1,6 @@
+"use client"
 import Brands from "@/components/Brands";
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const Contact = () => {
   return (
@@ -10,7 +12,7 @@ const Contact = () => {
       </div>
       {/* Harta */}
       <div className='container max-w-[1440px] mt-32 px-5 py-12 md:pt-40 mx-auto flex flex-col-reverse h-[900px] gap-y-10'>
-        <div className='w-full h-full rounded-lg overflow-hidden p-10 flex flex-col md:flex-row md:items-end md:justify-start justify-end relative iframe-container'>
+        <div className='z-20 w-full h-full rounded-lg  p-10 flex flex-col md:flex-row md:items-end md:justify-start justify-end relative iframe-container'>
           <iframe
             width='100%'
             height='100%'
@@ -20,11 +22,12 @@ const Contact = () => {
             style={{ filter: "grayscale(0.4) contrast(1) opacity(0.7)" }}
           ></iframe>
           {/* Adresa */}
+          <AnimatedTooltip message="Sediul nostru">
           <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap py-4 mb-4 rounded items-center justify-start shadow-button'>
             <div className='lg:w-[350px] px-6 flex flex-col'>
-              <h2 className='font-semibold tracking-widest text-lg'>
+              {/* <h2 className='font-semibold tracking-widest text-lg'>
                 Adresa
-              </h2>
+              </h2> */}
               <a
                 href='https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8'
                 target='_blank'
@@ -34,8 +37,10 @@ const Contact = () => {
               </a>
             </div>
           </div>
+          </AnimatedTooltip>
           <div className='flex flex-col items-end justify-center gap-y-6 absolute top-12 right-12'>
             {/* Telefon */}
+            <AnimatedTooltip message="Disponibili oricand!">
             <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap py-2 rounded items-center justify-start shadow-button text-lg'>
               <a
                 href='tel:+40245606296'
@@ -45,7 +50,9 @@ const Contact = () => {
                 <span className='text-black font-semibold'>Tel:</span> +40.245.606.296
               </a>
             </div>
+            </AnimatedTooltip>
             {/* Fax */}
+            <AnimatedTooltip message="Avem chiar si fax!">
             <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap py-2 rounded items-center justify-start shadow-button text-lg'>
               <a
                 href='tel:+40245606286'
@@ -55,7 +62,9 @@ const Contact = () => {
                 <span className='text-black font-semibold'>Fax:</span> +40.245.606.286
               </a>
             </div>
+            </AnimatedTooltip>
             {/* Vanzari */}
+            <AnimatedTooltip message="Emailul departamentului de vanzari">
             <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button text-lg'>
               <p className='font-semibold'>Vanzari:</p>
               <a
@@ -66,7 +75,9 @@ const Contact = () => {
                 sales@montebianco.ro
               </a>
             </div>
+            </AnimatedTooltip>
             {/* Fabrica */}
+            <AnimatedTooltip message="Emailul fabricii noastre">
             <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button text-lg'>
               <p className='font-semibold'>Fabrica:</p>
               <a
@@ -77,6 +88,7 @@ const Contact = () => {
                 montebianco@montebianco.ro
               </a>
             </div>
+            </AnimatedTooltip>
           </div>
         </div>
         {/* Mobile Panel */}

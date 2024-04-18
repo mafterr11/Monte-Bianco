@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../../../variants";
 const About = () => {
   return (
-    <section className="max-md:pb-12 pb-40">
+    <section className="max-md:pb-12 pb-40 overflow-x-hidden">
       {/* Container 1 */}
       <motion.div 
        variants={fadeIn('left', 0.2)}

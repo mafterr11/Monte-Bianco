@@ -46,17 +46,17 @@
 .hover:hover {
   cursor: pointer;
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .hover span {
   display: inline-block;
-  
 }
 
 .hover span:after {
   content: '';
   width: 0px;
-  height: 2px;
+  height: 4px;
   display: block;
   background: #006E9C;
   transition: 300ms;

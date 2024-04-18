@@ -92,7 +92,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/catalog"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-2 underline-offset-[0.5rem] capitalize text-base hover:scale-[0.97]"
+                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
                           : "capitalize text-base hover hover:scale-[0.97]"
                       }`}
                     >
@@ -129,7 +129,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/away-from-home"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-2 underline-offset-[0.5rem] capitalize text-base hover:scale-[0.97]"
+                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
                           : "capitalize text-base hover hover:scale-[0.97]"
                       }`}
                     >
@@ -166,7 +166,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
               href={link.path}
               className={`${linkStyles} ${
                 currentRoute === link.path
-                  ? "underline decoration-accent decoration-2 underline-offset-[0.5rem] capitalize text-base hover:scale-[0.97]"
+                  ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
                   : "capitalize text-base hover hover:scale-[0.97]"
               }`}
             >

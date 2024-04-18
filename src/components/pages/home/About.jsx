@@ -10,7 +10,7 @@ const About = () => {
        variants={fadeIn('left', 0.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{once:true, ammount:0.4}}
+        viewport={{once:true, ammount:0.8}}
       className="flex flex-col md:flex-row items-center justify-center gap-x-32 max-md:gap-y-8 bg-body-accent max-md:py-10 xl:py-24 max-md:px-4">
         {/* Image */}
         <div>

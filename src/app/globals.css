@@ -43,6 +43,7 @@
   }
 }
 
+/* Nav hover */
 .hover:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -67,10 +68,34 @@
   width: 100%;
 }
 
+/* Normal hover */
+.hover-nav:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.hover-nav span {
+  display: inline-block;
+}
+
+.hover-nav span:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #006E9C;
+  transition: 300ms;
+  
+} 
+
+.hover-nav span:hover:after {
+  width: 100%;
+}
+
 .active-link {
   text-decoration: underline;
   text-decoration-color: #006E9C;
-  text-decoration-thickness: 2px;
 }
 
 .iframe-container {

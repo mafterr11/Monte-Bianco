@@ -9,6 +9,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import Image from "next/image";
 
 export const links = [
   {
@@ -31,24 +32,29 @@ export const links = [
 
 const dropdownLinksCatalog = [
   {
-    path: "/catalog/batiste-nazale",
-    name: "Batiste nazale",
+    path: "/catalog/Puff",
+    name: "Puff",
+    icon: "/marci/puff.png"
   },
   {
-    path: "/catalog/servetele-de-masa",
-    name: "Șervețele de masă",
+    path: "/catalog/Fiore",
+    name: "Fiore",
+    icon: "/marci/fiore.png"
   },
   {
-    path: "/catalog/hartie-igienica",
-    name: "Hârtie igienică",
+    path: "/catalog/Neve",
+    name: "Neve",
+    icon: "/marci/neve.png"
   },
   {
-    path: "/catalog/prosoape-de-bucatarie",
-    name: "Prosoape de bucătărie",
+    path: "/catalog/MonteBianco-Profesional",
+    name: "Monte Bianco Profesional",
+    icon: "/marci/montebianco.png"
   },
   {
-    path: "/catalog/servetele-pop-up",
-    name: "Șervețele Pop-up",
+    path: "/catalog/Horeca",
+    name: "Horeca",
+    icon: "/marci/horeca.png"
   },
 ];
 
@@ -59,7 +65,7 @@ const dropdownLinksAFH = [
   },
   {
     path: "/away-from-home/servetele",
-    name: "Șervețele",
+    name: "Servetele",
   },
   {
     path: "/away-from-home/prosop-pilat",
@@ -102,11 +108,8 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         legacyBehavior
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
-                        <div className="p-4 w-[18rem] text-center flex gap-x-3">
-                            <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav">
-                              <span>{dropdownLink.name}</span>
-                            </div>
+                          <div className="px-2 my-6 w-[18rem] h-[1.5rem] text-center flex items-center justify-center gap-x-[4px]">
+                           <Image src={dropdownLink.icon} width={115} height={30} alt="Marcile Monte Bianco"/>
                           </div>
                         </NavigationMenuLink>
                       </Link>
@@ -141,10 +144,10 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         passHref
                         legacyBehavior
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
+                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black">
                           <div className="p-4 w-[12rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav">
+                            <div className="hover">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>

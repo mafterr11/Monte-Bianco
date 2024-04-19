@@ -18,6 +18,7 @@ const About = () => {
             src="/about/1.png"
             width={650}
             height={473}
+            className="w-auto"
             alt="despre Monte Bianco"
           />
         </div>
@@ -67,6 +68,7 @@ const About = () => {
             src="/about/2.png"
             width={650}
             height={373}
+            className="w-auto"
             alt="despre Monte Bianco"
           />
         </div>
@@ -84,6 +86,7 @@ const About = () => {
             src="/about/3.png"
             width={650}
             height={373}
+            className="w-auto"
             alt="despre Monte Bianco"
           />
         </div>

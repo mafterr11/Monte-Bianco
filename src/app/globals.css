@@ -21,7 +21,7 @@
     @apply text-[28px] xl:text-[75px] font-bold leading-[85px];
   }
   h2 {
-    @apply xl:text-[40px] font-medium;
+    @apply text-[25px] xl:text-[40px] font-medium;
   }
   h3 {
     @apply text-[22px] xl:text-[30px] font-medium leading-[47px];

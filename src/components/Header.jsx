@@ -41,6 +41,7 @@ const Header = () => {
               height={50}
               priority
               alt="Monte Bianco Logo"
+              className="w-auto"
             />
           </Link>
         </div>

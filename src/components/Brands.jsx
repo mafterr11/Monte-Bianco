@@ -41,7 +41,7 @@ const Brands = () => {
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
         key={index}>
-          <Image src={brand.icon} width={150} height={70} alt={brand.name} />
+          <Image src={brand.icon} width={150} height={70} alt={brand.name} className="w-auto" />
         </motion.div>
       ))}
     </section>

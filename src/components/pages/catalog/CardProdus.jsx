@@ -8,13 +8,13 @@ import { Button } from "@/components/ui/button";
 const CardProdus = ({ product }) => {
   return (
     <Card className="bg-body border-2 group overflow-hidden relative border-black/15 h-[520px] flex flex-col">
-      <CardHeader className="p-0">
+      <CardHeader className="p-0 bg-body-transparent">
       <Badge className="bg-accent text-white uppercase text-sm font-medium mb-2 absolute top-5 left-5">
           {product.brand}
         </Badge>
         <div className="relative bg-no-repeat w-full h-[300px] flex items-center justify-center">
           <Image
-            className="absolute bottom-0 shadow-2xl h-[250px] w-[250px] rounded-t-[15px]"
+            className="absolute bottom-0 text-shadow h-[250px] w-[250px] rounded-t-[15px]"
             src={product.image}
             width={276}
             height={255}

@@ -13,7 +13,7 @@ const Contact = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
-        className="text-center text-shadow"
+        className="text-center"
       >
         <h2>Suntem aici pentru tine</h2>
         <h3>Nu ezita să ne contactezi</h3>

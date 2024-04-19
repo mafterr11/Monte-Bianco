@@ -27,13 +27,13 @@ const Catalog = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-[1px]">
+          <TabsList className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
                   value={category}
                   key={index}
-                  className="uppercase w-[300px] max-md:mx-auto md:w-auto border-opacity-20 border"
+                  className="uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border"
                   onClick={() => setCategory(category)}
                 >
                   {category}

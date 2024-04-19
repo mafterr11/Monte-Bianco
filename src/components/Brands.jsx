@@ -28,20 +28,23 @@ const brands = [
     icon: "/marci/horeca.png",
     name: "Logo marca Horeca",
     fadeSpeed: 1,
+    class: "max-md:absolute left-24 bottom-4"
   },
 ];
 
 const Brands = () => {
   return (
-    <section className="max-md:container max-md:grid max-md:grid-cols-2 max-md:gap-12 flex flex-row items-center justify-center xl:gap-x-28 max-md:pt-32 py-24">
+    <section className="max-md:container max-md:grid max-md:grid-cols-2 max-md:gap-12 flex flex-row items-center justify-center xl:gap-x-28 max-md:pt-32 py-24 relative">
       {brands.map((brand, index) => (
         <motion.div  
         variants={fadeIn('down', brand.fadeSpeed)}
         initial="hidden"
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
-        key={index}>
-          <Image src={brand.icon} width={150} height={70} alt={brand.name} className="w-auto" />
+        key={index}
+        className={brand.class}
+        >
+          <Image src={brand.icon} width={180} height={70} alt={brand.name} className="h-auto" />
         </motion.div>
       ))}
     </section>

@@ -46,12 +46,12 @@ const Header = () => {
       currentRoute === "/"
         ? active
           ? "bg-body border-b border-black-text/90 shadow-nav"
-          : "bg-body-transparent bg-opacity-[14%] xl:backdrop-blur-[10px] text-white"
+          : "bg-body-transparent bg-opacity-[20%]  xl:backdrop-blur-[10px] text-white"
         : "bg-body border-b border-black-text/90 shadow-nav"
     } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] xl:px-[55px] border-b-[0.5px] border-black/50`}
   >
       {/* Container */}
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-between '>
         {/* Logo */}
         <div className='inline-block'>
           <Link href='/'>

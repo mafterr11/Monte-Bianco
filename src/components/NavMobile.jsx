@@ -16,7 +16,6 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Button } from "./ui/button";
 import Logo from "./Logo";
 import Social from "./Social";
 

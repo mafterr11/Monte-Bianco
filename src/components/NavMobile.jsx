@@ -103,61 +103,6 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
           {/* links */}
           <div className='flex flex-col gap-y-8'>
             {links.map((link, index) => {
-              if (link.path === "/catalog") {
-                return (
-                  <div key={index}>
-                    <div
-                      onClick={toggleServicii}
-                      className='cursor-pointer flex items-center gap-x-3 justify-base hover:text-orange relative'
-                    >
-                      <div className={`${iconStyles}`}>{link.icon}</div>
-                      <div className={`${linkStyles}`}>{link.name}</div>
-                    </div>
-                    {isServiciiOpen && (
-                      <Drawer>
-                        <DrawerTrigger className='absolute left-0 right-0'>
-                          Descoperiți Serviciile Noastre
-                        </DrawerTrigger>
-                        <DrawerContent as='div' className="rounded-t-2xl">
-                          <DrawerHeader>
-                            <DrawerTitle className='text-accent'>
-                              <div className="absolute top-2 right-[40%] px-10 h-[0.55rem] rounded-full bg-white/20"></div>
-                              Servicii de Construcții Premium
-                            </DrawerTitle>
-                            <DrawerDescription className='text-base font-semibold'>
-                              Construiește cu Încredere
-                              <span className='block border-t border-accent my-4'></span>
-                            </DrawerDescription>
-                          </DrawerHeader>
-                          {dropdownLinks.map((dropdownLink, dropdownIndex) => (
-                            <div
-                              key={dropdownIndex}
-                              onClick={() =>
-                                closeMenuAndNavigate(dropdownLink.path)
-                              }
-                              className='px-4 pb-6 flex gap-x-[4px] cursor-pointer'
-                            >
-                              <span className='text-accent'>&#9679;</span>
-                              <div className='hover hover:scale-[0.96]'>
-                                <span>{dropdownLink.name}</span>
-                              </div>
-                            </div>
-                          ))}
-                          <DrawerFooter>
-                            <DrawerClose
-                              as='div'
-                              className='text-white bg-orange hover:bg-orange-hover hover:scale-[0.98] w-[50%] py-3 px-3 mx-auto'
-                            >
-                              Închide
-                            </DrawerClose>
-                          </DrawerFooter>
-                        </DrawerContent>
-                        <DrawerClose />
-                      </Drawer>
-                    )}
-                  </div>
-                );
-              } else {
                 return (
                   <Link
                     key={index}
@@ -169,8 +114,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
                     <div className={`${linkStyles}`}>{link.name}</div>
                   </Link>
                 );
-              }
-            })}
+              })}
           </div>
          <Social />
         </div>

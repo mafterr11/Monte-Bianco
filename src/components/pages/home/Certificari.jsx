@@ -41,7 +41,7 @@ const Certificari = () => {
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
         key={index}>
-          <Image src={certificat.icon} width={120} height={70} alt={certificat.name} className="w-auto" />
+          <Image src={certificat.icon} width={100} height={70} alt={certificat.name} className="" />
         </motion.div>
       ))}
     </section>

@@ -33,7 +33,7 @@ const brands = [
 
 const Brands = () => {
   return (
-    <section className="max-md:container max-md:grid max-md:grid-cols-2 max-md:gap-12 flex flex-row items-center justify-center xl:gap-x-40 max-md:pt-32 py-24">
+    <section className="max-md:container max-md:grid max-md:grid-cols-2 max-md:gap-12 flex flex-row items-center justify-center xl:gap-x-28 max-md:pt-32 py-24">
       {brands.map((brand, index) => (
         <motion.div  
         variants={fadeIn('down', brand.fadeSpeed)}

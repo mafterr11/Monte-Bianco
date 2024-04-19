@@ -40,18 +40,24 @@ export function HealthiconsToiletPaperOutline(props) {
 
 const PrivateLabel = () => {
   return (
-    <motion.section
+    <section
+      className="container relative max-md:py-12 py-56"
+    >
+      <motion.div 
       variants={fadeIn("down", 0.2)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true, ammount: 0.4 }}
-      className="container relative max-md:py-12 py-56"
-    >
-      <div className="hidden xl:absolute top-36 bottom-0 left-0 right-0 z-0 xl:flex items-center justify-center rotate-[25deg]">
+      className="hidden xl:absolute top-36 bottom-0 left-0 right-0 z-0 xl:flex items-center justify-center rotate-[25deg]">
         <HealthiconsToiletPaperOutline />
-      </div>
+      </motion.div>
       {/* Added position-relative and z-index classes to raise text content above the SVG */}
-      <div className="text-center z-10 relative">
+      <motion.div 
+      variants={fadeIn("down", 0.5)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: true, ammount: 0.4 }}
+      className="text-center z-10 relative">
         <h2 className="mb-20">Private Label</h2>
         <p>
           Monte Bianco oferă clienților săi posibilitatea de a avea propriile
@@ -62,8 +68,8 @@ const PrivateLabel = () => {
           9001, ISO 14001, ISO 45001, Monte Bianco se certifică de asemenea și
           în conformitate cu standardul ISO 22716 și FSC.
         </p>
-      </div>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 };
 

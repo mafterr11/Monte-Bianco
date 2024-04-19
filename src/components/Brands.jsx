@@ -20,7 +20,7 @@ const brands = [
     fadeSpeed: 0.6,
   },
   {
-    icon: "/marci/montebianco.png",
+    icon: "/marci/MBP.png",
     name: "Logo marca Monte Bianco Profesional",
     fadeSpeed: 0.8,
   },

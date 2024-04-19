@@ -49,7 +49,7 @@ const dropdownLinksCatalog = [
   {
     path: "/catalog/MonteBianco-Profesional",
     name: "Monte Bianco Profesional",
-    icon: "/marci/montebianco.png"
+    icon: "/marci/MBP.png"
   },
   {
     path: "/catalog/Horeca",

@@ -1,9 +1,58 @@
-"use client"
+"use client";
+import React, { useState } from "react";
+import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
+import CardProdus from "@/components/pages/catalog/CardProdus";
+import { productData } from "@/products";
 
 const Catalog = () => {
-  return (
-    <div></div>
-  )
-}
 
-export default Catalog
+  const uniqueCategories = [
+    "Toate produsele",
+    ...new Set(productData.map((item) => item.category)),
+  ];
+  const [categories, setCategories] = useState(uniqueCategories);
+  const [category, setCategory] = useState("Toate produsele");
+  const filteredProducts = productData.filter((product) => {
+    // if category  is all products return all products, else filter
+    return category === "Toate produsele"
+      ? product
+      : product.category === category;
+  });
+
+  return (
+    <section className="min-h-screen pt-40">
+      <div className="container mx-auto">
+        <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
+          Gama de produse Monte Bianco
+        </h2>
+        {/* tabs */}
+        <Tabs defaultValue={category} className="mb-24 xl:mb-48">
+          <TabsList className="w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border">
+            {categories.map((category, index) => {
+              return (
+                <TabsTrigger
+                  value={category}
+                  key={index}
+                  className="capitalize w-[162px] md:w-auto"
+                  onClick={() => setCategory(category)}
+                >
+                  {category}
+                </TabsTrigger>
+              );
+            })}
+          </TabsList>
+          {/* tabs content */}
+          <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+            {filteredProducts.map((product, index)=>{
+              return <TabsContent value={category} key={index}>
+                <CardProdus product={product}/>
+              </TabsContent>
+            })}
+          </div>
+        </Tabs>
+      </div>
+    </section>
+  );
+};
+
+export default Catalog;

@@ -17,6 +17,7 @@ const Catalog = () => {
 
   // Brands setup
   const uniqueBrands = [...new Set(productData.map((item) => item.brand))];
+  // Replace NULL with "All Brands" if needed
   const [brand, setBrand] = useState(null); // Using 'All Brands' as a default to show all
 
   // Filter products by categories
@@ -26,6 +27,7 @@ const Catalog = () => {
 
   // Filter products by brands
   const filteredByBrand = productData.filter(
+    // Replace NULL with "All Brands" if needed
     (product) => brand === null || product.brand === brand
   );
 

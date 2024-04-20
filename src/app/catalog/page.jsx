@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
@@ -17,7 +17,7 @@ const Catalog = () => {
 
   // Brands setup
   const uniqueBrands = [...new Set(productData.map((item) => item.brand))];
-  const [brand, setBrand] = useState(uniqueBrands[0]); // Using 'All Brands' as a default to show all
+  const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
 
   // Filter products by categories
   const filteredByCategory = productData.filter(
@@ -26,14 +26,8 @@ const Catalog = () => {
 
   // Filter products by brands
   const filteredByBrand = productData.filter(
-    (product) => brand === product.brand === brand
+    (product) => brand === "All Brands" || product.brand === brand
   );
-
-  useEffect(() => {
-    // This effect will run whenever 'brand' changes
-    console.log('Brand changed to:', brand);
-    // Here you can also trigger any other updates that need to happen when brand changes
-  }, [brand]);
 
   return (
     <section className='min-h-screen pt-32 md:pt-40'>

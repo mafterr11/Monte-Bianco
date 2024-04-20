@@ -55,10 +55,7 @@ const Catalog = () => {
                 {cat}
               </TabsTrigger>
             ))}
-          </TabsList>
-          {/* Brand Tabs */}
-          <TabsList className='w-full grid grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto gap-2'>
-            {uniqueBrands.map((br, index) => (
+             {uniqueBrands.map((br, index) => (
               <TabsTrigger
                 value={br}
                 key={index}
@@ -69,6 +66,7 @@ const Catalog = () => {
               </TabsTrigger>
             ))}
           </TabsList>
+          {/* Brand Tabs */}
           {/* Category Cards Mapping */}
           <div className='text-lg mt-52 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
             {filteredByCategory.map((product, index) => (

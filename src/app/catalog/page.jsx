@@ -17,7 +17,7 @@ const Catalog = () => {
 
   // Brands setup
   const uniqueBrands = [...new Set(productData.map((item) => item.brand))];
-  const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
+  const [brand, setBrand] = useState(uniqueBrands[0]); // Using 'All Brands' as a default to show all
 
   // Filter products by categories
   const filteredByCategory = productData.filter(
@@ -26,7 +26,7 @@ const Catalog = () => {
 
   // Filter products by brands
   const filteredByBrand = productData.filter(
-    (product) => brand === "All Brands" || product.brand === brand
+    (product) => brand === product.brand === brand
   );
 
   useEffect(() => {

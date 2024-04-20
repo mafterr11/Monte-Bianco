@@ -13,6 +13,7 @@ const Logo = () => {
         priority
         alt='Monte Bianco Logo'
         className='w-auto'
+        onContextMenu={(e) => e.preventDefault()} // Prevent the context menu on right-click
       />
     </Link>
   </div>

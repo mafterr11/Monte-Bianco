@@ -68,14 +68,14 @@ const Contact = () => {
             sales@montebianco.ro
           </a>
         </motion.div>
-        {/* Email Fabrica */}
+        {/* Email Sediu */}
         <motion.div 
         variants={fadeIn("down", 1)}
         initial='hidden'
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
         className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'>
-          <span className='font-semibold'>Fabrica:</span>
+          <span className='font-semibold'>Sediu:</span>
           <a
             href='mailto: montebianco@montebianco.ro'
             target='blank'
@@ -176,10 +176,10 @@ const Contact = () => {
                 </a>
               </div>
             </AnimatedTooltip>
-            {/* Fabrica */}
-            <AnimatedTooltip message='Emailul fabricii noastre'>
+            {/* Sediu */}
+            <AnimatedTooltip message='Emailul sediului nostru'>
               <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button text-lg'>
-                <p className='font-semibold'>Fabrica:</p>
+                <p className='font-semibold'>Sediu:</p>
                 <a
                   href='mailto: montebianco@montebianco.ro'
                   target='blank'

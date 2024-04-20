@@ -6,18 +6,24 @@ import { productData } from "@/products";
 
 const Catalog = () => {
   // Filter products that have categories defined
-  const productsWithCategories = productData.filter(product => product.category);
+  const productsWithCategories = productData.filter(
+    (product) => product.category
+  );
 
   // Categories setup
   const uniqueCategories = [
     "Toate produsele",
-    ...new Set(productsWithCategories.map(product => product.category))
+    ...new Set(productsWithCategories.map((product) => product.category)),
   ];
   const [category, setCategory] = useState("Toate produsele");
 
+  // Filter products that have categories defined
+  const productsWithBrands = productData.filter(
+    (product) => product.brand
+  );
   // Brands setup
-  const uniqueBrands = [...new Set(productData.map((item) => item.brand))];
-  const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
+  const uniqueBrands = [...new Set(productsWithBrands.map((product) => product.brand))];
+  const [brand, setBrand] = useState("Toate produsele"); // Using 'Toate produsele' as a default to show all
 
   // Filter products by categories
   const filteredByCategory = productData.filter(
@@ -26,7 +32,7 @@ const Catalog = () => {
 
   // Filter products by brands
   const filteredByBrand = productData.filter(
-    (product) => brand === "All Brands" || product.brand === brand
+    (product) => brand === "Toate produsele" || product.brand === brand
   );
 
   return (

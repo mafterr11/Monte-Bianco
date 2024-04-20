@@ -18,11 +18,11 @@ const Catalog = () => {
   const [category, setCategory] = useState("Toate produsele");
 
   // Filter products that have categories defined
-  const productsWithBrands = productData.filter(
-    (product) => product.brand
-  );
+  const productsWithBrands = productData.filter((product) => product.brand);
   // Brands setup
-  const uniqueBrands = [...new Set(productsWithBrands.map((product) => product.brand))];
+  const uniqueBrands = [
+    ...new Set(productsWithBrands.map((product) => product.brand)),
+  ];
   const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
 
   // Filter products by categories
@@ -36,39 +36,42 @@ const Catalog = () => {
   );
 
   return (
-    <section className='min-h-screen pt-32 md:pt-40'>
+    <section className='min-h-screen pt-32 md:mt-24'>
       <div className='container mx-auto'>
-        <h2 className='mb-8 xl:mb-32 text-center mx-auto'>
+        <h2 className='mb-56 text-center mx-auto'>
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
-          {/* Category Tabs */}
-          <TabsList className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
-            {uniqueCategories.map((cat, index) => (
+          {/* Category and brand Tabs */}
+          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
+            <div className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow">
+              {uniqueCategories.map((cat, index) => (
+                <TabsTrigger
+                  value={cat}
+                  key={index}
+                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
+                  onClick={() => setCategory(cat)}
+                >
+                  {cat}
+                </TabsTrigger>
+              ))}
+            </div>
+            <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto gap-2 overflow max-md:mt-6">
+            {uniqueBrands.map((br, index) => (
               <TabsTrigger
-                value={cat}
-                key={index}
-                className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
-                onClick={() => setCategory(cat)}
-              >
-                {cat}
-              </TabsTrigger>
-            ))}
-             {uniqueBrands.map((br, index) => (
-              <TabsTrigger
-                value={br}
-                key={index}
-                className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
-                onClick={() => setBrand(br)}
+              value={br}
+              key={index}
+              className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
+              onClick={() => setBrand(br)}
               >
                 {br}
               </TabsTrigger>
             ))}
+            </div>
           </TabsList>
-          {/* Brand Tabs */}
           {/* Category Cards Mapping */}
-          <div className='text-lg mt-52 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          <div className='text-lg pt-[22rem] xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
             {filteredByCategory.map((product, index) => (
               <TabsContent value={category} key={index}>
                 <CardProdus product={product} />

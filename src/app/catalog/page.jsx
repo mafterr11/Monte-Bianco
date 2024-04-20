@@ -23,7 +23,7 @@ const Catalog = () => {
   );
   // Brands setup
   const uniqueBrands = [...new Set(productsWithBrands.map((product) => product.brand))];
-  const [brand, setBrand] = useState("Toate produsele"); // Using 'Toate produsele' as a default to show all
+  const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
 
   // Filter products by categories
   const filteredByCategory = productData.filter(
@@ -32,7 +32,7 @@ const Catalog = () => {
 
   // Filter products by brands
   const filteredByBrand = productData.filter(
-    (product) => brand === "Toate produsele" || product.brand === brand
+    (product) => brand === "All Brands" || product.brand === brand
   );
 
   return (

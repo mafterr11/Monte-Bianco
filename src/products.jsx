@@ -301,4 +301,142 @@ export const productData = [
     alt: "Fiore",
     name: "Fiore",
   },
+
+  // AWAY FROM HOME
+  // MB Profesional
+  {
+    image: "/produse/AFH/Cearceaf 50 cm 50 m.png",
+    brand: "MB Profesional",
+    alt: "Cearceaf 50 cm 50 m",
+    name: "Cearceaf 50 cm 50 m",
+  },
+  {
+    image: "/produse/AFH/Cearceaf 60 cm 50 m.png",
+    brand: "MB Profesional",
+    alt: "Cearceaf 60 cm 50 m",
+    name: "Cearceaf 60 cm 50 m",
+  },
+  {
+    image: "/produse/AFH/Cearceaf 50 cm 80 m.png",
+    brand: "MB Profesional",
+    alt: "Cearceaf 50 cm 80 m",
+    name: "Cearceaf 50 cm 80 m",
+  },
+  {
+    image: "/produse/AFH/Cearceaf 60 cm 80 m.png",
+    brand: "MB Profesional",
+    alt: "Cearceaf 60 cm 80 m",
+    name: "Cearceaf 60 cm 80 m",
+  },
+  {
+    image: "/produse/AFH/Dispenser z-fold.png",
+    brand: "MB Profesional",
+    alt: "Dispenser z-fold",
+    name: "Dispenser z-fold",
+  },
+  {
+    image: "/produse/AFH/Dispenser hârtie igienică.png",
+    brand: "MB Profesional",
+    alt: "Dispenser hârtie igienică",
+    name: "Dispenser hârtie igienică",
+  },
+  {
+    image: "/produse/AFH/Dispenser autocut.png",
+    brand: "MB Profesional",
+    alt: "Dispenser autocut",
+    name: "Dispenser autocut",
+  },
+
+  // Neve
+  {
+    image: "/produse/AFH/Prosop 61 m.png",
+    brand: "Neve",
+    alt: "Prosop 61 m",
+    name: "Prosop 61 m",
+  },
+  {
+    image: "/produse/AFH/Prosop 80 m.png",
+    brand: "Neve",
+    alt: "Prosop 80 m",
+    name: "Prosop 80 m",
+  },
+  {
+    image: "/produse/AFH/Prosop 100 m.png",
+    brand: "Neve",
+    alt: "Prosop 100 m",
+    name: "Prosop 100 m",
+  },
+  {
+    image: "/produse/AFH/Prosop 150 m.png",
+    brand: "Neve",
+    alt: "Prosop 150 m",
+    name: "Prosop 150 m",
+  },
+  {
+    image: "/produse/AFH/Prosop 200 m.png",
+    brand: "Neve",
+    alt: "Prosop 200 m",
+    name: "Prosop 200 m",
+  },
+  {
+    image: "/produse/AFH/Prosop economic 350 foi.png",
+    brand: "Neve",
+    alt: "Prosop economic 350 foi",
+    name: "Prosop economic 350 foi",
+  },
+  {
+    image: "/produse/AFH/Prosop economic 500 foi.png",
+    brand: "Neve",
+    alt: "Prosop economic 500 foi",
+    name: "Prosop economic 500 foi",
+  },
+  {
+    image: "/produse/AFH/Prosop economic 700 foi.png",
+    brand: "Neve",
+    alt: "Prosop economic 700 foi",
+    name: "Prosop economic 700 foi",
+  },
+  {
+    image: "/produse/AFH/Prosop economic 1000 foi.png",
+    brand: "Neve",
+    alt: "Prosop economic 1000 foi",
+    name: "Prosop economic 1000 foi",
+  },
+  {
+    image: "/produse/AFH/Prosop economic v-fold.png",
+    brand: "Neve",
+    alt: "Prosop economic v-fold",
+    name: "Prosop economic v-fold",
+  },
+  {
+    image: "/produse/AFH/Prosop profesional z-fold.png",
+    brand: "Neve",
+    alt: "Prosop profesional z-fold",
+    name: "Prosop profesional z-fold",
+  },
+  // Horeca
+  {
+    image: "/produse/AFH/Prosop autocut 130 m.png",
+    brand: "Horeca",
+    alt: "Prosop autocut 130 m",
+    name: "Prosop autocut 130 m",
+  },
+  {
+    image: "/produse/AFH/Șervețele 1 str. 33 cm.png",
+    brand: "Horeca",
+    alt: "Șervețele 1 str. 33 cm",
+    name: "Șervețele 1 str. 33 cm",
+  },
+  {
+    image: "/produse/AFH/Șervețele 2 str. 33 cm 200 buc.png",
+    brand: "Horeca",
+    alt: "Șervețele 2 str. 33 cm 200 buc",
+    name: "Șervețele 2 str. 33 cm 200 buc",
+  },
+  {
+    image: "/produse/AFH/Șervețele 2 str. 33 cm 250 buc.png",
+    brand: "Horeca",
+    alt: "Șervețele 2 str. 33 cm 250 buc",
+    name: "Șervețele 2 str. 33 cm 250 buc",
+  },
 ];

@@ -5,10 +5,13 @@ import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
 
 const Catalog = () => {
+  // Filter products that have categories defined
+  const productsWithCategories = productData.filter(product => product.category);
+
   // Categories setup
   const uniqueCategories = [
     "Toate produsele",
-    ...new Set(productData.map((item) => item.category)),
+    ...new Set(productsWithCategories.map(product => product.category))
   ];
   const [category, setCategory] = useState("Toate produsele");
 
@@ -35,7 +38,7 @@ const Catalog = () => {
         {/* tabs */}
         <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
           {/* Category Tabs */}
-          <TabsList className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2'>
+          <TabsList className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
             {uniqueCategories.map((cat, index) => (
               <TabsTrigger
                 value={cat}
@@ -48,7 +51,7 @@ const Catalog = () => {
             ))}
           </TabsList>
           {/* Brand Tabs */}
-          <TabsList className='w-full grid grid-cols-1 md:grid-cols-4 lg:max-w-[540px] mb-12 mx-auto gap-2'>
+          <TabsList className='w-full grid grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto gap-2'>
             {uniqueBrands.map((br, index) => (
               <TabsTrigger
                 value={br}
@@ -61,7 +64,7 @@ const Catalog = () => {
             ))}
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg mt-40 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          <div className='text-lg mt-52 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
             {filteredByCategory.map((product, index) => (
               <TabsContent value={category} key={index}>
                 <CardProdus product={product} />

@@ -37,7 +37,7 @@ const Catalog = () => {
   );
 
   return (
-    <section className='min-h-screen pt-32 md:mt-24'>
+    <section className='min-h-screen pt-32 md:mt-16'>
       <div className='container mx-auto'>
         <h2 className='mb-56 text-center mx-auto'>
           Gama de produse Monte Bianco

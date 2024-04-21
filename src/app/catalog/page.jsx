@@ -45,7 +45,7 @@ const Catalog = () => {
         {/* tabs */}
         <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
           {/* Category and brand Tabs */}
-          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
+          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-32'>
             <div className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
@@ -58,7 +58,7 @@ const Catalog = () => {
                 </TabsTrigger>
               ))}
             </div>
-            <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto gap-2 overflow max-md:mt-6">
+            <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mx-auto gap-2 overflow max-md:mt-6">
             {uniqueBrands.map((br, index) => (
               <TabsTrigger
               value={br}

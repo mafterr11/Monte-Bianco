@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
+import Image from "next/image";
 
 const Catalog = () => {
   // Filter products that have categories defined
@@ -43,31 +44,29 @@ const Catalog = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
-          {/* Category and Brand Tabs */}
+          {/* Category and brand Tabs */}
           <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
-          {/* Category */}
             <div className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   value={cat}
                   key={index}
-                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
+                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border data-[state=active]:bg-accent'
                   onClick={() => setCategory(cat)}
                 >
                   {cat}
                 </TabsTrigger>
               ))}
             </div>
-            {/* Brand */}
             <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mb-12 mx-auto gap-2 overflow max-md:mt-6">
             {uniqueBrands.map((br, index) => (
               <TabsTrigger
               value={br}
               key={index}
-              className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border'
+              className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border data-[state=active]:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20'
               onClick={() => setBrand(br)}
               >
-                {br}
+                <Image src={br} width={120} height={60} alt={br}/>
               </TabsTrigger>
             ))}
             </div>

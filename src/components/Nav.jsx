@@ -103,8 +103,8 @@ const Nav = ({ containerStyles, linkStyles }) => {
                     {dropdownLinksCatalog.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
-                        // href={dropdownLink.path}
-                        href={`${dropdownLink.path}?${dropdownLink.query}`}
+                        href={dropdownLink.path}
+                        // href={`${dropdownLink.path}?${dropdownLink.query}`}
                         passHref
                         legacyBehavior
                       >

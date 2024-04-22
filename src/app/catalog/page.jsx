@@ -1,49 +1,38 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
 
 const Catalog = () => {
-  const searchParams = useSearchParams();
-  const [category, setCategory] = useState("Toate produsele");
-  const [brand, setBrand] = useState("Puff"); // Using 'Puff' as a default to show all
-
-  // Set the active category based on URL parameter
-  useEffect(() => {
-    const categoryFromUrl = searchParams.get("category");
-    if (categoryFromUrl) {
-      setCategory(decodeURIComponent(categoryFromUrl));
-    }
-  }, [searchParams]);
-
-  // Filter products that have brands defined
-  const productsWithBrands = productData.filter((product) => product.brand);
+  // Categories
   // Filter products that have categories defined
   const productsWithCategories = productData.filter(
     (product) => product.category
   );
-
   // Categories setup
   const uniqueCategories = [
     "Toate produsele",
     ...new Set(productsWithCategories.map((product) => product.category)),
   ];
-  // Brands setup
-  const uniqueBrands = [
-    ...new Set(productsWithBrands.map((product) => product.brand)),
-  ];
-
+  const [category, setCategory] = useState("Toate produsele");
   // Filter products by categories
   const filteredByCategory = productData.filter(
     (product) => category === "Toate produsele" || product.category === category
   );
 
+  // Brands
+  // Filter products that have brands defined
+  const productsWithBrands = productData.filter((product) => product.brand);
+  // Brands setup
+  const uniqueBrands = [
+    ...new Set(productsWithBrands.map((product) => product.brand)),
+  ];
+  const [brand, setBrand] = useState("All Brands"); // Using 'All Brands' as a default to show all
   // Filter products by brands
   const filteredByBrand = productData.filter(
-    (product) => brand === "Puff" || product.brand === brand
+    (product) => brand === "All Brands" || product.brand === brand
   );
 
   return (
@@ -53,12 +42,7 @@ const Catalog = () => {
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
-        <Tabs
-          defaultValue={category}
-          value={category}
-          onChange={setCategory}
-          className='mb-24 xl:mb-48'
-        >
+        <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
           {/* Category and brand Tabs */}
           <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-32'>
             <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>

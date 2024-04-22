@@ -1,4 +1,4 @@
-"use client"
+"use client";
 export const productData = [
   // Batiste Nazale
 
@@ -11,6 +11,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 4 str. de luxe",
     name: "Puff 4 str. de luxe",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/batiste-nazale/Puff 3 str. parfumate.png",
@@ -19,6 +23,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 3 str. parfumate",
     name: "Puff 3 str. parfumate",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/batiste-nazale/Puff 3 str..png",
@@ -27,6 +35,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 3 str.",
     name: "Puff 3 str.",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   // Fiore
 
@@ -37,18 +49,28 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 2 str.",
     name: "Fiore 2 str.",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   // Șervețele de masă
 
   // Puff
 
   {
-    image: "/produse/servetele-de-masa/Puff 1 str. 33 cm.png",
+    image: "/produse/servetele-de-masa/Puff 1 str. 33 cm 80 buc.png",
     category: "Șervețele de masă",
     brand: "/marci/puff.png",
     badge: "Puff",
-    alt: "Puff 1 str. 33 cm",
-    name: "Puff 1 str. 33 cm",
+    alt: "Puff 1 str. 33 cm 80 buc",
+    name: "Puff 1 str. 33 cm 80 buc",
+    color: [
+      // White
+      "#FEFEFE",
+      // Red
+      "#DB1C2B",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm Horeca.png",
@@ -57,6 +79,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 1 str. 33 cm Horeca",
     name: "Puff 1 str. 33 cm Horeca",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff select 2 str. 33 cm.png",
@@ -65,6 +91,20 @@ export const productData = [
     badge: "Puff",
     alt: "Puff select 2 str. 33 cm",
     name: "Puff select 2 str. 33 cm",
+    color: [
+      // White
+      "#FEFEFE",
+      // Dark Red
+      "#B2015C",
+      // Bleu
+      "#FFF6DD",
+      // Purple Shade
+      "#AFAAE4",
+      // Yellow
+      "#FADF12",
+      // Red
+      "#DB1C2B",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 33 cm.png",
@@ -73,6 +113,22 @@ export const productData = [
     badge: "Puff",
     alt: "Puff de luxe 2 str. 33 cm",
     name: "Puff de luxe 2 str. 33 cm",
+    color: [
+      // White
+      "#FEFEFE",
+      // Dark Red
+      "#B2015C",
+      // Bleu
+      "#FFF6DD",
+      // Purple Shade
+      "#AFAAE4",
+      // Yellow
+      "#FADF12",
+      // Red
+      "#DB1C2B",
+      // Black
+      "#151515",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 38 cm.png",
@@ -81,6 +137,20 @@ export const productData = [
     badge: "Puff",
     alt: "Puff de luxe 2 str. 38 cm",
     name: "Puff de luxe 2 str. 38 cm",
+    color: [
+      // White
+      "#FEFEFE",
+      // Dark Red
+      "#B2015C",
+      // Bleu
+      "#FFF6DD",
+      // Purple Shade
+      "#AFAAE4",
+      // Yellow
+      "#FADF12",
+      // Red
+      "#DB1C2B",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 33 cm.png",
@@ -89,6 +159,12 @@ export const productData = [
     badge: "Puff",
     alt: "Puff eight fold 2 str. 33 cm",
     name: "Puff eight fold 2 str. 33 cm",
+    color: [
+      // White
+      "#FEFEFE",
+      // Red
+      "#DB1C2B",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 38 cm.png",
@@ -97,6 +173,12 @@ export const productData = [
     badge: "Puff",
     alt: "Puff eight fold 2 str. 38 cm",
     name: "Puff eight fold 2 str. 38 cm",
+    color: [
+      // White
+      "#FEFEFE",
+      // Red
+      "#DB1C2B",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff de lux 2 str. Horeca.png",
@@ -105,6 +187,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff de lux 2 str. Horeca",
     name: "Puff de lux 2 str. Horeca",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   //   Fiore
@@ -115,6 +201,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 1 str. 25 cm 50 buc",
     name: "Fiore 1 str. 25 cm 50 buc",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 100 buc.png",
@@ -123,6 +213,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 1 str. 25 cm 100 buc",
     name: "Fiore 1 str. 25 cm 100 buc",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Fiore 1 str. 30 cm.png",
@@ -131,6 +225,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 1 str. 30 cm",
     name: "Fiore 1 str. 30 cm",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Fiore 1 str. 33 cm.png",
@@ -139,6 +237,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 1 str. 33 cm",
     name: "Fiore 1 str. 33 cm",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   // Neve
@@ -149,6 +251,10 @@ export const productData = [
     badge: "Neve",
     alt: "Neve economic 600 foi",
     name: "Neve economic 600 foi",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   //   Hârtie igienică
@@ -160,6 +266,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff de luxe 4 role",
     name: "Puff de luxe 4 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Puff de luxe 8 role.png",
@@ -168,6 +278,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff de luxe 8 role",
     name: "Puff de luxe 8 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Puff super soft 8 role.png",
@@ -176,6 +290,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff super soft 8 role",
     name: "Puff super soft 8 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   //   Fiore
 
@@ -186,6 +304,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 4 role",
     name: "Fiore 4 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore 16 role.png",
@@ -194,6 +316,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 16 role",
     name: "Fiore 16 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore 24 role.png",
@@ -202,6 +328,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 24 role",
     name: "Fiore 24 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore super soft 4 role.png",
@@ -210,6 +340,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore super soft 4 role",
     name: "Fiore super soft 4 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore super soft 8 role.png",
@@ -218,6 +352,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore super soft 8 role",
     name: "Fiore super soft 8 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
@@ -226,6 +364,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore super soft 16 role",
     name: "Fiore super soft 16 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   //   Horeca
 
@@ -236,6 +378,10 @@ export const productData = [
     badge: "Horeca",
     alt: "Horeca 170 m",
     name: "Horeca 170 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   //   Prosoape de bucătărie
@@ -247,6 +393,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 2 role 3 str.",
     name: "Puff 2 role 3 str.",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
@@ -255,6 +405,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff 4 role 3 str.",
     name: "Puff 4 role 3 str.",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Monorolă Puff.png",
@@ -263,6 +417,10 @@ export const productData = [
     badge: "Puff",
     alt: "Monorolă Puff",
     name: "Monorolă Puff",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   //   Fiore
   {
@@ -272,6 +430,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 2 role",
     name: "Fiore 2 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Fiore 4 role.png",
@@ -280,6 +442,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 4 role",
     name: "Fiore 4 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Fiore 8 role.png",
@@ -288,6 +454,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 8 role",
     name: "Fiore 8 role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Fiore 2 maxi role.png",
@@ -296,6 +466,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore 2 maxi role",
     name: "Fiore 2 maxi role",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Monorolă Fiore.png",
@@ -304,6 +478,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Monorolă Fiore",
     name: "Monorolă Fiore",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   //   Șervețele Pop-up
   // Puff
@@ -314,6 +492,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff mozaic",
     name: "Puff mozaic",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/pop-up/Puff trandafiri.png",
@@ -322,6 +504,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff trandafiri",
     name: "Puff trandafiri",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/pop-up/Puff paisley.png",
@@ -330,6 +516,10 @@ export const productData = [
     badge: "Puff",
     alt: "Puff paisley",
     name: "Puff paisley",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   //   Fiore
 
@@ -340,6 +530,10 @@ export const productData = [
     badge: "Fiore",
     alt: "Fiore",
     name: "Fiore",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   // AWAY FROM HOME
@@ -350,6 +544,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Cearceaf 50 cm 50 m",
     name: "Cearceaf 50 cm 50 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Cearceaf 60 cm 50 m.png",
@@ -357,6 +555,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Cearceaf 60 cm 50 m",
     name: "Cearceaf 60 cm 50 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Cearceaf 50 cm 80 m.png",
@@ -364,6 +566,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Cearceaf 50 cm 80 m",
     name: "Cearceaf 50 cm 80 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Cearceaf 60 cm 80 m.png",
@@ -371,6 +577,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Cearceaf 60 cm 80 m",
     name: "Cearceaf 60 cm 80 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Dispenser z-fold.png",
@@ -378,6 +588,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Dispenser z-fold",
     name: "Dispenser z-fold",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Dispenser hârtie igienică.png",
@@ -385,6 +599,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Dispenser hârtie igienică",
     name: "Dispenser hârtie igienică",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Dispenser autocut.png",
@@ -392,6 +610,10 @@ export const productData = [
     badge: "MB Profesional",
     alt: "Dispenser autocut",
     name: "Dispenser autocut",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
 
   // Neve
@@ -401,6 +623,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop 61 m",
     name: "Prosop 61 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop 80 m.png",
@@ -408,6 +634,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop 80 m",
     name: "Prosop 80 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop 100 m.png",
@@ -415,6 +645,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop 100 m",
     name: "Prosop 100 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop 150 m.png",
@@ -422,6 +656,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop 150 m",
     name: "Prosop 150 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop 200 m.png",
@@ -429,6 +667,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop 200 m",
     name: "Prosop 200 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop economic 350 foi.png",
@@ -436,6 +678,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop economic 350 foi",
     name: "Prosop economic 350 foi",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop economic 500 foi.png",
@@ -443,6 +689,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop economic 500 foi",
     name: "Prosop economic 500 foi",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop economic 700 foi.png",
@@ -450,6 +700,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop economic 700 foi",
     name: "Prosop economic 700 foi",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop economic 1000 foi.png",
@@ -457,6 +711,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop economic 1000 foi",
     name: "Prosop economic 1000 foi",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop economic v-fold.png",
@@ -464,6 +722,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop economic v-fold",
     name: "Prosop economic v-fold",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Prosop profesional z-fold.png",
@@ -471,6 +733,10 @@ export const productData = [
     badge: "Neve",
     alt: "Prosop profesional z-fold",
     name: "Prosop profesional z-fold",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   // Horeca
   {
@@ -479,6 +745,10 @@ export const productData = [
     badge: "Horeca",
     alt: "Prosop autocut 130 m",
     name: "Prosop autocut 130 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Șervețele 1 str. 33 cm.png",
@@ -486,6 +756,10 @@ export const productData = [
     badge: "Horeca",
     alt: "Șervețele 1 str. 33 cm",
     name: "Șervețele 1 str. 33 cm",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
   },
   {
     image: "/produse/AFH/Șervețele 2 str. 33 cm 200 buc.png",
@@ -493,6 +767,22 @@ export const productData = [
     badge: "Horeca",
     alt: "Șervețele 2 str. 33 cm 200 buc",
     name: "Șervețele 2 str. 33 cm 200 buc",
+    color: [
+      // White
+      "#FEFEFE",
+      // Dark Red
+      "#B2015C",
+      // Bleu
+      "#FFF6DD",
+      // Purple Shade
+      "#AFAAE4",
+      // Yellow
+      "#FADF12",
+      // Red
+      "#DB1C2B",
+      // Black
+      "#151515",
+    ],
   },
   {
     image: "/produse/AFH/Șervețele 2 str. 33 cm 250 buc.png",
@@ -500,5 +790,19 @@ export const productData = [
     badge: "Horeca",
     alt: "Șervețele 2 str. 33 cm 250 buc",
     name: "Șervețele 2 str. 33 cm 250 buc",
+    color: [
+      // White
+      "#FEFEFE",
+      // Dark Red
+      "#B2015C",
+      // Bleu
+      "#FFF6DD",
+      // Purple Shade
+      "#AFAAE4",
+      // Yellow
+      "#FADF12",
+      // Red
+      "#DB1C2B",
+    ],
   },
 ];

@@ -22,7 +22,6 @@ const Catalog = () => {
     (product) => category === "Toate produsele" || product.category === category
   );
 
-  
   // Brands
   // Filter products that have brands defined
   const productsWithBrands = productData.filter((product) => product.brand);

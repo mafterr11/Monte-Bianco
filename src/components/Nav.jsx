@@ -31,26 +31,32 @@ export const links = [
 
 const dropdownLinksCatalog = [
   {
-    path: "/catalog/batiste-nazale",
-    name: "Batiste nazale",
+    path: "/catalog",
+    query: "category=Batiste%20nazale",
+    name: "Batiste nazale"
   },
   {
-    path: "/catalog/servetele-de-masa",
-    name: "Șervețele de masă",
+    path: "/catalog",
+    query: "category=Șervețele%20de%20masă",
+    name: "Șervețele de masă"
   },
   {
-    path: "/catalog/hartie-igienica",
-    name: "Hârtie igienică",
+    path: "/catalog",
+    query: "category=Hârtie%20igienică",
+    name: "Hârtie igienică"
   },
   {
-    path: "/catalog/prosoape-de-bucatarie",
-    name: "Prosoape de bucătărie",
+    path: "/catalog",
+    query: "category=Prosoape%20de%20bucătărie",
+    name: "Prosoape de bucătărie"
   },
   {
-    path: "/catalog/servetele-pop-up",
-    name: "Șervețele Pop-up",
-  },
+    path: "/catalog",
+    query: "category=Șervețele%20Pop-up",
+    name: "Șervețele Pop-up"
+  }
 ];
+
 
 const dropdownLinksAFH = [
   {

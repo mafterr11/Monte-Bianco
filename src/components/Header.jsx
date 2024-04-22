@@ -8,6 +8,7 @@ import { Button } from "./ui/button";
 import { usePathname } from "next/navigation";
 import { throttle } from "lodash";
 import NavMobile from "./NavMobile";
+import Logo from "./Logo";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -46,25 +47,15 @@ const Header = () => {
       currentRoute === "/"
         ? active
           ? "bg-body border-b border-black-text/90 shadow-nav"
-          : "bg-body-transparent bg-opacity-[20%]  xl:backdrop-blur-[10px] text-white"
+          : "bg-body-transparent bg-opacity-0  xl:backdrop-blur-[10px] text-white"
         : "bg-body border-b border-black-text/90 shadow-nav"
     } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] xl:px-[55px] border-b-[0.5px] border-black/50`}
   >
+    <div className="absolute inset-0 w-full h-full backdrop-blur-[5px] z-30"></div>
       {/* Container */}
-      <div className='flex items-center justify-between '>
+      <div className='relative flex items-center justify-between z-40'>
         {/* Logo */}
-        <div className='inline-block'>
-          <Link href='/'>
-            <Image
-              src={logo}
-              width={112}
-              height={50}
-              priority
-              alt='Monte Bianco Logo'
-              className='w-auto'
-            />
-          </Link>
-        </div>
+        <Logo />
         {/* Navigation */}
         {/* Desktop */}
         <Nav

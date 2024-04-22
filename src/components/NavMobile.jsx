@@ -6,40 +6,10 @@ import { GrCatalog } from "react-icons/gr";
 import { RiContactsLine } from "react-icons/ri";
 import { PiToiletPaper } from "react-icons/pi";
 import { RiMenu2Line } from "react-icons/ri";
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
 import Logo from "./Logo";
 import Social from "./Social";
 
-const dropdownLinks = [
-  {
-    path: "/servicii",
-    name: "Execuție Construcții Civile",
-  },
-  {
-    path: "/servicii#execuție-construcții-industriale",
-    name: "Execuție Construcții Industriale",
-  },
-  {
-    path: "/servicii#supervizare-lucrări-de-execuție",
-    name: "Supervizare Lucrări De Execuție",
-  },
-  {
-    path: "/servicii#verificare-calitate-lucrări-în-execuție",
-    name: "Verificare Calitate Lucrări În Execuție",
-  },
-  { path: "/servicii#planificarea-execuției", name: "Planificarea Execuției" },
-  { path: "/servicii#servicii-RTE", name: "Servicii RTE" },
-  { path: "/servicii#dirigenție-de-șantier", name: "Dirigenție De Șantier" },
-];
+
 export const links = [
   {
     path: "/",
@@ -65,16 +35,16 @@ export const links = [
 
 const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isServiciiOpen, setIsServiciiOpen] = useState(false);
+  // const [isServiciiOpen, setIsServiciiOpen] = useState(false);
 
-  const toggleServicii = () => {
-    setIsServiciiOpen((prev) => !prev);
-  };
-  const closeMenuAndNavigate = (path) => {
-    setIsMenuOpen(false);
-    setIsServiciiOpen(false);
-    window.location.href = path;
-  };
+  // const toggleServicii = () => {
+  //   setIsServiciiOpen((prev) => !prev);
+  // };
+  // const closeMenuAndNavigate = (path) => {
+  //   setIsMenuOpen(false);
+  //   setIsServiciiOpen(false);
+  //   window.location.href = path;
+  // };
 
   return (
     <div className={`${containerStyles}`}>

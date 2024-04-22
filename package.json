@@ -28,6 +28,7 @@
     "react-icons": "^5.1.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
+    "throttle": "^1.0.3",
     "vaul": "^0.9.0"
   },
   "devDependencies": {

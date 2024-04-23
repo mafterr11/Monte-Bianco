@@ -64,6 +64,7 @@ module.exports = {
         poppins: [`var(--font-poppins)`, "sans-serif"],
       },
       backgroundImage: {
+        'custom-radial-gradient': 'radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2%)',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

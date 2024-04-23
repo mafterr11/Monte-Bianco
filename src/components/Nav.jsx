@@ -97,14 +97,14 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/catalog"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
+                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
                           : "capitalize text-base hover hover:scale-[0.97]"
                       }`}
                     >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0">
+                  <NavigationMenuContent as="div" className="px-0 bg-custom-radial-gradient">
                     {dropdownLinksCatalog.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
@@ -116,7 +116,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
                         <div className="p-4 w-[18rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav">
+                            <div className="hover-nav text-black font-medium">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>
@@ -138,14 +138,14 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/away-from-home"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
+                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
                           : "capitalize text-base hover hover:scale-[0.97]"
                       }`}
                     >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0">
+                  <NavigationMenuContent as="div" className="px-0 bg-custom-radial-gradient">
                     {dropdownLinksAFH.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
@@ -156,7 +156,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
                           <div className="p-4 w-[15rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav">
+                            <div className="hover-nav text-black font-medium">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>
@@ -175,7 +175,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
               href={link.path}
               className={`${linkStyles} ${
                 currentRoute === link.path
-                  ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97]"
+                  ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
                   : "capitalize text-base hover hover:scale-[0.97]"
               }`}
             >

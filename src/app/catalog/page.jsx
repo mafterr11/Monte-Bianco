@@ -11,13 +11,13 @@ const Catalog = () => {
   const [brand, setBrand] = useState("All Brands");
 
   const handleCategoryChange = useCallback((cat) => {
-    console.log("Changing to category:", cat);
+    // console.log("Changing to category:", cat);
     setCategory(cat);
     setActiveTab('category');
   }, []);
 
   const handleBrandChange = useCallback((br) => {
-    console.log("Changing to brand:", br);
+    // console.log("Changing to brand:", br);
     setBrand(br);
     setActiveTab('brand');
   }, []);
@@ -64,9 +64,9 @@ const Catalog = () => {
               {uniqueBrands.map((br, index) => (
                 <TabsTrigger
                   key={index}
-                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20 focus:shadow-button'
+                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20'
                   onClick={() => handleBrandChange(br)}>
-                  {br === 'All Brands' ? br : <Image src={br} width={120} height={60} alt={br} />}
+                  {br && <Image src={br} width={120} height={60} alt={br} />}
                 </TabsTrigger>
               ))}
             </div>

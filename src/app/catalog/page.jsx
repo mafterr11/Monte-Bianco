@@ -1,44 +1,45 @@
 "use client"
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 
 const Catalog = () => {
-  const [activeTab, setActiveTab] = useState('category');
-  const [category, setCategory] = useState("Toate produsele");
-  const [brand, setBrand] = useState("All Brands");
+  const searchParams = useSearchParams();
+  const [activeFilter, setActiveFilter] = useState({ type: 'category', value: 'Toate produsele' });
 
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get("category");
+    if (categoryFromUrl) {
+      const decodedCategory = decodeURIComponent(categoryFromUrl);
+      setActiveFilter({ type: 'category', value: decodedCategory });
+    }
+  }, [searchParams]);
+  
   const handleCategoryChange = useCallback((cat) => {
-    // console.log("Changing to category:", cat);
-    setCategory(cat);
-    setActiveTab('category');
+    setActiveFilter({ type: 'category', value: cat });
   }, []);
 
   const handleBrandChange = useCallback((br) => {
-    // console.log("Changing to brand:", br);
-    setBrand(br);
-    setActiveTab('brand');
+    setActiveFilter({ type: 'brand', value: br });
   }, []);
 
-  const filteredByCategory = productData.filter(
-    (product) => category === "Toate produsele" || product.category === category
+
+  // Filter products that have brands defined
+  const productsWithBrands = productData.filter((product) => product.brand);
+  // Filter products that have categories defined
+  const productsWithCategories = productData.filter(
+    (product) => product.category
   );
 
-  const filteredByBrand = productData.filter(
-    (product) => brand === "All Brands" || product.brand === brand
-  );
+   const filteredProducts = activeFilter.type === 'category' ?
+   productsWithCategories.filter(product => activeFilter.value === "Toate produsele" || product.category === activeFilter.value) :
+   productsWithBrands.filter(product => activeFilter.value === "All Brands" || product.brand === activeFilter.value);
 
-   // Filter products that have brands defined
-   const productsWithBrands = productData.filter((product) => product.brand);
-   // Filter products that have categories defined
-   const productsWithCategories = productData.filter(
-     (product) => product.category
-   );
-
-  const uniqueCategories = ["Toate produsele", ...new Set(productsWithCategories.map(p => p.category))];
-  const uniqueBrands = [...new Set(productsWithBrands.map(p => p.brand))];
+ const uniqueCategories = ["Toate produsele", ...new Set(productsWithCategories.map(p => p.category))];
+ const uniqueBrands = [...new Set(productsWithBrands.map(p => p.brand))];
 
   return (
     <section className='min-h-screen pt-32 md:mt-16'>
@@ -54,7 +55,7 @@ const Catalog = () => {
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-accent focus:text-white-text focus:font-semibold focus:shadow-button'
+                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${activeFilter.type === 'category' && activeFilter.value === cat ? 'bg-accent text-white-text shadow-button font-semibold' : ''}`}
                   onClick={() => handleCategoryChange(cat)}>
                   {cat}
                 </TabsTrigger>
@@ -64,7 +65,7 @@ const Catalog = () => {
               {uniqueBrands.map((br, index) => (
                 <TabsTrigger
                   key={index}
-                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20 focus:shadow-button'
+                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${activeFilter.type === 'brand' && activeFilter.value === br ? 'bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20 shadow-button' : ''}`}
                   onClick={() => handleBrandChange(br)}>
                   {br && <Image src={br} width={120} height={60} alt={br} />}
                 </TabsTrigger>
@@ -73,7 +74,7 @@ const Catalog = () => {
           </TabsList>
           {/* Category Cards Mapping */}
           <div className='text-lg max-md:pt-[22rem] xl:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
-          {(activeTab === 'category' ? filteredByCategory : filteredByBrand).map((product, index) => (
+          {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} />
               </TabsContent>

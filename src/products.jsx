@@ -369,6 +369,19 @@ export const productData = [
       "#FEFEFE",
     ],
   },
+  // Neve
+  {
+    image: "/produse/hartie-igienica/Neve Profesional 170 m.png",
+    category: "Hârtie igienică",
+    brand: "/marci/neve.png",
+    badge: "Horeca",
+    alt: "Neve Profesional 170 m",
+    name: "Neve Profesional 170 m",
+    color: [
+      // White
+      "#FEFEFE",
+    ],
+  },
   //   Horeca
 
   {

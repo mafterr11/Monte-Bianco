@@ -13,6 +13,7 @@ const AwayFromHome = () => {
     const categoryFromUrl = searchParams.get("categoryAFH");
     if (categoryFromUrl) {
       const decodedCategory = decodeURIComponent(categoryFromUrl);
+      console.log("Decoded Category:", decodedCategory); // Check the console for correct decoding
       setActiveFilter({ type: 'categoryAFH', value: decodedCategory });
     }
   }, [searchParams]);
@@ -29,9 +30,8 @@ const AwayFromHome = () => {
     (product) => product.categoryAFH
   );
 
-  const filteredProducts = productsWithCategories.filter(product =>
-    activeFilter.value === "Toate produsele" || product.categoryAFH === activeFilter.value
-  );
+   const filteredProducts = activeFilter.type === 'categoryAFH' &&
+   productsWithCategories.filter(product => activeFilter.value === "Toate produsele" || product.categoryAFH === activeFilter.value) 
 
  const uniqueCategories = ["Toate produsele", ...new Set(productsWithCategories.map(p => p.categoryAFH))];
 

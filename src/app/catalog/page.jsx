@@ -48,14 +48,14 @@ const Catalog = () => {
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
-        <Tabs className='mb-24 xl:mb-48'>
+        <Tabs className='mb-32 xl:mb-48'>
           {/* Category and brand Tabs */}
-          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-32'>
-            <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
+          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40'>
+            <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-24 mx-auto gap-2 overflow'>
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${activeFilter.type === 'category' && activeFilter.value === cat ? 'bg-accent text-white-text shadow-button font-semibold' : ''}`}
+                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto p-3 border-[#dadada] border ${activeFilter.type === 'category' && activeFilter.value === cat ? 'bg-accent text-white-text shadow-button font-semibold' : ''}`}
                   onClick={() => handleCategoryChange(cat)}>
                   {cat}
                 </TabsTrigger>

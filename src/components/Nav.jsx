@@ -60,22 +60,27 @@ const dropdownLinksCatalog = [
 
 const dropdownLinksAFH = [
   {
-    path: "/away-from-home/role",
+    path: "/away-from-home",
+    query: "categoryAFH=Role",
     name: "Role",
   },
   {
-    path: "/away-from-home/servetele",
+    path: "/away-from-home",
+    query: "categoryAFH=%C8%98erve%C8%9Bele", // Corrected for "Șervețele"
     name: "Șervețele",
   },
   {
-    path: "/away-from-home/prosop-pilat",
+    path: "/away-from-home",
+    query: "categoryAFH=Prosop%20Pilat", // Correct for "Prosop Pilat"
     name: "Prosop Pilat",
   },
   {
-    path: "/away-from-home/cearceaf",
+    path: "/away-from-home",
+    query: "categoryAFH=Cearceaf", // "Cearceaf" does not need encoding
     name: "Cearceaf",
   },
 ];
+
 
 const Nav = ({ containerStyles, linkStyles }) => {
   const currentRoute = usePathname();
@@ -144,7 +149,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                     {dropdownLinksAFH.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
-                        href={dropdownLink.path}
+                        href={`${dropdownLink.path}?${dropdownLink.query}`}
                         passHref
                         legacyBehavior
                       >

@@ -64,7 +64,7 @@ const Catalog = () => {
               {uniqueBrands.map((br, index) => (
                 <TabsTrigger
                   key={index}
-                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20'
+                  className='uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border focus:bg-gradient-to-t from-accent/40 via-accent/20 to-body-accent/20 focus:shadow-button'
                   onClick={() => handleBrandChange(br)}>
                   {br && <Image src={br} width={120} height={60} alt={br} />}
                 </TabsTrigger>

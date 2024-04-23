@@ -104,7 +104,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0 bg-custom-radial-gradient">
+                  <NavigationMenuContent as="div" className="px-0 bg-gradient-blue">
                     {dropdownLinksCatalog.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
@@ -145,7 +145,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0 bg-custom-radial-gradient">
+                  <NavigationMenuContent as="div" className="px-0 bg-gradient-blue">
                     {dropdownLinksAFH.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}

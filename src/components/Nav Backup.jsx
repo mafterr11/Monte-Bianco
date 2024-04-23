@@ -9,7 +9,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import Image from "next/image";
 
 export const links = [
   {
@@ -32,31 +31,32 @@ export const links = [
 
 const dropdownLinksCatalog = [
   {
-    path: "/catalog/Puff",
-    name: "Puff",
-    icon: "/marci/puff.png"
+    path: "/catalog",
+    query: "category=Batiste%20nazale",
+    name: "Batiste nazale"
   },
   {
-    path: "/catalog/Fiore",
-    name: "Fiore",
-    icon: "/marci/fiore.png"
+    path: "/catalog",
+    query: "category=Șervețele%20de%20masă",
+    name: "Șervețele de masă"
   },
   {
-    path: "/catalog/Neve",
-    name: "Neve",
-    icon: "/marci/neve.png"
+    path: "/catalog",
+    query: "category=Hârtie%20igienică",
+    name: "Hârtie igienică"
   },
   {
-    path: "/catalog/MonteBianco-Profesional",
-    name: "Monte Bianco Profesional",
-    icon: "/marci/MBP.png"
+    path: "/catalog",
+    query: "category=Prosoape%20de%20bucătărie",
+    name: "Prosoape de bucătărie"
   },
   {
-    path: "/catalog/Horeca",
-    name: "Horeca",
-    icon: "/marci/horeca.png"
-  },
+    path: "/catalog",
+    query: "category=Șervețele%20Pop-up",
+    name: "Șervețele Pop-up"
+  }
 ];
+
 
 const dropdownLinksAFH = [
   {
@@ -65,7 +65,7 @@ const dropdownLinksAFH = [
   },
   {
     path: "/away-from-home/servetele",
-    name: "Servetele",
+    name: "Șervețele",
   },
   {
     path: "/away-from-home/prosop-pilat",
@@ -104,12 +104,16 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       <Link
                         key={dropdownIndex}
                         href={dropdownLink.path}
+                        // href={`${dropdownLink.path}?${dropdownLink.query}`}
                         passHref
                         legacyBehavior
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
-                          <div className="px-2 my-6 w-[18rem] h-[1.5rem] text-center flex items-center justify-center gap-x-[4px]">
-                           <Image src={dropdownLink.icon} width={115} height={30} alt="Marcile Monte Bianco"/>
+                        <div className="p-4 w-[18rem] text-center flex gap-x-3">
+                            <span className="text-accent">&#9679;</span>
+                            <div className="hover-nav">
+                              <span>{dropdownLink.name}</span>
+                            </div>
                           </div>
                         </NavigationMenuLink>
                       </Link>
@@ -144,10 +148,10 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         passHref
                         legacyBehavior
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black">
+                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
                           <div className="p-4 w-[12rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover">
+                            <div className="hover-nav">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>

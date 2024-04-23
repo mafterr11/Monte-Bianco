@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useCallback, useEffect, Suspense } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
@@ -42,7 +42,6 @@ const Catalog = () => {
  const uniqueBrands = [...new Set(productsWithBrands.map(p => p.brand))];
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
     <section className='min-h-screen pt-24 md:mt-16'>
       <div className='container mx-auto'>
         <h2 className='mb-56 text-center mx-auto'>
@@ -84,7 +83,6 @@ const Catalog = () => {
         </Tabs>
       </div>
     </section>
-    </Suspense>
   );
 };
 

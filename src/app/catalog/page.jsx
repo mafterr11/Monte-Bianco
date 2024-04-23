@@ -48,10 +48,10 @@ const Catalog = () => {
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
-        <Tabs className='mb-32 xl:mb-48'>
+        <Tabs className='mb-24 xl:mb-48'>
           {/* Category and brand Tabs */}
-          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40'>
-            <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] mb-24 mx-auto gap-2 overflow'>
+          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24'>
+            <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] max-md:mb-32 mb-20 mx-auto gap-2 overflow'>
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}

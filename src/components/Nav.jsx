@@ -61,8 +61,8 @@ const dropdownLinksCatalog = [
 const dropdownLinksAFH = [
   {
     path: "/away-from-home",
-    query: "categoryAFH=Role",
-    name: "Role",
+    query: "categoryAFH=Role%20AFH",
+    name: "Role AFH",
   },
   {
     path: "/away-from-home",
@@ -71,13 +71,13 @@ const dropdownLinksAFH = [
   },
   {
     path: "/away-from-home",
-    query: "categoryAFH=Prosop%20Pilat", // Correct for "Prosop Pilat"
-    name: "Prosop Pilat",
+    query: "categoryAFH=Prosop%20pilat",
+    name: "Prosop pilat",
   },
   {
     path: "/away-from-home",
-    query: "categoryAFH=Cearceaf", // "Cearceaf" does not need encoding
-    name: "Cearceaf",
+    query: "categoryAFH=Cearceaf%20medical", // "Cearceaf" does not need encoding
+    name: "Cearceaf medical",
   },
 ];
 
@@ -154,7 +154,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         legacyBehavior
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
-                          <div className="p-4 w-[12rem] text-center flex gap-x-3">
+                          <div className="p-4 w-[15rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
                             <div className="hover-nav">
                               <span>{dropdownLink.name}</span>

@@ -16,10 +16,6 @@ export const links = [
     name: "acasă",
   },
   {
-    path: "/marci",
-    name: "mărci",
-  },
-  {
     path: "/catalog",
     name: "catalog",
   },

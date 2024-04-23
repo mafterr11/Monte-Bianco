@@ -374,7 +374,7 @@ export const productData = [
     image: "/produse/hartie-igienica/Neve Profesional 170 m.png",
     category: "Hârtie igienică",
     brand: "/marci/neve.png",
-    badge: "Horeca",
+    badge: "Neve",
     alt: "Neve Profesional 170 m",
     name: "Neve Profesional 170 m",
     color: [
@@ -834,6 +834,18 @@ export const productData = [
       "#FADF12",
       // Red
       "#DB1C2B",
+    ],
+  },
+  {
+    image: "/produse/AFH/Prosop z-fold.png",
+    brand: "/marci/horeca.png",
+    categoryAFH: "Prosop pilat",
+    badge: "Horeca",
+    alt: "Prosop Horeca z-fold",
+    name: "Prosop Horeca z-fold",
+    color: [
+      // White
+      "#FEFEFE",
     ],
   },
 ];

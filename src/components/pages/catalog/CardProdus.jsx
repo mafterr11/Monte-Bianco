@@ -26,7 +26,9 @@ const CardProdus = ({ product }) => {
       <div className="flex flex-col items-center justify-between flex-grow">
         <h3 className="xl:text-[25px] text-center px-8 pt-8 leading-9">{product.name}</h3>
         <div className="mt-auto pb-8">
+        <Link href={`/catalog/${product.slug}`}>
           <Button size="card">Mai multe detalii</Button>
+          </Link>
         </div>
       </div>
     </Card>

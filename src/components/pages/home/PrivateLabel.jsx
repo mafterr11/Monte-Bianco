@@ -49,7 +49,7 @@ const PrivateLabel = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true, ammount: 0.4 }}
-      className="absolute -left-6 xs:top-16 xs:-left-12 md:-top-4 md:-left-4 lg:left-24 xl:top-36 xl:left-0 xl:right-0 bottom-0 z-0 xl:flex items-center justify-center">
+      className="absolute -left-6 xs:top-12 xs:-left-12 md:-top-4 md:-left-4 lg:left-24 xl:top-36 xl:left-0 xl:right-0 bottom-0 z-0 xl:flex items-center justify-center">
         <HealthiconsToiletPaperOutline />
       </motion.div>
       {/* Added position-relative and z-index classes to raise text content above the SVG */}

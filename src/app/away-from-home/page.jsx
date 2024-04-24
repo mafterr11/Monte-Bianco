@@ -46,8 +46,8 @@ const AwayFromHome = () => {
         {/* tabs */}
         <Tabs className='relative mb-24 xl:mb-48'>
           {/* Category and brand Tabs */}
-          <TabsList className='md:absolute top-8 -left-52 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
-            <div className='w-full grid h-full grid-cols-1 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
+          <TabsList className='xl:absolute top-8 -left-52 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
+            <div className='w-full grid h-full grid-cols-1 md:max-xl:w-1/2 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
@@ -59,7 +59,7 @@ const AwayFromHome = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg max-md:mt-[17rem] xl:mt-24 grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          <div className='text-lg max-xl:mt-[17rem] xl:mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
           {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} />

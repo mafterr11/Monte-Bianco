@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-body-accent flex max-md:flex-col items-center justify-between max-md:gap-y-2 max-md:px-6 xl:px-[88px] py-[22px]'>
+    <footer className='bg-body-accent flex max-md:flex-col items-center justify-between max-md:gap-y-2 px-6 xl:px-[88px] py-[22px]'>
         {/* Left side */}
         <div className='flex items-start justify-normal max-md:flex-row max-md:gap-x-6 flex-col gap-y-2'>
             <Link href="/termeni-si-conditii" className='hover-nav'><span>Termeni si Conditii</span></Link>

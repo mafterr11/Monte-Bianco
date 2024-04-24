@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const CardProdus = ({ product }) => {
   return (
-    <Card className="bg-body-accent/20 border-2 group overflow-hidden relative border-black/15 h-[520px] flex flex-col">
+    <Card className="bg-body-accent/20 border-2 group overflow-hidden relative border-black/15 h-[520px] flex flex-col md:max-xl:w-[400px]">
       <CardHeader className="p-0 bg-body-transparent">
       <Badge className="bg-accent text-white uppercase text-sm font-medium mb-2 absolute top-5 left-5">
           {product.badge}

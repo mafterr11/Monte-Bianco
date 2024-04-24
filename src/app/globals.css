@@ -18,22 +18,22 @@
   }
 
   h1 {
-    @apply text-[28px] xl:text-[75px] font-bold leading-[85px];
+    @apply text-[28px] md:text-[32px] lg:text-[37px] xl:text-[75px] font-bold leading-[85px];
   }
   h2 {
     @apply text-[25px] xl:text-[40px] font-medium;
   }
   h3 {
-    @apply text-[22px] xl:text-[30px] font-medium leading-[47px];
+    @apply text-[22px] md:text-[26px] lg:text-[28px] xl:text-[30px] font-medium leading-[47px];
   }
   h4 {
-    @apply text-[18px] xl:text-[23px] font-medium;
+    @apply text-[18px] md:text-[22px] lg:text-[27px] xl:text-[23px] font-medium;
   }
   h5 {
     @apply xl:text-[21px] font-semibold;
   }
   p {
-    @apply text-black-text text-[16px] xl:text-[18px] font-normal leading-[32spx];
+    @apply text-black-text text-[16px] md:text-[18px] lg:text-[22px] xl:text-[18px] font-normal leading-[32spx];
   }
   a {
     @apply transition-all duration-300 cursor-pointer;

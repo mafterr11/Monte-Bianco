@@ -11,14 +11,14 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once:true, ammount:0.8}}
-      className="flex flex-col md:flex-row items-center justify-center gap-x-32 max-md:gap-y-8 bg-body-accent max-md:py-10 xl:py-24 max-md:px-4">
+      className="flex flex-col xl:flex-row items-center justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4">
         {/* Image */}
         <div>
           <Image
             src="/about/1.png"
             width={650}
             height={473}
-            className="w-auto"
+            className=""
             alt="despre Monte Bianco"
           />
         </div>
@@ -42,7 +42,7 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
-      className="flex flex-col-reverse md:flex-row items-center justify-center gap-x-32 max-md:gap-y-8 max-md:py-10 xl:py-28 max-md:px-4">
+      className="flex flex-col-reverse xl:flex-row items-center justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 max-lg:py-10 md:py-16 xl:py-24 max-md:px-4">
         {/* Text */}
         <div>
           <h3 className="max-w-[430px] mb-5 text-accent leading-normal">
@@ -68,7 +68,7 @@ const About = () => {
             src="/about/2.png"
             width={650}
             height={373}
-            className="w-auto"
+            className=""
             alt="despre Monte Bianco"
           />
         </div>
@@ -79,14 +79,14 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
-      className="flex flex-col md:flex-row items-center justify-center gap-x-32 max-md:gap-y-8 bg-body-accent max-md:py-10 xl:py-24 max-md:px-4">
+      className="flex flex-col xl:flex-row items-center justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4">
         {/* Image */}
         <div>
           <Image
             src="/about/3.png"
             width={650}
             height={373}
-            className="w-auto"
+            className=""
             alt="despre Monte Bianco"
           />
         </div>

@@ -77,7 +77,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
                   <Link
                     key={index}
                     href={link.path}
-                    className='flex items-center gap-x-3 justify-base hover:text-orange'
+                    className='flex items-center gap-x-3 justify-base'
                     onClick={() => setIsMenuOpen(false)}
                   >
                     <div className={`${iconStyles}`}>{link.icon}</div>

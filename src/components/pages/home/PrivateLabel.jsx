@@ -9,7 +9,7 @@ export function HealthiconsToiletPaperOutline(props) {
       width="900px"
       height="900px"
       viewBox="0 0 48 48"
-      className="rotate-[25deg] w-[400px] h-[400px] xs:w-[500px] xs:h-[500px] xs: xl:w-[900px] xl:h-[900px]"
+      className="rotate-[25deg] w-[400px] h-[400px] xs:w-[500px] xs:h-[500px] md:w-[800px] md:h-[800px] xl:w-[900px] xl:h-[900px]"
       {...props}
     >
       <g fill="#EDEDED">
@@ -42,14 +42,14 @@ export function HealthiconsToiletPaperOutline(props) {
 const PrivateLabel = () => {
   return (
     <section
-      className="container relative max-md:py-12 py-56 max-md:overflow-x-hidden"
+      className="container relative max-md:py-12 py-56 max-xl:overflow-hidden"
     >
       <motion.div 
       variants={fadeIn("down", 0.2)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true, ammount: 0.4 }}
-      className="absolute -left-6 xs:top-16 xs:-left-12 xl:top-36 xl:left-0 xl:right-0 bottom-0 z-0 xl:flex items-center justify-center">
+      className="absolute -left-6 xs:top-16 xs:-left-12 md:-top-4 md:-left-4 lg:left-24 xl:top-36 xl:left-0 xl:right-0 bottom-0 z-0 xl:flex items-center justify-center">
         <HealthiconsToiletPaperOutline />
       </motion.div>
       {/* Added position-relative and z-index classes to raise text content above the SVG */}

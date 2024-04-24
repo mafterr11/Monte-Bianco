@@ -49,7 +49,7 @@ const Header = () => {
           ? "bg-body border-b border-black-text/90 shadow-nav"
           : "bg-body-transparent bg-opacity-0  xl:backdrop-blur-[10px] text-white"
         : "bg-body border-b border-black-text/90 shadow-nav"
-    } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] xl:px-[55px] border-b-[0.5px] border-black/50`}
+    } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px] border-b-[0.5px] border-black/50`}
   >
     {/* blurry overlay on mobile */}
     <div className="max-md:absolute inset-0 w-full h-full backdrop-blur-[5px] z-30"></div>

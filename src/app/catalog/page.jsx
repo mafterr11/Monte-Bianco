@@ -73,7 +73,7 @@ const Catalog = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg max-md:pt-[22rem] xl:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          <div className='text-lg max-md:pt-[22rem] md:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
           {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} />

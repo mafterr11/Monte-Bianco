@@ -10,12 +10,14 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button text-white",
+        back: "bg-body-accent hover:bg-body-accent/70 hover:scale-[0.97] shadow-button text-black-text"
       },
       size: {
         default: "h-10 px-6 py-6",
         lg: "h-10 py-7 px-10",
         thin: "h-9 rounded-[5px] px-3",
         card: "h-9 py-7 px-12",
+        back: "h-10 py-7 px-28",
       
       },
     },

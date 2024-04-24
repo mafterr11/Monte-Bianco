@@ -15,6 +15,32 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "4 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "1 Țiplă x 10 pachete x 9 batiste",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0383 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "48 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/batiste-nazale/Puff 3 str. parfumate.png",
@@ -28,6 +54,32 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "3 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "1 Țiplă x 10 pachete x 10 batiste",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0383 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "48 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/batiste-nazale/Puff 3 str..png",
@@ -40,6 +92,32 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "3 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "1 Țiplă x 10 pachete x 10 batiste",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0369 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "48 pachete per cutie",
+      },
     ],
   },
   // Fiore
@@ -55,6 +133,32 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "1 Țiplă x 10 pachete x 10 batiste",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0369 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "48 pachete per cutie",
+      },
     ],
   },
   // Șervețele de masă
@@ -545,6 +649,32 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "150 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0496 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "32 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/pop-up/Puff trandafiri.png",
@@ -558,6 +688,32 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "150 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0496 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "32 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/pop-up/Puff paisley.png",
@@ -570,6 +726,32 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "150 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0496 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "32 pachete per cutie",
+      },
     ],
   },
   //   Fiore
@@ -585,6 +767,32 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "100 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "33 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0496 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "32 pachete per cutie",
+      },
     ],
   },
 

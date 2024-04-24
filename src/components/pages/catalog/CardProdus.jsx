@@ -4,7 +4,7 @@ import { Card, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-const CardProdus = ({ product }) => {
+const CardProdus = ({ product, basePath }) => {
   return (
     <Card className="bg-body-accent/20 border-2 group overflow-hidden relative border-black/15 h-[520px] flex flex-col md:max-xl:w-[400px]">
       <CardHeader className="p-0 bg-body-transparent">
@@ -26,7 +26,7 @@ const CardProdus = ({ product }) => {
       <div className="flex flex-col items-center justify-between flex-grow">
         <h3 className="xl:text-[25px] text-center px-8 pt-8 leading-9">{product.name}</h3>
         <div className="mt-auto pb-8">
-        <Link href={`/catalog/${product.slug}`}>
+        <Link href={`${basePath}/${product.slug}`}>
           <Button size="card">Mai multe detalii</Button>
           </Link>
         </div>

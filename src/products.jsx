@@ -1303,7 +1303,7 @@ export const productData = [
   {
     name: "Dispenser z-fold",
     image: "/produse/AFH/Dispenser z-fold.png",
-    slugd: "/marci/MBP.png",
+    brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser z-fold",
     name: "Dispenser z-fold",
@@ -1315,7 +1315,7 @@ export const productData = [
   {
     name: "Dispenser hârtie igienică",
     image: "/produse/AFH/Dispenser hârtie igienică.png",
-    slugd: "/marci/MBP.png",
+    brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser hârtie igienică",
     name: "Dispenser hârtie igienică",
@@ -1327,7 +1327,7 @@ export const productData = [
   {
     name: "Dispenser autocut",
     image: "/produse/AFH/Dispenser autocut.png",
-    slugd: "/marci/MBP.png",
+    brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser autocut",
     name: "Dispenser autocut",
@@ -1485,7 +1485,7 @@ export const productData = [
   {
     name: "Prosop autocut 130 m",
     image: "/produse/AFH/Prosop autocut 130 m.png",
-    slugd: "/marci/horeca.png",
+    brand: "/marci/horeca.png",
     badge: "Horeca",
     alt: "Prosop autocut 130 m",
     name: "Prosop autocut 130 m",

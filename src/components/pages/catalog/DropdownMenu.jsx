@@ -57,17 +57,17 @@ const rightMenu = [
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Fpuff.png",
-    icon: "/marci/Puff.png",
+    icon: "/marci/puff.png",
   },
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Ffiore.png",
-    icon: "/marci/Fiore.png",
+    icon: "/marci/fiore.png",
   },
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Fneve.png",
-    icon: "/marci/Neve.png",
+    icon: "/marci/neve.png",
   },
   {
     path: "/catalog",

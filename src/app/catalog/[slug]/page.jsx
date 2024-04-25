@@ -18,9 +18,9 @@ const ProductPage = () => {
 
   return (
     <div className='min-h-screen pt-24 pb-72 md:mt-16'>
-      <h2 className='mb-40 text-center mx-auto'>{product.name}</h2>
+      <h2 className='mb-40 max-md:mb-20 text-center mx-auto'>{product.name}</h2>
       {/* Product CONTAINER */}
-      <div className='flex max-md:flex-col items-center justify-center gap-x-8 max-md:gap-y-12'>
+      <div className='flex max-md:flex-col xl:items-center justify-center gap-x-8 max-md:gap-y-12'>
         {/* Left side */}
         <div className='flex max-md:flex-col-reverse max-md:gap-y-6 items-end justify-center gap-x-8'>
           {/* Color */}
@@ -35,7 +35,7 @@ const ProductPage = () => {
             ))}
           </div>
           {/* Image with gradient background */}
-          <div className='relative max-md:w-[90%] max-md:mx-auto max-md:h-[500px] h-[500px] w-[500px]'>
+          <div className='relative max-md:w-full max-md:mx-auto max-md:h-[400px] h-[500px] w-[500px]'>
             {" "}
             {/* Adjust width and height to match Image's dimensions */}
             <Image

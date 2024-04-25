@@ -17,7 +17,7 @@ const Path = (props) => (
 const MenuButton = ({ onClick, isOpen }) => {
   return (
     <motion.button
-      className="flex items-center justify-center w-14 h-14 bg-accent rounded-[10px] cursor-pointer"
+      className={`flex items-center justify-center w-14 h-14 bg-accent ${isOpen ? 'rounded-full' : 'rounded-[10px]'} cursor-pointer`}
       onClick={onClick}
       animate={isOpen ? "open" : "closed"}
       initial={false}

@@ -15,6 +15,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -54,6 +55,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -93,6 +95,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -134,6 +137,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -179,6 +183,40 @@ export const productData = [
       // Red
       "#DB1C2B",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "80 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "16 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm Horeca.png",
@@ -191,6 +229,40 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "150 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "8 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
     ],
   },
   {
@@ -214,6 +286,40 @@ export const productData = [
       "#FADF12",
       // Red
       "#DB1C2B",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "40 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "40 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
     ],
   },
   {
@@ -240,6 +346,40 @@ export const productData = [
       // Black
       "#151515",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "40 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "24 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 38 cm.png",
@@ -263,6 +403,40 @@ export const productData = [
       // Red
       "#DB1C2B",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 38x38",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "20 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "20 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0291 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "66 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 33 cm.png",
@@ -277,6 +451,40 @@ export const productData = [
       "#FEFEFE",
       // Red
       "#DB1C2B",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 8",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "70 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "16 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
     ],
   },
   {
@@ -293,6 +501,40 @@ export const productData = [
       // Red
       "#DB1C2B",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 8",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 38x38",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "70 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "8 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0344 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "66 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Puff de lux 2 str. Horeca.png",
@@ -305,6 +547,40 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "2 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Cu miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "120 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "8 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
     ],
   },
 
@@ -321,6 +597,40 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 25x25",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "50 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "48 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0448 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "45 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 100 buc.png",
@@ -333,6 +643,40 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 25x25",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "100 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "28 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0448 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "45 pachete per cutie",
+      },
     ],
   },
   {
@@ -347,6 +691,40 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 30x30",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "100 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "42 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,1030 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "16 pachete per cutie",
+      },
+    ],
   },
   {
     image: "/produse/servetele-de-masa/Fiore 1 str. 33 cm.png",
@@ -359,6 +737,40 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat în 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "100 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "16 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "42 pachete per cutie",
+      },
     ],
   },
 
@@ -374,6 +786,40 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.png",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.png",
+        title: "Împachetat odată",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.png",
+        title: "Dimensiune 18x17.5",
+      },
+      {
+        icon: "/produse/detalii/Miros.png",
+        title: "Fara miros",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.png",
+        title: "600 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.png",
+        title: "8 țiple per bax",
+      },
+      {
+        icon: "/produse/detalii/Volum.png",
+        title: "0,0336 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.png",
+        title: "60 pachete per cutie",
+      },
     ],
   },
 

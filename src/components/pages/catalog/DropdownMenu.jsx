@@ -17,16 +17,16 @@ const Path = (props) => (
 const MenuButton = ({ onClick, isOpen }) => {
   return (
     <motion.button
-      className="flex items-center justify-center w-16   h-16  bg-accent rounded-full border-2 border-white cursor-pointer"
+      className="flex items-center justify-center w-14 h-14 bg-accent rounded-[10px] cursor-pointer"
       onClick={onClick}
       animate={isOpen ? "open" : "closed"}
       initial={false}
     >
       <svg
-        width="23"
-        height="23"
-        viewBox="0 0 23 23"
-        className="m-[4px] mt-[4px] ml-[2px] text-white"
+        width="25"
+        height="25"
+        viewBox="0 0 25 25"
+        className="mt-[4px] ml-[2px] text-white"
       >
         <Path
           variants={{
@@ -56,17 +56,17 @@ const MenuButton = ({ onClick, isOpen }) => {
 const rightMenu = [
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2FPuff.png",
+    query: "brand=%2Fmarci%2Fpuff.png",
     icon: "/marci/Puff.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2FFiore.png",
+    query: "brand=%2Fmarci%2Ffiore.png",
     icon: "/marci/Fiore.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2FNeve.png",
+    query: "brand=%2Fmarci%2Fneve.png",
     icon: "/marci/Neve.png",
   },
   {
@@ -149,7 +149,7 @@ const slideHorizontalAnimation = {
   },
 };
 
-const Test = () => {
+const DropdownMenu = ({containerStyles}) => {
   const [isOpen, toggleDropdown] = useCycle(false, true);
   const [isLeftMenu, toggleMenu] = useCycle(true, false);
   const leftMenuHeight = (leftMenu.length + 1) * 65; // Height in pixels, adjust as needed
@@ -157,10 +157,10 @@ const Test = () => {
   const height = isLeftMenu ? leftMenuHeight : rightMenuHeight;
 
   return (
-    <div className="z-50 fixed -top-[12rem] right-1 py-96">
+    <div className={`z-50 fixed ${containerStyles} py-96`}>
       <MenuButton onClick={toggleDropdown} isOpen={isOpen} />
       <motion.div
-        className="absolute top-[28.5rem] right-4 w-[18rem] rounded-lg shadow-lg z-20 border-2 border-body-accent overflow-hidden bg-gradient-blue"
+        className="absolute top-[28rem] right-2 w-[18rem] rounded-lg shadow-lg z-20 border-2 border-body-accent overflow-hidden bg-gradient-blue"
         style={{ height }}
         initial="close"
         animate={isOpen ? "open" : "close"}
@@ -177,7 +177,7 @@ const Test = () => {
               className="text-center text-xl my-8 cursor-pointer transition duration-200 "
               onClick={toggleMenu}
             >
-              MARCI &#8594;
+              Către mărci &#8594;
             </h4>
             <ul className="flex flex-1 flex-col items-center justify-around ">
               {leftMenu.map((link, i) => (
@@ -195,16 +195,16 @@ const Test = () => {
               className="text-center items-center text-xl my-8 cursor-pointer transition duration-200"
               onClick={toggleMenu}
             >
-              &#8592; CATEGORII
+              &#8592; Categorii
             </h4>
             <ul className="flex flex-col items-center justify-around">
-              {rightMenu.map((img, i) => (
+              {rightMenu.map((dropdownLink, i) => (
                 <li
                   key={i}
                   className="cursor-pointer transition duration-200 w-[100px] py-3 focus:bg-gradient-blue"
                 >
-                    <Link href={`${img.path}?${img.query}`}>
-                  <Image src={img.icon} width={112} height={70} alt="brands" />
+                    <Link href={`${dropdownLink.path}?${dropdownLink.query}`}>
+                  <Image src={dropdownLink.icon} width={112} height={70} alt="brands" />
                   </Link>
                 </li>
               ))}
@@ -216,4 +216,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default DropdownMenu;

@@ -45,15 +45,6 @@ module.exports = {
         DEFAULT: "#1F1F1F",
         text: "#3D3D3D",
       },
-      product: {
-        1: "#FEFEFE",
-        2: "#151515",
-        3: "#FFF6DD",
-        4: "#AFAAE4",
-        5: "#FADF12",
-        6: "#DB1C2B",
-        7: "#B2015C",
-      },
     },
     extend: {
       boxShadow: {

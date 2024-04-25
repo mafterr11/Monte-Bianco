@@ -5,6 +5,7 @@ import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
+import DropdownMenu from './DropdownMenu';
 
 const CatalogPage = () => {
   const searchParams = useSearchParams();
@@ -12,9 +13,13 @@ const CatalogPage = () => {
 
   useEffect(() => {
     const categoryFromUrl = searchParams.get("category");
+    const brandFromUrl = searchParams.get("brand");
     if (categoryFromUrl) {
       const decodedCategory = decodeURIComponent(categoryFromUrl);
       setActiveFilter({ type: 'category', value: decodedCategory });
+    } else if (brandFromUrl) {
+      const decodedBrand = decodeURIComponent(brandFromUrl);
+      setActiveFilter({ type: 'brand', value: decodedBrand });
     }
   }, [searchParams]);
   
@@ -44,13 +49,13 @@ const CatalogPage = () => {
   return (
     <section className='min-h-screen pt-24 md:mt-16'>
       <div className='container mx-auto'>
-        <h2 className='mb-56 text-center mx-auto'>
+        <h2 className='max-md:mb-24 mb-56 text-center mx-auto'>
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
         <Tabs className='mb-24 xl:mb-48'>
           {/* Category and brand Tabs */}
-          <TabsList className='flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24'>
+          <TabsList className='max-md:hidden flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24'>
             <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] max-md:mb-32 mb-20 mx-auto gap-2 overflow'>
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
@@ -73,7 +78,7 @@ const CatalogPage = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg max-md:pt-[22rem] md:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
+          <div className='text-lg md:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
           {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/catalog"/>
@@ -82,6 +87,7 @@ const CatalogPage = () => {
           </div>
         </Tabs>
       </div>
+      <DropdownMenu containerStyles="-top-[14rem] right-1 md:hidden"/>
     </section>
   );
 };

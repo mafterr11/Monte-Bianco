@@ -185,7 +185,7 @@ const DropdownMenu = ({containerStyles}) => {
                   key={i}
                   className="text-center cursor-pointer transition duration-200  py-3 focus:bg-accent focus:text-white-text"
                 >
-                  <Link href={`${link.path}?${link.query}`}>{link.name}</Link>
+                  <Link href={`${link.path}?${link.query}`} onClick={toggleDropdown}>{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -203,7 +203,7 @@ const DropdownMenu = ({containerStyles}) => {
                   key={i}
                   className="cursor-pointer transition duration-200 w-[100px] py-3 focus:bg-gradient-blue"
                 >
-                    <Link href={`${dropdownLink.path}?${dropdownLink.query}`}>
+                    <Link href={`${dropdownLink.path}?${dropdownLink.query}`} onClick={toggleDropdown}>
                   <Image src={dropdownLink.icon} width={112} height={70} alt="brands" />
                   </Link>
                 </li>

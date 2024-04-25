@@ -1095,6 +1095,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -1134,6 +1135,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -1173,6 +1175,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",
@@ -1214,6 +1217,7 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    grid: "grid-cols-2",
     details: [
       {
         icon: "/produse/detalii/Straturi.png",

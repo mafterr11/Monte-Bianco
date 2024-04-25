@@ -20,11 +20,11 @@ const ProductPage = () => {
     <div className='min-h-screen pt-24 pb-72 md:mt-16'>
       <h2 className='mb-40 text-center mx-auto'>{product.name}</h2>
       {/* Product CONTAINER */}
-      <div className='flex items-center justify-center gap-x-8'>
+      <div className='flex max-md:flex-col items-center justify-center gap-x-8 max-md:gap-y-12'>
         {/* Left side */}
-        <div className='flex items-end justify-center gap-x-8'>
+        <div className='flex max-md:flex-col-reverse max-md:gap-y-6 items-end justify-center gap-x-8'>
           {/* Color */}
-          <div className='flex flex-col justify-center items-end space-y-6'>
+          <div className='flex flex-col max-md:flex-row max-md:flex-wrap max-md:space-x-3 max-md:container justify-center items-end space-y-6'>
             {/* Map through colors and create a circle for each */}
             {product.color.map((color, index) => (
               <div
@@ -35,7 +35,7 @@ const ProductPage = () => {
             ))}
           </div>
           {/* Image with gradient background */}
-          <div className='relative h-[500px] w-[500px]'>
+          <div className='relative max-md:w-[90%] max-md:mx-auto max-md:h-[500px] h-[500px] w-[500px]'>
             {" "}
             {/* Adjust width and height to match Image's dimensions */}
             <Image
@@ -51,7 +51,7 @@ const ProductPage = () => {
         {/* Right side */}
         <div className='flex flex-col items-center gap-y-12'>
           {/* Details CONTAINER */}
-          <div className={`grid ${product.grid || 'grid-cols-3'} gap-y-8 items-end`}>
+          <div className={`grid ${product.grid || 'grid-cols-3'} max-md:grid-cols-2 gap-y-8 items-end`}>
             {/* Details Grid */}
             {product.details.map((details, index) => {
               return (

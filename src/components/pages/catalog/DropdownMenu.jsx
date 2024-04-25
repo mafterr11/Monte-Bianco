@@ -201,10 +201,10 @@ const DropdownMenu = ({containerStyles}) => {
               {rightMenu.map((dropdownLink, i) => (
                 <li
                   key={i}
-                  className="cursor-pointer transition duration-200 w-[110px] py-3 focus:bg-gradient-blue"
+                  className="cursor-pointer transition duration-200 w-[100px] py-3 focus:bg-gradient-blue"
                 >
                     <Link href={`${dropdownLink.path}?${dropdownLink.query}`} onClick={toggleDropdown}>
-                  <Image src={dropdownLink.icon} width={120} height={90} alt="brands" />
+                  <Image src={dropdownLink.icon} width={120} height={70} alt="brands" />
                   </Link>
                 </li>
               ))}

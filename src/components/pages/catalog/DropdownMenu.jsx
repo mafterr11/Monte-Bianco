@@ -179,11 +179,11 @@ const DropdownMenu = ({containerStyles}) => {
             >
               Către mărci &#8594;
             </h4>
-            <ul className="flex flex-1 flex-col items-center justify-around ">
+            <ul className="flex flex-1 flex-col items-center justify-around pb-4">
               {leftMenu.map((link, i) => (
                 <li
                   key={i}
-                  className="text-center cursor-pointer transition duration-200  py-3 focus:bg-accent focus:text-white-text"
+                  className="text-center cursor-pointer transition duration-200 font-medium py-3 focus:bg-accent focus:text-white-text"
                 >
                   <Link href={`${link.path}?${link.query}`} onClick={toggleDropdown}>{link.name}</Link>
                 </li>
@@ -192,7 +192,7 @@ const DropdownMenu = ({containerStyles}) => {
           </motion.div>
           <motion.div className="flex flex-col items-center justify-center w-[18rem] h-full px-8 absolute right-[16.5rem] top-0">
             <h4
-              className="text-center items-center text-xl my-8 cursor-pointer transition duration-200"
+              className="text-center items-center text-xl my-3 cursor-pointer transition duration-200"
               onClick={toggleMenu}
             >
               &#8592; Categorii
@@ -201,10 +201,10 @@ const DropdownMenu = ({containerStyles}) => {
               {rightMenu.map((dropdownLink, i) => (
                 <li
                   key={i}
-                  className="cursor-pointer transition duration-200 w-[100px] py-3 focus:bg-gradient-blue"
+                  className="cursor-pointer transition duration-200 w-[110px] py-3 focus:bg-gradient-blue"
                 >
                     <Link href={`${dropdownLink.path}?${dropdownLink.query}`} onClick={toggleDropdown}>
-                  <Image src={dropdownLink.icon} width={112} height={70} alt="brands" />
+                  <Image src={dropdownLink.icon} width={120} height={90} alt="brands" />
                   </Link>
                 </li>
               ))}

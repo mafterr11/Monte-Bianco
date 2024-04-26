@@ -33,7 +33,7 @@ const certificate = [
 
 const Certificari = () => {
   return (
-    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center xl:gap-x-40 py-24">
+    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center xl:gap-x-40 py-24 px-8">
       {certificate.map((certificat, index) => (
         <motion.div 
         variants={fadeIn('down', certificat.fadeSpeed)}
@@ -41,7 +41,7 @@ const Certificari = () => {
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
         key={index}>
-          <Image src={certificat.icon} width={100} height={70} alt={certificat.name} className="" />
+          <Image src={certificat.icon} width={100} height={70} alt={certificat.name} className="w-auto h-[70px] xs:max-xl:h-[85px] xl:h-[90px] " />
         </motion.div>
       ))}
     </section>

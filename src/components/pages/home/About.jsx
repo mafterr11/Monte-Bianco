@@ -96,7 +96,7 @@ const About = () => {
             Obiectivele Monte Bianco
           </h3>
           <p className="max-w-[630px]">
-            Investițiile în tehnologii noi și în oameni reprezintă principalele
+            Investițiile în tehnologii noi și în oameni reprezintă principalele
             obiective ale Monte Bianco și vor rămâne aceleași, pentru viitor.
           </p>
           <p className="max-w-[630px]">

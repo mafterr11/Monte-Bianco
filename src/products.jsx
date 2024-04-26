@@ -190,15 +190,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -237,15 +237,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -294,15 +294,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -353,15 +353,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -410,15 +410,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -459,15 +459,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 8",
+        title: "Pliat în 8",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -508,15 +508,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 8",
+        title: "Pliat în 8",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -555,15 +555,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Cu miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Este lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -604,15 +604,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -651,15 +651,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -698,15 +698,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 30x30",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -745,15 +745,15 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/Impachetat.png",
-        title: "Împachetat în 4",
+        title: "Pliat în 4",
       },
       {
         icon: "/produse/detalii/Dimensiuni.png",
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",
@@ -801,8 +801,8 @@ export const productData = [
         title: "Dimensiune 18x17.5",
       },
       {
-        icon: "/produse/detalii/Miros.png",
-        title: "Fara miros",
+        icon: "/produse/detalii/Lipit.png",
+        title: "Nu e lipit",
       },
       {
         icon: "/produse/detalii/PachetePerTipla.png",

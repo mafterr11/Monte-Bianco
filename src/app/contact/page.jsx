@@ -3,6 +3,8 @@ import Brands from "@/components/Brands";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
+import { FiPhoneCall } from "react-icons/fi";
+import { HiOutlineMailOpen } from "react-icons/hi";
 
 const Contact = () => {
   return (
@@ -30,7 +32,7 @@ const Contact = () => {
           <a
             href='tel:+40245606296'
             target='blank'
-            className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 px-3 font-medium flex items-center justify-center gap-x-1'
+            className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 px-3 font-medium flex flex-col items-center justify-center gap-x-1'
           >
             <span className='text-black font-semibold'>Tel:</span>{" "}
             +40.245.606.296
@@ -46,7 +48,7 @@ const Contact = () => {
           <a
             href='tel:+40245606286'
             target='blank'
-            className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 px-3 font-medium flex items-center justify-center gap-x-1'
+            className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 px-3 font-medium flex flex-col items-center justify-center gap-x-1'
           >
             <span className='text-black font-semibold'>Fax:</span>{" "}
             +40.245.606.286
@@ -138,29 +140,35 @@ const Contact = () => {
           </AnimatedTooltip>
           <div className='flex flex-col items-end justify-center gap-y-6 absolute top-12 right-12'>
             {/* Telefon */}
-            <AnimatedTooltip message='Disponibili oricand!'>
-              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-col flex-wrap py-2 px-3 rounded items-start justify-start shadow-button text-lg'>
+            <AnimatedTooltip message='Haidem să discutăm!'>
+              <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
+              <FiPhoneCall size={25}/>
+                <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Tel:</span>{" "}
                 <a
                   href='tel:+40245606296'
                   target='blank'
                   className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
-                >
+                  >
                   +40.245.606.296
                 </a>
+                  </div>
               </div>
             </AnimatedTooltip>
             {/* Fax */}
             <AnimatedTooltip message='Avem chiar si fax!'>
-              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-col flex-wrap py-2 px-3 rounded items-start justify-start shadow-button text-lg'>
+            <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
+              <FiPhoneCall size={25}/>
+                <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Fax:</span>{" "}
                 <a
                   href='tel:+40245606286'
                   target='blank'
                   className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
-                >
+                  >
                   +40.245.606.286
                 </a>
+                  </div>
               </div>
             </AnimatedTooltip>
             {/* Vanzari */}

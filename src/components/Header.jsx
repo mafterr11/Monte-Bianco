@@ -79,7 +79,7 @@ const Header = () => {
               rel='noopener noreferrer'
               download
             >
-              <Button size='thin'>Descarca catalogul</Button>
+              <Button size='thin'>Descarcă catalogul</Button>
             </a>
           </div>
           {/* Facebook */}

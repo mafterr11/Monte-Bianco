@@ -25,7 +25,7 @@ const About = () => {
         {/* Text */}
         <div>
           <h3 className="max-w-[430px] mb-5 text-accent leading-normal">
-            Misiunea noastra: Lider a produselor de profil
+          Misiunea noastră: Lider al produselor de profil
           </h3>
           <p className="max-w-[630px]">
             Încă de la început, principalul obiectiv al companiei a fost acela
@@ -46,7 +46,7 @@ const About = () => {
         {/* Text */}
         <div>
           <h3 className="max-w-[430px] mb-5 text-accent leading-normal">
-            Povestea noastra
+            Povestea noastră
           </h3>
           <p className="max-w-[630px]">
             SC Monte Bianco SA a fost înfiinţatǎ în anul 1994, avand scopul de a

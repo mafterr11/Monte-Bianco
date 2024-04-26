@@ -16,11 +16,11 @@ const CTA = () => {
     <div  className="container mx-auto">
         <div className="flex flex-col items-center">
             <h3 className="max-w-5xl text-center mb-6 flex flex-col items-center justify-center">
-            Nu ezitati sa ne contactați! Parerea dumneavoastra conteaza
+            Nu ezitați să ne contactați! Părerea dumneavoastră contează
             </h3>
             <Link href="/contact">
                 <Button className="gap-x-2"> 
-                Contactati-ne <Send size={18} />
+                Contactați-ne <Send size={18} />
                 </Button>
               </Link>
         </div>

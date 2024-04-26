@@ -20,9 +20,9 @@ const ProductPage = () => {
     <div className='min-h-screen pt-24 pb-72 md:mt-16'>
       <h2 className='mb-40 max-md:mb-20 text-center mx-auto'>{product.name}</h2>
       {/* Product CONTAINER */}
-      <div className='flex max-md:flex-col xl:items-center justify-center gap-x-8 max-md:gap-y-12'>
+      <div className='flex max-xl:flex-col xl:items-center justify-center gap-x-8 max-xl:gap-y-12'>
         {/* Left side */}
-        <div className='flex max-md:flex-col-reverse max-md:gap-y-6 items-end justify-center gap-x-8'>
+        <div className='flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-8'>
           {/* Color */}
           <div className='flex flex-col max-md:flex-row max-md:flex-wrap max-md:space-x-3 max-md:container justify-center items-end space-y-6'>
             {/* Map through colors and create a circle for each */}
@@ -58,7 +58,7 @@ const ProductPage = () => {
                 // Container
                 <div key={index}>
                   {/* Flex Details */}
-                  <div className='flex flex-col items-center justify-center gap-y-3'>
+                  <div className='flex flex-col items-center justify-center gap-y-3 px-4'>
                     {/* Image */}
                     <div>
                       <Image
@@ -69,7 +69,7 @@ const ProductPage = () => {
                       />
                     </div>
                     {/* Title */}
-                    <div>{details.title}</div>
+                    <div className="text-center max-w-[250px]">{details.title}</div>
                   </div>
                 </div>
               );

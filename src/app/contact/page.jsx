@@ -4,7 +4,7 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
 import { FiPhoneCall } from "react-icons/fi";
-import { HiOutlineMailOpen } from "react-icons/hi";
+import { MdOutlineFax } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -158,7 +158,7 @@ const Contact = () => {
             {/* Fax */}
             <AnimatedTooltip message='Avem chiar si fax!'>
             <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
-              <FiPhoneCall size={25}/>
+              <MdOutlineFax size={25}/>
                 <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Fax:</span>{" "}
                 <a

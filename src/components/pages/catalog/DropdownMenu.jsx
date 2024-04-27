@@ -157,7 +157,7 @@ const DropdownMenu = ({containerStyles}) => {
   const height = isLeftMenu ? leftMenuHeight : rightMenuHeight;
 
   return (
-    <div className={`z-50 fixed ${containerStyles} py-96`}>
+    <div className={`z-40 fixed ${containerStyles} py-96`}>
       <MenuButton onClick={toggleDropdown} isOpen={isOpen} />
       <motion.div
         className="absolute top-[28rem] right-2 w-[18rem] rounded-lg shadow-lg z-20 border-2 border-body-accent overflow-hidden bg-gradient-blue"

@@ -34,7 +34,7 @@ const Header = () => {
       const isMobile = checkIsMobile();
       const isTablet = checkIsTablet();
       // Set active based on scroll and device type
-      setActive(window.scrollY > (isMobile ? 100 : isTablet ? 1000 : 830));
+      setActive(window.scrollY > (isMobile ? 100 : isTablet ? 1000 : 780));
     };
   
     // Call updateActiveState on initial render

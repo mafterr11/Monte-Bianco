@@ -71,7 +71,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
           {/* logo */}
          <Logo />
           {/* links */}
-          <div className='flex flex-col gap-y-8'>
+          <div className='flex flex-col gap-y-8 md:gap-y-12'>
             {links.map((link, index) => {
                 return (
                   <Link

@@ -79,8 +79,8 @@ const Header = () => {
         {/* Mobile */}
         <NavMobile
           containerStyles='xl:hidden'
-          iconStyles='text-3xl text-accent'
-          linkStyles='uppercase'
+          iconStyles='text-3xl md:text-4xl text-accent'
+          linkStyles='uppercase xs:text-[18px] md:text-[21px]'
         />
         {/* Right side */}
         <div className='hidden xl:flex items-center justify-center gap-x-8'>

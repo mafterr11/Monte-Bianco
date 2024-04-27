@@ -123,10 +123,10 @@ const Contact = () => {
           {/* Adresa */}
           <AnimatedTooltip message='Sediul nostru'>
             <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap py-4 mb-4 rounded items-center justify-start shadow-button'>
-              <div className='lg:w-[350px] px-6 flex flex-col'>
-                {/* <h2 className='font-semibold tracking-widest text-lg'>
+              <div className='md:w-[350px] px-6 flex flex-col'>
+                <h2 className='font-semibold tracking-widest text-lg'>
                 Adresa
-              </h2> */}
+              </h2>
                 <a
                   href='https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8'
                   target='_blank'
@@ -138,7 +138,7 @@ const Contact = () => {
               </div>
             </div>
           </AnimatedTooltip>
-          <div className='flex flex-col items-end justify-center gap-y-6 absolute top-12 right-12'>
+          <div className='flex flex-col items-end justify-center gap-y-6 absolute top-12 right-12 md:max-xl:right-4'>
             {/* Telefon */}
             <AnimatedTooltip message='Haidem să discutăm!'>
               <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>

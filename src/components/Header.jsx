@@ -14,18 +14,30 @@ const Header = () => {
   const [active, setActive] = useState(false);
   const currentRoute = usePathname();
 
-  useEffect(() => {
-    const checkIsMobile = () =>
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      );
+  const checkIsMobile = () => {
+    return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+  };
   
+  const checkIsTablet = () => {
+    const userAgent = navigator.userAgent;
+    const isAndroidTablet = /Android/i.test(userAgent) && !/Mobile/i.test(userAgent);
+    const isIPad = /iPad/i.test(userAgent);
+    const isLargeScreen = window.innerWidth >= 768 && window.innerWidth <= 1024;
+    return isIPad || isAndroidTablet || isLargeScreen;
+  };
+  
+  useEffect(() => {
+    
     const updateActiveState = () => {
       const isMobile = checkIsMobile();
-      setActive(window.scrollY > (isMobile ? 100 : 830));
+      const isTablet = checkIsTablet();
+      // Set active based on scroll and device type
+      setActive(window.scrollY > (isMobile ? 100 : isTablet ? 1000 : 830));
     };
   
-    // Call updateActiveState on initial render to set the correct state
+    // Call updateActiveState on initial render
     updateActiveState();
   
     const handleScroll = throttle(updateActiveState, 100);
@@ -40,6 +52,7 @@ const Header = () => {
     };
   }, []);
   
+  
 
   return (
     <header
@@ -52,7 +65,7 @@ const Header = () => {
     } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px] border-b-[0.5px] border-black/50`}
   >
     {/* blurry overlay on mobile */}
-    <div className="max-md:absolute inset-0 w-full h-full backdrop-blur-[5px] z-30"></div>
+    <div className="max-xl:absolute inset-0 w-full h-full backdrop-blur-[5px] md:max-xl:backdrop-blur-[8px] z-30"></div>
       {/* Container */}
       <div className='relative flex items-center justify-between z-40'>
         {/* Logo */}

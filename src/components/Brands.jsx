@@ -42,11 +42,12 @@ const Brands = () => {
         whileInView={"show"}
         viewport={{once:true, ammount:0.4}}
         key={index}
-        className={brand.class}
+        className={`${brand.class} z-40`}
         >
           <Image src={brand.icon} width={180} height={70} alt={brand.name} className="h-auto" />
         </motion.div>
       ))}
+      <div className='absolute inset-0 z-50'></div>
     </section>
   );
 };

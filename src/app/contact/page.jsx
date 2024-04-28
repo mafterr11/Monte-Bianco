@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineFax } from "react-icons/md";
+import { SlLocationPin } from "react-icons/sl";
 
 const Contact = () => {
   return (
@@ -123,6 +124,7 @@ const Contact = () => {
           {/* Adresa */}
           <AnimatedTooltip message='Sediul nostru'>
             <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap py-4 mb-4 rounded items-center justify-start shadow-button'>
+            <SlLocationPin size={32}/>
               <div className='md:w-[350px] px-6 flex flex-col'>
                 <h2 className='font-semibold tracking-widest text-lg'>
                 Adresa
@@ -158,7 +160,7 @@ const Contact = () => {
             {/* Fax */}
             <AnimatedTooltip message='Avem chiar si fax!'>
             <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
-              <MdOutlineFax size={25}/>
+              <MdOutlineFax size={32}/>
                 <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Fax:</span>{" "}
                 <a

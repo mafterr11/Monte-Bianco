@@ -183,7 +183,7 @@ const DropdownMenu = ({containerStyles}) => {
               {leftMenu.map((link, i) => (
                 <li
                   key={i}
-                  className="text-center cursor-pointer transition duration-200 font-medium py-3 focus:bg-accent focus:text-white-text"
+                  className="text-center cursor-pointer transition duration-200 font-medium py-3"
                 >
                   <Link href={`${link.path}?${link.query}`} onClick={toggleDropdown}>{link.name}</Link>
                 </li>

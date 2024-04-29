@@ -4,13 +4,14 @@ import React from "react";
 import Logo from "./Logo";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();  // Get the current year
   return (
     <footer className='bg-body-accent flex max-md:flex-col items-center justify-between max-md:gap-y-2 px-6 xl:px-[88px] py-[22px]'>
       {/* Left side */}
       <div className='flex items-center justify-center gap-x-1'>
         {/* Logo */}
         <Logo />
-        <div className='max-md:text-[13px]'>© 2024 Monte Bianco</div>
+        <div className='max-md:text-[13px]'>© {currentYear} Monte Bianco</div>
       </div>
       {/* Center */}
       <div className='max-md:text-[13px]'>

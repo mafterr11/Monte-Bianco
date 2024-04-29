@@ -8,26 +8,31 @@ const certificate = [
     icon: "/certificari/1.png",
     name: "ISO 9001",
     fadeSpeed: 0.2,
+    alt: "Certificat ISO 9001 - standard de management al calității Monte Bianco",
   },
   {
     icon: "/certificari/2.png",
     name: "ISO 14001",
     fadeSpeed: 0.4,
+    alt: "Certificat ISO 14001 - angajamentul Monte Bianco pentru protecția mediului",
   },
   {
     icon: "/certificari/3.png",
     name: "ISO 45001",
     fadeSpeed: 0.6,
+    alt: "Certificat ISO 45001 - standard pentru sănătate și siguranță în muncă la Monte Bianco",
   },
   {
     icon: "/certificari/4.png",
     name: "ISO 22716",
     fadeSpeed: 0.8,
+    alt: "Certificat ISO 22716 - bune practici de fabricație pentru produse cosmetice la Monte Bianco",
   },
   {
     icon: "/certificari/5.png",
     name: "Responsible forestry certificate",
     fadeSpeed: 1,
+    alt: "Certificat de gestionare responsabilă a pădurilor - angajamentul Monte Bianco pentru sustenabilitate",
   },
 ];
 

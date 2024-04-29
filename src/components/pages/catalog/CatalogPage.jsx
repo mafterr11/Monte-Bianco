@@ -1,36 +1,38 @@
-"use client"
+"use client";
 import React, { useState, useCallback, useEffect } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
 import { productData } from "@/products";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
-import DropdownMenu from './DropdownMenu';
+import DropdownMenu from "./DropdownMenu";
 
 const CatalogPage = () => {
   const searchParams = useSearchParams();
-  const [activeFilter, setActiveFilter] = useState({ type: 'category', value: 'Toate produsele' });
+  const [activeFilter, setActiveFilter] = useState({
+    type: "category",
+    value: "Toate produsele",
+  });
 
   useEffect(() => {
     const categoryFromUrl = searchParams.get("category");
     const brandFromUrl = searchParams.get("brand");
     if (categoryFromUrl) {
       const decodedCategory = decodeURIComponent(categoryFromUrl);
-      setActiveFilter({ type: 'category', value: decodedCategory });
+      setActiveFilter({ type: "category", value: decodedCategory });
     } else if (brandFromUrl) {
       const decodedBrand = decodeURIComponent(brandFromUrl);
-      setActiveFilter({ type: 'brand', value: decodedBrand });
+      setActiveFilter({ type: "brand", value: decodedBrand });
     }
   }, [searchParams]);
-  
+
   const handleCategoryChange = useCallback((cat) => {
-    setActiveFilter({ type: 'category', value: cat });
+    setActiveFilter({ type: "category", value: cat });
   }, []);
 
   const handleBrandChange = useCallback((br) => {
-    setActiveFilter({ type: 'brand', value: br });
+    setActiveFilter({ type: "brand", value: br });
   }, []);
-
 
   // Filter products that have brands defined
   const productsWithBrands = productData.filter((product) => product.brand);
@@ -39,55 +41,80 @@ const CatalogPage = () => {
     (product) => product.category
   );
 
-   const filteredProducts = activeFilter.type === 'category' ?
-   productsWithCategories.filter(product => activeFilter.value === "Toate produsele" || product.category === activeFilter.value) :
-   productsWithBrands.filter(product => activeFilter.value === "All Brands" || product.brand === activeFilter.value);
+  const filteredProducts =
+    activeFilter.type === "category"
+      ? productsWithCategories.filter(
+          (product) =>
+            activeFilter.value === "Toate produsele" ||
+            product.category === activeFilter.value
+        )
+      : productsWithBrands.filter(
+          (product) =>
+            activeFilter.value === "All Brands" ||
+            product.brand === activeFilter.value
+        );
 
- const uniqueCategories = ["Toate produsele", ...new Set(productsWithCategories.map(p => p.category))];
- const uniqueBrands = [...new Set(productsWithBrands.map(p => p.brand))];
+  const uniqueCategories = [
+    "Toate produsele",
+    ...new Set(productsWithCategories.map((p) => p.category)),
+  ];
+  const uniqueBrands = [...new Set(productsWithBrands.map((p) => p.brand))];
 
   return (
-    <section className='min-h-screen pt-24 md:mt-16'>
-      <div className='container mx-auto'>
-        <h2 className='max-md:mb-24 mb-56 text-center mx-auto'>
+    <section className="min-h-screen pt-24 md:mt-16">
+      <div className="container mx-auto">
+        <h2 className="max-md:mb-24 mb-56 text-center mx-auto">
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
-        <Tabs className='mb-24 xl:mb-48'>
+        <Tabs className="mb-24 xl:mb-48">
           {/* Category and brand Tabs */}
-          <TabsList className='max-md:hidden flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24'>
-            <div className='w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] max-md:mb-32 mb-20 mx-auto gap-2 overflow'>
+          <TabsList className="max-md:hidden flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24">
+            <div className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] max-md:mb-32 mb-20 mx-auto gap-2 overflow">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto p-3 border-[#dadada] border ${activeFilter.type === 'category' && activeFilter.value === cat ? 'bg-accent text-white-text shadow-button font-semibold' : ''}`}
-                  onClick={() => handleCategoryChange(cat)}>
+                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto p-3 border-[#dadada] border ${
+                    activeFilter.type === "category" &&
+                    activeFilter.value === cat
+                      ? "bg-accent text-white-text shadow-button font-semibold"
+                      : ""
+                  }`}
+                  onClick={() => handleCategoryChange(cat)}
+                >
                   {cat}
                 </TabsTrigger>
               ))}
             </div>
-            <div className='w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mx-auto gap-2 overflow max-md:mt-6'>
+            <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mx-auto gap-2 overflow max-md:mt-6">
               {uniqueBrands.map((br, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${activeFilter.type === 'brand' && activeFilter.value === br ? 'bg-gradient-to-t from-accent/35 via-accent/10 to-body-accent/10 shadow-button' : ''}`}
-                  onClick={() => handleBrandChange(br)}>
+                  className={`relative z-20 uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${
+                    activeFilter.type === "brand" && activeFilter.value === br
+                      ? "bg-gradient-to-t from-accent/35 via-accent/10 to-body-accent/10 shadow-button"
+                      : ""
+                  }`}
+                  onClick={() => handleBrandChange(br)}
+                >
+                  <div className="absolute inset-0 z-30"></div>
+
                   {br && <Image src={br} width={120} height={60} alt={br} />}
                 </TabsTrigger>
               ))}
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg md:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
-          {filteredProducts.map((product, index) => (
+          <div className="text-lg md:pt-24 xl:mt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+            {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
-                <CardProdus product={product} basePath="/catalog"/>
+                <CardProdus product={product} basePath="/catalog" />
               </TabsContent>
             ))}
           </div>
         </Tabs>
       </div>
-      <DropdownMenu containerStyles="-top-[14rem] right-1 md:hidden"/>
+      <DropdownMenu containerStyles="-top-[14rem] right-1 md:hidden" />
     </section>
   );
 };

@@ -19,7 +19,7 @@ const About = () => {
             width={650}
             height={473}
             className=""
-            alt="despre Monte Bianco"
+            alt="Echipa Monte Bianco discutând strategii de inovație în fabrica de hârtie"
           />
         </div>
         {/* Text */}
@@ -69,7 +69,7 @@ const About = () => {
             width={650}
             height={373}
             className=""
-            alt="despre Monte Bianco"
+            alt="Istoric Monte Bianco, echipamentele originale de producție de hârtie"
           />
         </div>
       </motion.div>
@@ -87,7 +87,7 @@ const About = () => {
             width={650}
             height={373}
             className=""
-            alt="despre Monte Bianco"
+            alt="Angajați Monte Bianco verificând noile tehnologii de producție de hârtie"
           />
         </div>
         {/* Text */}

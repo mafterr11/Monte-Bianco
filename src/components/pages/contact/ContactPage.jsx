@@ -124,8 +124,8 @@ const ContactPage = () => {
           ></iframe>
           {/* Adresa */}
           <AnimatedTooltip message='Sediul nostru'>
-            <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap py-4 mb-4 rounded items-center justify-start shadow-button'>
-            <SlLocationPin size={32}/>
+            <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap p-2 mb-4 rounded items-center justify-start shadow-button'>
+            <SlLocationPin size={31}/>
               <div className='md:w-[350px] px-6 flex flex-col'>
                 <h2 className='font-semibold tracking-widest text-lg'>
                 Adresa

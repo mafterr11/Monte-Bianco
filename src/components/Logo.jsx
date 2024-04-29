@@ -13,9 +13,8 @@ const Logo = () => {
         width={112}
         height={50}
         priority
-        alt='Monte Bianco Logo'
+        alt='Logo Monte Bianco - lider în produse de hârtie de calitate'
         className='w-auto z-40'
-        onContextMenu={(e) => e.preventDefault()} // Prevent the context menu on right-click
       />
    
   </div>

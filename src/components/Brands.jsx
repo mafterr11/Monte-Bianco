@@ -6,27 +6,27 @@ import { fadeIn } from '../../variants';
 const brands = [
   {
     icon: "/marci/puff.png",
-    name: "Logo marca Puff",
+    alt: "Logo marca Puff - șervețele, hârtie igienică și batiste de lux",
     fadeSpeed: 0.2,
   },
   {
     icon: "/marci/fiore.png",
-    name: "Logo marca Fiore",
+    alt: "Logo marca Fiore - șervețele și hârtie igienică",
     fadeSpeed: 0.4,
   },
   {
     icon: "/marci/neve.png",
-    name: "Logo marca Neve",
+    alt: "Logo marca Neve - role de hârtie igienică de înaltă calitate",
     fadeSpeed: 0.6,
   },
   {
     icon: "/marci/MBP.png",
-    name: "Logo marca Monte Bianco Profesional",
+    alt: "Logo Monte Bianco Profesional - soluții de hârtie pentru afaceri",
     fadeSpeed: 0.8,
   },
   {
     icon: "/marci/horeca.png",
-    name: "Logo marca Horeca",
+    alt: "Logo Horeca - produse de hârtie pentru hoteluri, restaurante și cafenele",
     fadeSpeed: 1,
     class: "max-md:absolute left-24 bottom-20"
   },
@@ -44,7 +44,7 @@ const Brands = () => {
         key={index}
         className={`${brand.class} z-40`}
         >
-          <Image src={brand.icon} width={180} height={70} alt={brand.name} className="h-auto" />
+          <Image src={brand.icon} width={180} height={70} alt={brand.alt} className="h-auto" />
         </motion.div>
       ))}
       <div className='absolute inset-0 z-50'></div>

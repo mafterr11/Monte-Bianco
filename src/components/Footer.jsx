@@ -1,24 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
     <footer className='bg-body-accent flex max-md:flex-col items-center justify-between max-md:gap-y-2 px-6 xl:px-[88px] py-[22px]'>
       {/* Left side */}
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center justify-center gap-x-1'>
         {/* Logo */}
-        <div className='inline-block max-md:hidden'>
-          <Link href='/'>
-            <Image
-              src='/logo.png'
-              width={112}
-              height={50}
-              priority
-              alt='Monte Bianco Logo'
-            />
-          </Link>
-        </div>
+        <Logo />
         <div className='max-md:text-[13px]'>© 2024 Monte Bianco</div>
       </div>
       {/* Center */}

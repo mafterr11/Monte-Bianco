@@ -38,7 +38,7 @@ export function Hero() {
                 src={picture.image}
                 fill
                 priority={true}
-                alt='Monte Bianco imagini HERO section'
+                alt='Poze de intro pentru Monte Bianco - părerea dumneavoastră contează'
                 className='object-cover'
               />
             </CarouselItem>

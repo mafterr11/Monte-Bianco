@@ -19,7 +19,7 @@ export const pictures = [
 
 export function Hero() {
   return (
-    <section className='relative overflow-x-hidden border-b border-accent'>
+    <section className='relative overflow-hidden border-b border-accent'>
       <Carousel
         plugins={[
           Autoplay({

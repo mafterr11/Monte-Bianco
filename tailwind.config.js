@@ -25,6 +25,7 @@ module.exports = {
       md: "768px",
       lg: "960px",
       xl: "1200px",
+      "2xl":"1500px"
     },
     colors: {
       accent: "#006E9C",

@@ -59,7 +59,7 @@ const AwayFromHomePage = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg max-xl:mt-[17rem] xl:mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xl:max-w-[80%] 2xl:w-full 2xl:grid-cols-3 mx-auto gap-4'>
+          <div className='text-lg max-xl:mt-[17rem] xl:mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xl:max-w-[70%] 2xl:max-w-[80%] 2xl:w-full 2xl:grid-cols-3 mx-auto gap-10'>
           {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/away-from-home"/>

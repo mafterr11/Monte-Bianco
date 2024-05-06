@@ -63,7 +63,7 @@ const CatalogPage = () => {
   return (
     <section className="min-h-screen pt-24 md:mt-16">
       <div className="container mx-auto">
-        <h2 className="max-md:mb-24 mb-56 text-center mx-auto">
+        <h2 className="max-md:mb-24 md:mb-36 xl:mb-56 text-center mx-auto">
           Gama de produse Monte Bianco
         </h2>
         {/* tabs */}
@@ -105,7 +105,7 @@ const CatalogPage = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className="text-lg max-xl:mt-[17rem] xl:mt-44 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:max-w-[80%]  mx-auto gap-10">
+          <div className="text-lg mt-20 md:mt-36 xl:mt-44 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:max-w-[80%]  mx-auto gap-10">
             {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/catalog" />

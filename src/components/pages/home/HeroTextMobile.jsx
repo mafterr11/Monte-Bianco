@@ -7,7 +7,7 @@ const HeroTextMobile = () => {
       <h1 className='md:hidden inline-block mb-[35px] leading-none'>
         30 de ani dedicati satisfactiei clientilor
       </h1>
-      <p className='md:hidden inline-block mb-[35px]'>
+      <p className='md:hidden inline-block mb-[35px] text-balance'>
         Apreciem in mod deosebit faptul ca ne-ati acordat increderea voastra si
         ca ne-ati oferit oportunitatea de a servi in mod constant.
       </p>

@@ -60,7 +60,7 @@ const PrivateLabel = () => {
       viewport={{ once: true, ammount: 0.4 }}
       className="text-center z-10 relative">
         <h2 className="mb-20">Private Label</h2>
-        <p>
+        <p className="text-balance">
           Monte Bianco oferă clienților săi posibilitatea de a avea propriile
           mărci private. Nu doar capacitățile de producție, ci și facilitățile
           de producție care corespund celor mai înalte standarde din industria

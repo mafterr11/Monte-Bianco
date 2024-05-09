@@ -18,27 +18,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "4 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "1 Țiplă x 10 pachete x 9 batiste",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0383 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "48 pachete per cutie",
       },
     ],
@@ -58,27 +58,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "3 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "1 Țiplă x 10 pachete x 10 batiste",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0383 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "48 pachete per cutie",
       },
     ],
@@ -98,27 +98,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "3 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "1 Țiplă x 10 pachete x 10 batiste",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0369 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "48 pachete per cutie",
       },
     ],
@@ -140,27 +140,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "1 Țiplă x 10 pachete x 10 batiste",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0369 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "48 pachete per cutie",
       },
     ],
@@ -185,7 +185,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -193,7 +193,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -201,19 +201,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "80 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "16 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -232,7 +232,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -240,7 +240,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -248,19 +248,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "150 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "8 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -289,7 +289,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
@@ -297,7 +297,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -305,19 +305,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "40 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "40 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -348,7 +348,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Strat",
       },
       {
@@ -356,7 +356,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -364,19 +364,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "40 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -405,7 +405,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Strat",
       },
       {
@@ -413,7 +413,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 38x38",
       },
       {
@@ -421,19 +421,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "20 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "20 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0291 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "66 pachete per cutie",
       },
     ],
@@ -454,7 +454,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Strat",
       },
       {
@@ -462,7 +462,7 @@ export const productData = [
         title: "Pliat în 8",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -470,19 +470,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "70 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "16 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -503,7 +503,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Strat",
       },
       {
@@ -511,7 +511,7 @@ export const productData = [
         title: "Pliat în 8",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 38x38",
       },
       {
@@ -519,19 +519,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "70 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "8 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0344 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "66 pachete per cutie",
       },
     ],
@@ -550,7 +550,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Strat",
       },
       {
@@ -558,7 +558,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -566,19 +566,19 @@ export const productData = [
         title: "Este lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "120 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "8 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -599,7 +599,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -607,7 +607,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 25x25",
       },
       {
@@ -615,19 +615,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "50 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "48 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0448 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "45 pachete per cutie",
       },
     ],
@@ -646,7 +646,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -654,7 +654,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 25x25",
       },
       {
@@ -662,19 +662,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "100 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "28 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0448 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "45 pachete per cutie",
       },
     ],
@@ -693,7 +693,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -701,7 +701,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 30x30",
       },
       {
@@ -709,19 +709,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "100 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "42 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,1030 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "16 pachete per cutie",
       },
     ],
@@ -740,7 +740,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -748,7 +748,7 @@ export const productData = [
         title: "Pliat în 4",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 33x33",
       },
       {
@@ -756,19 +756,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "100 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "16 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0512 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 pachete per cutie",
       },
     ],
@@ -789,7 +789,7 @@ export const productData = [
     ],
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "1 Strat",
       },
       {
@@ -797,7 +797,7 @@ export const productData = [
         title: "Împachetat odată",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 18x17.5",
       },
       {
@@ -805,19 +805,19 @@ export const productData = [
         title: "Nu e lipit",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "600 șervețele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "8 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0336 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "60 pachete per cutie",
       },
     ],
@@ -1098,27 +1098,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "150 servetele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0496 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "32 pachete per cutie",
       },
     ],
@@ -1138,27 +1138,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "150 servetele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0496 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "32 pachete per cutie",
       },
     ],
@@ -1178,27 +1178,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "150 servetele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "24 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0496 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "32 pachete per cutie",
       },
     ],
@@ -1220,27 +1220,27 @@ export const productData = [
     grid: "grid-cols-2",
     details: [
       {
-        icon: "/produse/detalii/Straturi.png",
+        icon: "/produse/detalii/Straturi.svg",
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Dimensiuni.png",
+        icon: "/produse/detalii/Dimensiuni.svg",
         title: "Dimensiune 21x21",
       },
       {
-        icon: "/produse/detalii/PachetePerTipla.png",
+        icon: "/produse/detalii/PachetePerTipla.svg",
         title: "100 servetele",
       },
       {
-        icon: "/produse/detalii/TiplePerBax.png",
+        icon: "/produse/detalii/TiplePerBax.svg",
         title: "33 țiple per bax",
       },
       {
-        icon: "/produse/detalii/Volum.png",
+        icon: "/produse/detalii/Volum.svg",
         title: "0,0496 volum",
       },
       {
-        icon: "/produse/detalii/PachetePerCutie.png",
+        icon: "/produse/detalii/PachetePerCutie.svg",
         title: "32 pachete per cutie",
       },
     ],

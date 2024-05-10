@@ -16,9 +16,9 @@ viewBox="0 0 90 50"
     .str5 {stroke:#2B2A29;stroke-width:0.32;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:5.800000 5.800000}
     .fil1 {fill:none}
     .fil5 {fill:none;fill-rule:nonzero}
-    .fil0 {fill:#FEFEFE}
+    .fil0 {fill:#F9FAFF}
     .fil3 {fill:#2B2A29}
-    .fil4 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil4 {fill:#F9FAFF;fill-rule:nonzero}
     .fil2 {fill:#2B2A29;fill-rule:nonzero}
    ]]>
   </style>

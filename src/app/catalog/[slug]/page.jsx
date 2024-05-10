@@ -51,7 +51,7 @@ const ProductPage = () => {
         {/* Right side */}
         <div className='flex flex-col items-center gap-y-12'>
           {/* Details CONTAINER */}
-          <div className={`grid ${product.grid ? 'grid-cols-2' : 'grid-cols-3'} max-md:grid-cols-2 gap-y-8 items-center`}>
+          <div className={`grid ${product.grid ? 'grid-cols-2' : 'grid-cols-3'} max-md:grid-cols-2 gap-y-16 items-start xl:items-center`}>
             {/* Details Grid */}
             {product.details.map((details, index) => {
               return (

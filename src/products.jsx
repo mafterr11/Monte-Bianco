@@ -189,7 +189,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -197,7 +197,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -236,7 +236,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -244,7 +244,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -293,7 +293,7 @@ export const productData = [
         title: "2 Straturi",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -301,7 +301,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -352,7 +352,7 @@ export const productData = [
         title: "2 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -360,7 +360,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -409,7 +409,7 @@ export const productData = [
         title: "2 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -417,7 +417,7 @@ export const productData = [
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -458,7 +458,7 @@ export const productData = [
         title: "2 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 8",
       },
       {
@@ -466,7 +466,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -507,7 +507,7 @@ export const productData = [
         title: "2 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 8",
       },
       {
@@ -515,7 +515,7 @@ export const productData = [
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -554,7 +554,7 @@ export const productData = [
         title: "2 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -562,7 +562,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Este lipit",
       },
       {
@@ -603,7 +603,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -611,7 +611,7 @@ export const productData = [
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -650,7 +650,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -658,7 +658,7 @@ export const productData = [
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -697,7 +697,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -705,7 +705,7 @@ export const productData = [
         title: "Dimensiune 30x30",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -744,7 +744,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Pliat în 4",
       },
       {
@@ -752,7 +752,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {
@@ -793,7 +793,7 @@ export const productData = [
         title: "1 Strat",
       },
       {
-        icon: "/produse/detalii/Impachetat.png",
+        icon: "/produse/detalii/Impachetat.svg",
         title: "Împachetat odată",
       },
       {
@@ -801,7 +801,7 @@ export const productData = [
         title: "Dimensiune 18x17.5",
       },
       {
-        icon: "/produse/detalii/Lipit.png",
+        icon: "/produse/detalii/Lipit.svg",
         title: "Nu e lipit",
       },
       {

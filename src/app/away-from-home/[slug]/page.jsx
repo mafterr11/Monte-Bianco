@@ -44,8 +44,32 @@ const ProductPageAFH = () => {
           />
           <div className="absolute bottom-0 left-0 w-full h-full bg-product-gradient z-0"></div>
         </div>
-        {/* Details CONTAINER */}
-        <div>
+        <div className='flex flex-col items-center gap-y-12'>
+          {/* Details CONTAINER */}
+          <div className={`grid ${product.grid ? 'grid-cols-2' : 'grid-cols-3'} max-md:grid-cols-2 gap-y-16 items-start `}>
+            {/* Details Grid */}
+            {product.details.map((details, index) => {
+              return (
+                // Container
+                <div key={index}>
+                  {/* Flex Details */}
+                  <div className='flex flex-col items-center justify-center gap-y-3 px-4'>
+                    {/* Image */}
+                    <div>
+                      <Image
+                        src={details.icon}
+                        width={112}
+                        height={75}
+                        alt={details.title}
+                      />
+                    </div>
+                    {/* Title */}
+                    <div className="text-center max-w-[250px]">{details.title}</div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
           {/* Back button */}
           <div>
             <Link href="/away-from-home">

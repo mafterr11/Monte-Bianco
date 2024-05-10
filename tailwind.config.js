@@ -56,7 +56,7 @@ module.exports = {
         poppins: [`var(--font-poppins)`, "sans-serif"],
       },
       backgroundImage: {
-        'gradient-blue': 'radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2%)',
+        'gradient-blue': 'radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255,255,255,1) 0%, rgba(153,202,251,1) 110.2%)',
         'product-gradient': 'linear-gradient(to bottom, #F9FAFF 70%, #027FB2 100%)',
         'hero-image': 'url(/hero/1.png)',
       },

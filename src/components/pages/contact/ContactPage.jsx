@@ -113,7 +113,7 @@ const ContactPage = () => {
         viewport={{ once: true, ammount: 0.4 }}
         className='container max-w-[1440px] mt-32 px-5 py-12 xl:pt-40 mx-auto flex flex-col-reverse max-md:h-[200px] h-[900px] gap-y-10'
       >
-        <div className='z-20 w-full h-full rounded-lg  p-10 flex flex-col md:flex-row md:items-end md:justify-start justify-end relative iframe-container'>
+        <div className='z-20 w-full h-full rounded-lg  p-10 flex flex-col md:flex-row md:items-end md:justify-start justify-end relative iframe-container border-2 border-black/10'>
           <iframe
             width='100%'
             height='100%'
@@ -155,6 +155,7 @@ const ContactPage = () => {
                   >
                   +40.245.606.296
                 </a>
+
                   </div>
               </div>
             </AnimatedTooltip>

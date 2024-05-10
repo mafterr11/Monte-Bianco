@@ -108,7 +108,7 @@ const About = () => {
           <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">
             Obiectivele Monte Bianco
           </h3>
-          <div className="max-w-[630px]">
+          <div className="max-w-[640px]">
             <p className="mb-5">
               Investițiile în tehnologii noi și în oameni reprezintă
               principalele obiective ale Monte Bianco și vor rămâne aceleași,

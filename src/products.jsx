@@ -197,7 +197,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -244,7 +244,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -301,7 +301,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -360,7 +360,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -417,7 +417,7 @@ export const productData = [
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -466,7 +466,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -515,7 +515,7 @@ export const productData = [
         title: "Dimensiune 38x38",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -562,7 +562,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Este lipit",
       },
       {
@@ -611,7 +611,7 @@ export const productData = [
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -658,7 +658,7 @@ export const productData = [
         title: "Dimensiune 25x25",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -705,7 +705,7 @@ export const productData = [
         title: "Dimensiune 30x30",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -752,7 +752,7 @@ export const productData = [
         title: "Dimensiune 33x33",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -801,7 +801,7 @@ export const productData = [
         title: "Dimensiune 18x17.5",
       },
       {
-        icon: "/produse/detalii/Lipit.svg",
+        icon: "/produse/detalii/Lipici.svg",
         title: "Nu e lipit",
       },
       {
@@ -837,6 +837,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "4 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "145 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "17.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "4 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1026 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/hartie-igienica/Puff de luxe 8 role.png",
@@ -850,6 +900,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "4 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "145 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "17.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "8 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "10 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1026 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/hartie-igienica/Puff super soft 8 role.png",
@@ -862,6 +962,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "3 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "170 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "20.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "8 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "10 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1026 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   //   Fiore
@@ -878,6 +1028,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "120 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "14.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "10.1 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "4 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.0792 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "24 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore 16 role.png",
@@ -890,6 +1090,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "120 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "14.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "10.1 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "16 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "6 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.0950 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   {
@@ -904,6 +1154,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "120 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "14.4 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "10.1 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "24 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "6 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1425 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "16 pachete",
+      },
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore super soft 4 role.png",
@@ -916,6 +1216,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "200 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "24 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "4 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1026 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   {
@@ -930,6 +1280,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "200 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "24 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "8 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "10 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1026 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
@@ -942,6 +1342,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "200 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "24 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "12 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "16 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "6 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1232 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   // Neve
@@ -957,6 +1407,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "740 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "170 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "23 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "20 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "6 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "6 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.0233 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "84 de pachete",
+      },
+    ],
   },
   //   Horeca
 
@@ -971,6 +1471,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "740 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "170 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "9.7 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "23 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "20 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "6 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "12 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.0466 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "42 de pachete",
+      },
     ],
   },
 
@@ -988,6 +1538,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "3 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "104 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "10.61 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "25 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "10.2 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "10.4 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "2 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1082 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "18 pachete",
+      },
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
@@ -1001,6 +1601,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "3 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "52 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "10.66 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "25 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "10.4 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "4 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "10 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1082 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "18 pachete",
+      },
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Monorolă Puff.png",
@@ -1013,6 +1663,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "200 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "42 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "25 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "21 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "15 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1125 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "18 pachete",
+      },
     ],
   },
   //   Fiore
@@ -1028,6 +1728,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "50 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "10.25 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "22.5 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "2 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.119 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Fiore 4 role.png",
@@ -1040,6 +1790,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "50 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "10.25 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "22.5 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "4 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "10 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.119 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   {
@@ -1054,6 +1854,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "50 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "10.25 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "22.5 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "11.5 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "8 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "6 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.143 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Fiore 2 maxi role.png",
@@ -1067,6 +1917,56 @@ export const productData = [
       // White
       "#FEFEFE",
     ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "130 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "26.65 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "22.5 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "15 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "2 role",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "12 pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1215 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
+    ],
   },
   {
     image: "/produse/prosoape-de-bucatarie/Monorolă Fiore.png",
@@ -1079,6 +1979,56 @@ export const productData = [
     color: [
       // White
       "#FEFEFE",
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "130 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "26.65 metrii",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "22.5 cm lătime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "20.5 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "15 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "4.5 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "20 de pachete",
+      },
+      {
+        icon: "/produse/detalii/volum.svg",
+        title: "0.1013 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "22 de pachete",
+      },
     ],
   },
   //   Șervețele Pop-up

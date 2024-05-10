@@ -39,8 +39,7 @@ const ProductPageAFH = () => {
           <Image
             src={product.image}
             fill
-            objectFit="cover"
-            className="z-10"
+            className="z-10 object-cover"
             alt={product.alt}
           />
           <div className="absolute bottom-0 left-0 w-full h-full bg-product-gradient z-0"></div>

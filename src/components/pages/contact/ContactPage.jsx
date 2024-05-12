@@ -17,13 +17,13 @@ const ContactPage = () => {
         initial='hidden'
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
-        className='text-center'
+        className='text-center uppercase'
       >
         <h2>Suntem aici pentru tine</h2>
         <h3>
           <span className='relative'>
             Nu ezita să ne contactezi
-            <Underline.underline className='absolute inset-x-0 -bottom-10' />
+            <Underline.underline className='absolute inset-x-0 -bottom-11' />
           </span>
         </h3>
       </motion.div>

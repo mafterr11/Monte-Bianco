@@ -41,7 +41,7 @@ const ProductPage = () => {
                   className='w-9 h-9 md:w-12 md:h-12 rounded-full shadow-button border border-black-text/40'
                   style={{ backgroundColor: color.color }}
                 />
-                <div className='text-xs md:text-sm opacity-0 group-hover:opacity-100'>
+                <div className='text-xs md:text-sm opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500'>
                   {color.name}
                 </div>
               </div>

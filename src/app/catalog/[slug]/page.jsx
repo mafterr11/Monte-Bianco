@@ -22,16 +22,23 @@ const ProductPage = () => {
       {/* Product CONTAINER */}
       <div className='flex max-xl:flex-col xl:items-center justify-center gap-x-8 max-xl:gap-y-12'>
         {/* Left side */}
-        <div className='flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-8'>
+        <div className='flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-12'>
           {/* Color */}
-          <div className='flex flex-col max-md:flex-row max-md:flex-wrap max-md:space-x-3 max-md:container justify-center items-end space-y-6'>
+          <div className='flex flex-col max-md:flex-row max-md:flex-wrap max-md:space-x-3 max-md:container justify-center -space-y-8 hover:space-y-4 group'>
             {/* Map through colors and create a circle for each */}
             {product.color.map((color, index) => (
               <div
                 key={index}
-                className='w-12 h-12 rounded-full shadow-button border border-black-text/40'
-                style={{ backgroundColor: color }}
-              />
+                className='transition-all duration-500 ease-in-out flex flex-col items-center justify-center max-xl:justify-end '
+              >
+                <div
+                  className='w-12 h-12 rounded-full shadow-button border border-black-text/40'
+                  style={{ backgroundColor: color.color }}
+                />
+                <div className='text-sm xl:opacity-0 xl:group-hover:opacity-100'>
+                  {color.name}
+                </div>
+              </div>
             ))}
           </div>
           {/* Image with gradient background */}
@@ -50,7 +57,11 @@ const ProductPage = () => {
         {/* Right side */}
         <div className='flex flex-col items-center gap-y-12'>
           {/* Details CONTAINER */}
-          <div className={`grid ${product.grid ? 'grid-cols-2' : 'grid-cols-3'} max-md:grid-cols-2 gap-y-16 items-start `}>
+          <div
+            className={`grid ${
+              product.grid ? "grid-cols-2" : "grid-cols-3"
+            } max-md:grid-cols-2 gap-y-16 items-start `}
+          >
             {/* Details Grid */}
             {product.details.map((details, index) => {
               return (
@@ -68,7 +79,9 @@ const ProductPage = () => {
                       />
                     </div>
                     {/* Title */}
-                    <div className="text-center max-w-[250px]">{details.title}</div>
+                    <div className='text-center max-w-[250px]'>
+                      {details.title}
+                    </div>
                   </div>
                 </div>
               );

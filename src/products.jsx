@@ -390,18 +390,30 @@ export const productData = [
     alt: "Puff de luxe 2 str. 38 cm",
     name: "Puff de luxe 2 str. 38 cm",
     color: [
-      // White
-      "#FEFEFE",
-      // Dark Red
-      "#B2015C",
-      // Bleu
-      "#FFF6DD",
-      // Purple Shade
-      "#AFAAE4",
-      // Yellow
-      "#FADF12",
-      // Red
-      "#DB1C2B",
+     { 
+      name: "Alb",
+      color:"#FEFEFE"
+    },
+     { 
+      name: "Magenta",
+      color:"#B2015C"
+    },
+     { 
+      name: "Bej",
+      color:"#FFF6DD"
+    },
+     { 
+      name: "Lavandă",
+      color:"#AFAAE4"
+    },
+     { 
+      name: "Galben",
+      color:"#FADF12"
+    },
+     { 
+      name: "Roșu",
+      color:"#DB1C2B"
+    },
     ],
     details: [
       {

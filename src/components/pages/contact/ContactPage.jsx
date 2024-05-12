@@ -124,7 +124,7 @@ const ContactPage = () => {
           ></iframe>
           {/* Adresa */}
           <AnimatedTooltip message='Sediul nostru'>
-            <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap p-2 mb-4 rounded items-center justify-start shadow-button'>
+            <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap p-2 mb-4 rounded items-center justify-start shadow-button drop-shadow-lg'>
             <SlLocationPin size={31}/>
               <div className='md:w-[350px] px-6 flex flex-col'>
                 <h2 className='font-semibold tracking-widest text-lg'>
@@ -144,7 +144,7 @@ const ContactPage = () => {
           <div className='flex flex-col items-end justify-center gap-y-6 absolute top-12 right-12 md:max-xl:right-4'>
             {/* Telefon */}
             <AnimatedTooltip message='Haidem să discutăm!'>
-              <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
+              <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button drop-shadow-lg text-lg gap-x-4'>
               <FiPhoneCall size={25}/>
                 <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Tel:</span>{" "}
@@ -161,7 +161,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Fax */}
             <AnimatedTooltip message='Avem chiar si fax!'>
-            <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button text-lg gap-x-4'>
+            <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button drop-shadow-lg text-lg gap-x-4'>
               <MdOutlineFax size={32}/>
                 <div className="md:flex flex-col flex-wrap">
                 <span className='text-black font-semibold'>Fax:</span>{" "}
@@ -177,7 +177,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Vanzari */}
             <AnimatedTooltip message='Emailul departamentului de vanzari'>
-              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button text-lg'>
+              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button drop-shadow-lg text-lg'>
                 <p className='font-semibold'>Vanzari:</p>
                 <a
                   href='mailto: sales@montebianco.ro'
@@ -190,7 +190,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Sediu */}
             <AnimatedTooltip message='Emailul sediului nostru'>
-              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button text-lg'>
+              <div className='bg-body/90 lg:bg-body  hidden md:flex flex-wrap flex-col py-2 rounded items-start px-3 justify-start shadow-button drop-shadow-lg text-lg'>
                 <p className='font-semibold'>Sediu:</p>
                 <a
                   href='mailto: montebianco@montebianco.ro'

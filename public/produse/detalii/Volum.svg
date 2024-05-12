@@ -8,7 +8,7 @@ viewBox="0 0 90 50"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str2 {stroke:#2B2A29;stroke-width:1.39;stroke-linejoin:round;stroke-miterlimit:22.926}
+    .str2 {stroke:#2B2A29;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:22.926}
     .str3 {stroke:#2B2A29;stroke-width:1.47;stroke-linejoin:round;stroke-miterlimit:22.926}
     .str0 {stroke:#2B2A29;stroke-width:0.9;stroke-linejoin:round;stroke-miterlimit:22.926}
     .str1 {stroke:#2B2A29;stroke-width:0.9;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:10.000000 10.000000}

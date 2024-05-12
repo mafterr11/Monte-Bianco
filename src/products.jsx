@@ -33,7 +33,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -41,7 +41,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "48 pachete per cutie",
+        title: "48 cutii per palet",
       },
     ],
   },
@@ -75,7 +75,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -83,7 +83,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "48 pachete per cutie",
+        title: "48 cutii per palet",
       },
     ],
   },
@@ -117,7 +117,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -125,7 +125,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "48 pachete per cutie",
+        title: "48 cutii per palet",
       },
     ],
   },
@@ -161,7 +161,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -169,7 +169,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "48 pachete per cutie",
+        title: "48 cutii per palet",
       },
     ],
   },
@@ -218,7 +218,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "16 țiple per bax",
+        title: "16 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -226,7 +226,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -267,7 +267,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "8 țiple per bax",
+        title: "8 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -275,7 +275,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -336,7 +336,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "40 țiple per bax",
+        title: "40 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -344,7 +344,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -409,7 +409,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -417,7 +417,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -478,7 +478,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "20 țiple per bax",
+        title: "20 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -486,7 +486,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "66 pachete per cutie",
+        title: "66 cutii per palet",
       },
     ],
   },
@@ -531,7 +531,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "16 țiple per bax",
+        title: "16 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -539,7 +539,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -584,7 +584,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "8 țiple per bax",
+        title: "8 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -592,7 +592,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "66 pachete per cutie",
+        title: "66 cutii per palet",
       },
     ],
   },
@@ -633,7 +633,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "8 țiple per bax",
+        title: "8 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -641,7 +641,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -684,7 +684,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "48 țiple per bax",
+        title: "48 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -692,7 +692,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "45 pachete per cutie",
+        title: "45 cutii per palet",
       },
     ],
   },
@@ -733,7 +733,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "28 țiple per bax",
+        title: "28 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -741,7 +741,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "45 pachete per cutie",
+        title: "45 cutii per palet",
       },
     ],
   },
@@ -782,7 +782,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "42 țiple per bax",
+        title: "42 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -790,7 +790,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "16 pachete per cutie",
+        title: "16 cutii per palet",
       },
     ],
   },
@@ -831,7 +831,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "16 țiple per bax",
+        title: "16 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -839,7 +839,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -882,7 +882,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "8 țiple per bax",
+        title: "8 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -890,7 +890,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "60 pachete per cutie",
+        title: "60 cutii per palet",
       },
     ],
   },
@@ -2173,7 +2173,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -2181,7 +2181,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "32 pachete per cutie",
+        title: "32 cutii per palet",
       },
     ],
   },
@@ -2215,7 +2215,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -2223,7 +2223,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "32 pachete per cutie",
+        title: "32 cutii per palet",
       },
     ],
   },
@@ -2257,7 +2257,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per bax",
+        title: "24 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -2265,7 +2265,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "32 pachete per cutie",
+        title: "32 cutii per palet",
       },
     ],
   },
@@ -2301,7 +2301,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "33 țiple per bax",
+        title: "33 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -2309,7 +2309,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "32 pachete per cutie",
+        title: "32 cutii per palet",
       },
     ],
   },
@@ -3242,7 +3242,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "12 țiple per bax",
+        title: "12 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3250,7 +3250,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "54 pachete per cutie",
+        title: "54 cutii per palet",
       },
     ],
   },
@@ -3291,7 +3291,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "20 țiple per bax",
+        title: "20 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3299,7 +3299,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "30 pachete per cutie",
+        title: "30 cutii per palet",
       },
     ],
   },
@@ -3405,7 +3405,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "6 țiple per bax",
+        title: "6 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3413,7 +3413,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -3478,7 +3478,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "6 țiple per bax",
+        title: "6 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3486,7 +3486,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -3547,7 +3547,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "6 țiple per bax",
+        title: "6 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3555,7 +3555,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "42 pachete per cutie",
+        title: "42 cutii per palet",
       },
     ],
   },
@@ -3596,7 +3596,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/TiplePerBax.svg",
-        title: "20 țiple per bax",
+        title: "20 țiple per cutie",
       },
       {
         icon: "/produse/detalii/Volum.svg",
@@ -3604,7 +3604,7 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "30 pachete per cutie",
+        title: "30 cutii per palet",
       },
     ],
   },

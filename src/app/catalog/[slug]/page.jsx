@@ -24,7 +24,7 @@ const ProductPage = () => {
         {/* Left side */}
         <div className='flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-12'>
           {/* Color */}
-          <div className='flex flex-col max-xl:flex-row max-xl:flex-wrap max-xl:container justify-center xl:-space-y-8 xl:hover:space-y-4 max-xl:-space-x-7 max-md:hover:space-x-2 md:max-xl:hover:space-x-4 group'>
+          <div className='flex flex-col max-xl:flex-row max-xl:flex-wrap max-xl:container justify-center xl:-space-y-8 xl:hover:space-y-4 max-xl:-space-x-6 max-md:hover:space-x-2 md:max-xl:hover:space-x-4 group'>
             {/* Map through colors and create a circle for each */}
             {product.color.map((color, index) => (
               <div

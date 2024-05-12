@@ -6,7 +6,7 @@ import { fadeIn } from "../../../../variants";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineFax } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
-
+import { Underline } from "@/components/Underline";
 
 const ContactPage = () => {
   return (
@@ -20,17 +20,23 @@ const ContactPage = () => {
         className='text-center'
       >
         <h2>Suntem aici pentru tine</h2>
-        <h3>Nu ezita să ne contactezi</h3>
+        <h3>
+          <span className='relative'>
+            Nu ezita să ne contactezi
+            <Underline.underline className='absolute inset-x-0 -bottom-10' />
+          </span>
+        </h3>
       </motion.div>
       {/* Mobile Panel */}
       <div className='flex md:hidden flex-col gap-y-6 items-center justify-center mt-12'>
         {/* Telefon */}
-        <motion.div 
-        variants={fadeIn("down", 0.2)}
-        initial='hidden'
-        whileInView={"show"}
-        viewport={{ once: true, ammount: 0.4 }}
-        className='bg-body/90 lg:bg-body md:hidden flex flex-wrap py-2 rounded items-center justify-start text-lg'>
+        <motion.div
+          variants={fadeIn("down", 0.2)}
+          initial='hidden'
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          className='bg-body/90 lg:bg-body md:hidden flex flex-wrap py-2 rounded items-center justify-start text-lg'
+        >
           <a
             href='tel:+40245606296'
             target='blank'
@@ -41,12 +47,13 @@ const ContactPage = () => {
           </a>
         </motion.div>
         {/* Fax */}
-        <motion.div 
-        variants={fadeIn("down", 0.5)}
-        initial='hidden'
-        whileInView={"show"}
-        viewport={{ once: true, ammount: 0.4 }}
-        className='bg-body/90 lg:bg-body md:hidden flex flex-wrap py-2 rounded items-center justify-start text-lg'>
+        <motion.div
+          variants={fadeIn("down", 0.5)}
+          initial='hidden'
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          className='bg-body/90 lg:bg-body md:hidden flex flex-wrap py-2 rounded items-center justify-start text-lg'
+        >
           <a
             href='tel:+40245606286'
             target='blank'
@@ -57,12 +64,13 @@ const ContactPage = () => {
           </a>
         </motion.div>
         {/* Email Vanzari */}
-        <motion.div 
-        variants={fadeIn("down", 0.7)}
-        initial='hidden'
-        whileInView={"show"}
-        viewport={{ once: true, ammount: 0.4 }}
-        className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'>
+        <motion.div
+          variants={fadeIn("down", 0.7)}
+          initial='hidden'
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'
+        >
           <span className='font-semibold'>Vanzari:</span>
           <a
             href='mailto: sales@montebianco.ro'
@@ -73,12 +81,13 @@ const ContactPage = () => {
           </a>
         </motion.div>
         {/* Email Sediu */}
-        <motion.div 
-        variants={fadeIn("down", 1)}
-        initial='hidden'
-        whileInView={"show"}
-        viewport={{ once: true, ammount: 0.4 }}
-        className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'>
+        <motion.div
+          variants={fadeIn("down", 1)}
+          initial='hidden'
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'
+        >
           <span className='font-semibold'>Sediu:</span>
           <a
             href='mailto: montebianco@montebianco.ro'
@@ -89,20 +98,21 @@ const ContactPage = () => {
           </a>
         </motion.div>
         {/* Adresa */}
-        <motion.div 
-        variants={fadeIn("down", 1.3)}
-        initial='hidden'
-        whileInView={"show"}
-        viewport={{ once: true, ammount: 0.4 }}
-        className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'>
-            <h2 className='font-semibold tracking-widest text-lg'>Adresa</h2>
-            <a
-              href='https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8'
-              target='_blank'
-              className='mt-1 text-accent font-medium hover hover:underline-offset-4 hover:decoration-2 text-center'
-            >
-              Strada Fructelor, Numărul 5, Pucioasa, 135400, Dâmboviţa România
-            </a>
+        <motion.div
+          variants={fadeIn("down", 1.3)}
+          initial='hidden'
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          className='bg-body/90 lg:bg-body md:hidden flex flex-wrap flex-col py-2 rounded items-center px-3 justify-start text-lg'
+        >
+          <h2 className='font-semibold tracking-widest text-lg'>Adresa</h2>
+          <a
+            href='https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8'
+            target='_blank'
+            className='mt-1 text-accent font-medium hover hover:underline-offset-4 hover:decoration-2 text-center'
+          >
+            Strada Fructelor, Numărul 5, Pucioasa, 135400, Dâmboviţa România
+          </a>
         </motion.div>
       </div>
       {/* Harta */}
@@ -125,11 +135,11 @@ const ContactPage = () => {
           {/* Adresa */}
           <AnimatedTooltip message='Sediul nostru'>
             <div className='bg-body/90 lg:bg-body relative hidden md:flex flex-wrap p-2 mb-4 rounded items-center justify-start shadow-button drop-shadow-lg'>
-            <SlLocationPin size={31}/>
+              <SlLocationPin size={31} />
               <div className='md:w-[350px] px-6 flex flex-col'>
                 <h2 className='font-semibold tracking-widest text-lg'>
-                Adresa
-              </h2>
+                  Adresa
+                </h2>
                 <a
                   href='https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8'
                   target='_blank'
@@ -145,34 +155,33 @@ const ContactPage = () => {
             {/* Telefon */}
             <AnimatedTooltip message='Haidem să discutăm!'>
               <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button drop-shadow-lg text-lg gap-x-4'>
-              <FiPhoneCall size={25}/>
-                <div className="md:flex flex-col flex-wrap">
-                <span className='text-black font-semibold'>Tel:</span>{" "}
-                <a
-                  href='tel:+40245606296'
-                  target='blank'
-                  className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
+                <FiPhoneCall size={25} />
+                <div className='md:flex flex-col flex-wrap'>
+                  <span className='text-black font-semibold'>Tel:</span>{" "}
+                  <a
+                    href='tel:+40245606296'
+                    target='blank'
+                    className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
                   >
-                  +40.245.606.296
-                </a>
-
-                  </div>
+                    +40.245.606.296
+                  </a>
+                </div>
               </div>
             </AnimatedTooltip>
             {/* Fax */}
             <AnimatedTooltip message='Avem chiar si fax!'>
-            <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button drop-shadow-lg text-lg gap-x-4'>
-              <MdOutlineFax size={32}/>
-                <div className="md:flex flex-col flex-wrap">
-                <span className='text-black font-semibold'>Fax:</span>{" "}
-                <a
-                  href='tel:+40245606286'
-                  target='blank'
-                  className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
+              <div className='bg-body/90 lg:bg-body hidden md:flex p-2 rounded items-center justify-center shadow-button drop-shadow-lg text-lg gap-x-4'>
+                <MdOutlineFax size={32} />
+                <div className='md:flex flex-col flex-wrap'>
+                  <span className='text-black font-semibold'>Fax:</span>{" "}
+                  <a
+                    href='tel:+40245606286'
+                    target='blank'
+                    className='text-accent hover:underline hover:underline-offset-4 hover:decoration-2 font-medium'
                   >
-                  +40.245.606.286
-                </a>
-                  </div>
+                    +40.245.606.286
+                  </a>
+                </div>
               </div>
             </AnimatedTooltip>
             {/* Vanzari */}

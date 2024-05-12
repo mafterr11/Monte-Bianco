@@ -4,6 +4,7 @@ import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Underline } from "@/components/Underline";
 
 const ProductPageAFH = () => {
   const { slug } = useParams();
@@ -18,7 +19,12 @@ const ProductPageAFH = () => {
 
   return (
     <div className='min-h-screen pt-24 pb-72 md:mt-16'>
-      <h2 className='mb-40 max-md:mb-20 text-center mx-auto'>{product.name}</h2>
+      <h2 className='mb-40 max-md:mb-20 text-center mx-auto'>
+        <span className='relative'>
+          {product.name}{" "}
+          <Underline.underline className='absolute inset-x-0 -bottom-6 xl:-bottom-12' />
+        </span>
+      </h2>
       {/* Product CONTAINER */}
       <div className='flex max-xl:flex-col xl:items-center justify-center gap-x-8 max-xl:gap-y-12'>
         {/* Left side */}

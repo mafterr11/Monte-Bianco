@@ -12,8 +12,10 @@ export const productData = [
     alt: "Puff 4 str. de luxe",
     name: "Puff 4 str. de luxe",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -52,8 +54,10 @@ export const productData = [
     alt: "Puff 3 str. parfumate",
     name: "Puff 3 str. parfumate",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -92,8 +96,10 @@ export const productData = [
     alt: "Puff 3 str.",
     name: "Puff 3 str.",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -134,8 +140,10 @@ export const productData = [
     alt: "Fiore 2 str.",
     name: "Fiore 2 str.",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -178,10 +186,14 @@ export const productData = [
     alt: "Puff 1 str. 33 cm 80 buc",
     name: "Puff 1 str. 33 cm 80 buc",
     color: [
-      // White
-      "#FEFEFE",
-      // Red
-      "#DB1C2B",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -227,8 +239,10 @@ export const productData = [
     alt: "Puff 1 str. 33 cm Horeca",
     name: "Puff 1 str. 33 cm Horeca",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -274,18 +288,30 @@ export const productData = [
     alt: "Puff select 2 str. 33 cm",
     name: "Puff select 2 str. 33 cm",
     color: [
-      // White
-      "#FEFEFE",
-      // Dark Red
-      "#B2015C",
-      // Bleu
-      "#FFF6DD",
-      // Purple Shade
-      "#AFAAE4",
-      // Yellow
-      "#FADF12",
-      // Red
-      "#DB1C2B",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Magenta",
+        color: "#B2015C",
+      },
+      {
+        name: "Bej",
+        color: "#FFF6DD",
+      },
+      {
+        name: "Lavandă",
+        color: "#AFAAE4",
+      },
+      {
+        name: "Galben",
+        color: "#FADF12",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -331,20 +357,34 @@ export const productData = [
     alt: "Puff de luxe 2 str. 33 cm",
     name: "Puff de luxe 2 str. 33 cm",
     color: [
-      // White
-      "#FEFEFE",
-      // Dark Red
-      "#B2015C",
-      // Bleu
-      "#FFF6DD",
-      // Purple Shade
-      "#AFAAE4",
-      // Yellow
-      "#FADF12",
-      // Red
-      "#DB1C2B",
-      // Black
-      "#151515",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Magenta",
+        color: "#B2015C",
+      },
+      {
+        name: "Bej",
+        color: "#FFF6DD",
+      },
+      {
+        name: "Lavandă",
+        color: "#AFAAE4",
+      },
+      {
+        name: "Galben",
+        color: "#FADF12",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
+      {
+        name: "Negru",
+        color: "#151515",
+      },
     ],
     details: [
       {
@@ -390,30 +430,30 @@ export const productData = [
     alt: "Puff de luxe 2 str. 38 cm",
     name: "Puff de luxe 2 str. 38 cm",
     color: [
-     { 
-      name: "Alb",
-      color:"#FEFEFE"
-    },
-     { 
-      name: "Magenta",
-      color:"#B2015C"
-    },
-     { 
-      name: "Bej",
-      color:"#FFF6DD"
-    },
-     { 
-      name: "Lavandă",
-      color:"#AFAAE4"
-    },
-     { 
-      name: "Galben",
-      color:"#FADF12"
-    },
-     { 
-      name: "Roșu",
-      color:"#DB1C2B"
-    },
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Magenta",
+        color: "#B2015C",
+      },
+      {
+        name: "Bej",
+        color: "#FFF6DD",
+      },
+      {
+        name: "Lavandă",
+        color: "#AFAAE4",
+      },
+      {
+        name: "Galben",
+        color: "#FADF12",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -459,10 +499,14 @@ export const productData = [
     alt: "Puff eight fold 2 str. 33 cm",
     name: "Puff eight fold 2 str. 33 cm",
     color: [
-      // White
-      "#FEFEFE",
-      // Red
-      "#DB1C2B",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -508,10 +552,14 @@ export const productData = [
     alt: "Puff eight fold 2 str. 38 cm",
     name: "Puff eight fold 2 str. 38 cm",
     color: [
-      // White
-      "#FEFEFE",
-      // Red
-      "#DB1C2B",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -557,8 +605,10 @@ export const productData = [
     alt: "Puff de lux 2 str. Horeca",
     name: "Puff de lux 2 str. Horeca",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -606,8 +656,10 @@ export const productData = [
     alt: "Fiore 1 str. 25 cm 50 buc",
     name: "Fiore 1 str. 25 cm 50 buc",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -653,8 +705,10 @@ export const productData = [
     alt: "Fiore 1 str. 25 cm 100 buc",
     name: "Fiore 1 str. 25 cm 100 buc",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -700,8 +754,10 @@ export const productData = [
     alt: "Fiore 1 str. 30 cm",
     name: "Fiore 1 str. 30 cm",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -747,8 +803,10 @@ export const productData = [
     alt: "Fiore 1 str. 33 cm",
     name: "Fiore 1 str. 33 cm",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -796,8 +854,10 @@ export const productData = [
     alt: "Neve economic 600 foi",
     name: "Neve economic 600 foi",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -846,8 +906,10 @@ export const productData = [
     alt: "Puff de luxe 4 role",
     name: "Puff de luxe 4 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -909,8 +971,10 @@ export const productData = [
     alt: "Puff de luxe 8 role",
     name: "Puff de luxe 8 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -972,8 +1036,10 @@ export const productData = [
     alt: "Puff super soft 8 role",
     name: "Puff super soft 8 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1037,8 +1103,10 @@ export const productData = [
     alt: "Fiore 4 role",
     name: "Fiore 4 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1100,8 +1168,10 @@ export const productData = [
     alt: "Fiore 16 role",
     name: "Fiore 16 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1163,8 +1233,10 @@ export const productData = [
     alt: "Fiore 24 role",
     name: "Fiore 24 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1226,8 +1298,10 @@ export const productData = [
     alt: "Fiore super soft 4 role",
     name: "Fiore super soft 4 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1289,8 +1363,10 @@ export const productData = [
     alt: "Fiore super soft 8 role",
     name: "Fiore super soft 8 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1352,8 +1428,10 @@ export const productData = [
     alt: "Fiore super soft 16 role",
     name: "Fiore super soft 16 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1416,8 +1494,10 @@ export const productData = [
     alt: "Neve Profesional 170 m",
     name: "Neve Profesional 170 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1481,8 +1561,10 @@ export const productData = [
     alt: "Horeca 170 m",
     name: "Horeca 170 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1547,8 +1629,10 @@ export const productData = [
     alt: "Puff 2 role 3 str.",
     name: "Puff 2 role 3 str.",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1610,8 +1694,10 @@ export const productData = [
     alt: "Puff 4 role 3 str.",
     name: "Puff 4 role 3 str.",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1673,8 +1759,10 @@ export const productData = [
     alt: "Monorolă Puff",
     name: "Monorolă Puff",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1737,8 +1825,10 @@ export const productData = [
     alt: "Fiore 2 role",
     name: "Fiore 2 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1800,8 +1890,10 @@ export const productData = [
     alt: "Fiore 4 role",
     name: "Fiore 4 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1863,8 +1955,10 @@ export const productData = [
     alt: "Fiore 8 role",
     name: "Fiore 8 role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1926,8 +2020,10 @@ export const productData = [
     alt: "Fiore 2 maxi role",
     name: "Fiore 2 maxi role",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -1989,8 +2085,10 @@ export const productData = [
     alt: "Monorolă Fiore",
     name: "Monorolă Fiore",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2054,8 +2152,10 @@ export const productData = [
     alt: "Puff mozaic",
     name: "Puff mozaic",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -2094,8 +2194,10 @@ export const productData = [
     alt: "Puff trandafiri",
     name: "Puff trandafiri",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -2134,8 +2236,10 @@ export const productData = [
     alt: "Puff paisley",
     name: "Puff paisley",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -2176,8 +2280,10 @@ export const productData = [
     alt: "Fiore",
     name: "Fiore",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     grid: "grid-cols-2",
     details: [
@@ -2219,8 +2325,10 @@ export const productData = [
     alt: "Cearceaf 50 cm 50 m",
     name: "Cearceaf 50 cm 50 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2282,8 +2390,10 @@ export const productData = [
     alt: "Cearceaf 60 cm 50 m",
     name: "Cearceaf 60 cm 50 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2345,8 +2455,10 @@ export const productData = [
     alt: "Cearceaf 50 cm 80 m",
     name: "Cearceaf 50 cm 80 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2408,8 +2520,10 @@ export const productData = [
     alt: "Cearceaf 60 cm 80 m",
     name: "Cearceaf 60 cm 80 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2470,8 +2584,10 @@ export const productData = [
     alt: "Dispenser z-fold",
     name: "Dispenser z-fold",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
   },
   {
@@ -2482,8 +2598,10 @@ export const productData = [
     alt: "Dispenser hârtie igienică",
     name: "Dispenser hârtie igienică",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
   },
   {
@@ -2494,8 +2612,10 @@ export const productData = [
     alt: "Dispenser autocut",
     name: "Dispenser autocut",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
   },
 
@@ -2509,8 +2629,10 @@ export const productData = [
     alt: "Prosop 61 m",
     name: "Prosop 61 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2572,8 +2694,10 @@ export const productData = [
     alt: "Prosop 80 m",
     name: "Prosop 80 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2635,8 +2759,10 @@ export const productData = [
     alt: "Prosop 100 m",
     name: "Prosop 100 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2698,8 +2824,10 @@ export const productData = [
     alt: "Prosop 150 m",
     name: "Prosop 150 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2761,8 +2889,10 @@ export const productData = [
     alt: "Prosop 200 m",
     name: "Prosop 200 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2824,8 +2954,10 @@ export const productData = [
     alt: "Prosop economic 350 foi",
     name: "Prosop economic 350 foi",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2887,8 +3019,10 @@ export const productData = [
     alt: "Prosop economic 500 foi",
     name: "Prosop economic 500 foi",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -2950,8 +3084,10 @@ export const productData = [
     alt: "Prosop economic 700 foi",
     name: "Prosop economic 700 foi",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3013,8 +3149,10 @@ export const productData = [
     alt: "Prosop economic 1000 foi",
     name: "Prosop economic 1000 foi",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3076,8 +3214,10 @@ export const productData = [
     alt: "Prosop economic v-fold",
     name: "Prosop economic v-fold",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3123,8 +3263,10 @@ export const productData = [
     alt: "Prosop profesional z-fold",
     name: "Prosop profesional z-fold",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3170,8 +3312,10 @@ export const productData = [
     alt: "Prosop autocut 130 m",
     name: "Prosop autocut 130 m",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3233,8 +3377,10 @@ export const productData = [
     alt: "Șervețele 1 str. 33 cm",
     name: "Șervețele 1 str. 33 cm",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {
@@ -3280,20 +3426,34 @@ export const productData = [
     alt: "Șervețele 2 str. 33 cm 200 buc",
     name: "Șervețele 2 str. 33 cm 200 buc",
     color: [
-      // White
-      "#FEFEFE",
-      // Dark Red
-      "#B2015C",
-      // Bleu
-      "#FFF6DD",
-      // Purple Shade
-      "#AFAAE4",
-      // Yellow
-      "#FADF12",
-      // Red
-      "#DB1C2B",
-      // Black
-      "#151515",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Magenta",
+        color: "#B2015C",
+      },
+      {
+        name: "Bej",
+        color: "#FFF6DD",
+      },
+      {
+        name: "Lavandă",
+        color: "#AFAAE4",
+      },
+      {
+        name: "Galben",
+        color: "#FADF12",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
+      {
+        name: "Negru",
+        color: "#151515",
+      },
     ],
     details: [
       {
@@ -3339,18 +3499,30 @@ export const productData = [
     alt: "Șervețele 2 str. 33 cm 250 buc",
     name: "Șervețele 2 str. 33 cm 250 buc",
     color: [
-      // White
-      "#FEFEFE",
-      // Dark Red
-      "#B2015C",
-      // Bleu
-      "#FFF6DD",
-      // Purple Shade
-      "#AFAAE4",
-      // Yellow
-      "#FADF12",
-      // Red
-      "#DB1C2B",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+      {
+        name: "Magenta",
+        color: "#B2015C",
+      },
+      {
+        name: "Bej",
+        color: "#FFF6DD",
+      },
+      {
+        name: "Lavandă",
+        color: "#AFAAE4",
+      },
+      {
+        name: "Galben",
+        color: "#FADF12",
+      },
+      {
+        name: "Roșu",
+        color: "#DB1C2B",
+      },
     ],
     details: [
       {
@@ -3396,8 +3568,10 @@ export const productData = [
     alt: "Prosop Horeca z-fold",
     name: "Prosop Horeca z-fold",
     color: [
-      // White
-      "#FEFEFE",
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
     ],
     details: [
       {

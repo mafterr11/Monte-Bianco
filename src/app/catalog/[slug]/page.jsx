@@ -31,7 +31,7 @@ const ProductPage = () => {
                 key={index}
                 className='w-12 h-12 rounded-full shadow-button border border-black-text/40'
                 style={{ backgroundColor: color }}
-              ></div>
+              />
             ))}
           </div>
           {/* Image with gradient background */}

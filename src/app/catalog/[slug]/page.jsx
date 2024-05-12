@@ -24,18 +24,18 @@ const ProductPage = () => {
         {/* Left side */}
         <div className='flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-12'>
           {/* Color */}
-          <div className='flex flex-col max-md:flex-row max-md:flex-wrap max-md:space-x-3 max-md:container justify-center -space-y-8 hover:space-y-4 group'>
+          <div className='flex flex-col max-xl:flex-row max-xl:flex-wrap max-xl:container justify-center xl:-space-y-8 xl:hover:space-y-4 max-xl:-space-x-7 max-md:hover:space-x-2 md:max-xl:hover:space-x-4 group'>
             {/* Map through colors and create a circle for each */}
             {product.color.map((color, index) => (
               <div
                 key={index}
-                className='transition-all duration-500 ease-in-out flex flex-col items-center justify-center max-xl:justify-end '
+                className='transition-all duration-500 ease-in-out flex flex-col items-center justify-center max-xl:justify-end max-xl:gap-y-1'
               >
                 <div
-                  className='w-12 h-12 rounded-full shadow-button border border-black-text/40'
+                  className='w-9 h-9 md:w-12 md:h-12 rounded-full shadow-button border border-black-text/40'
                   style={{ backgroundColor: color.color }}
                 />
-                <div className='text-sm xl:opacity-0 xl:group-hover:opacity-100'>
+                <div className='text-xs md:text-sm opacity-0 group-hover:opacity-100'>
                   {color.name}
                 </div>
               </div>

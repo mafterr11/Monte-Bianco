@@ -113,7 +113,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         passHref
                         legacyBehavior
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
+                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
                         <div className="p-4 w-[18rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
                             <div className="hover-nav text-black font-medium">
@@ -153,7 +153,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         passHref
                         legacyBehavior
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-body-hover">
+                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
                           <div className="p-4 w-[15rem] text-center flex gap-x-3">
                             <span className="text-accent">&#9679;</span>
                             <div className="hover-nav text-black font-medium">

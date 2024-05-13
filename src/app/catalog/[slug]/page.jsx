@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Underline } from "@/components/Underline";
+import { Undo2 } from "lucide-react";
 
 const ProductPage = () => {
   const { slug } = useParams();
@@ -96,7 +97,8 @@ const ProductPage = () => {
           {/* Back button */}
           <>
             <Link href='/catalog'>
-              <Button variant='back' size='back'>
+              <Button variant='back' size='back' className="flex items-center justify-center gap-x-2">
+                <Undo2 strokeWidth={1.5}/>
                 Inapoi
               </Button>
             </Link>

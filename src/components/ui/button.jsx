@@ -17,7 +17,7 @@ const buttonVariants = cva(
         lg: "h-10 py-7 px-10",
         thin: "h-9 rounded-[5px] px-3 md:max-xl:text-base md:max-xl:px-4 md:max-xl:h-12",
         card: "h-9 py-6 px-10",
-        back: "h-10 py-7 px-28",
+        back: "h-10 py-7 px-20",
       
       },
     },

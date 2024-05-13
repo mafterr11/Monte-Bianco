@@ -10,6 +10,7 @@ import {
 import { Button } from "../../ui/button";
 import Autoplay from "embla-carousel-autoplay";
 import { HeroTypewritter } from "./HeroTypewritter";
+import { PhoneOutgoing } from "lucide-react";
 // Data
 export const pictures = [
   { image: "/hero/1.png" },
@@ -58,7 +59,7 @@ export function Hero() {
           și că ne-ați oferit oportunitatea de a servi în mod constant
         </p>
         <Link href='/contact' className='hidden md:inline-block'>
-          <Button size='lg'>Contactați-ne</Button>
+          <Button size='lg' className="flex items-center justify-center gap-x-2">Contactați-ne<PhoneOutgoing strokeWidth={1.5} size={22}/></Button>
         </Link>
       </div>
 

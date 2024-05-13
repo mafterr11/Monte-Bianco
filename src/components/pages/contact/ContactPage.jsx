@@ -23,7 +23,7 @@ const ContactPage = () => {
         <h3>
           <span className='relative'>
             Nu ezita să ne contactezi
-            <Underline.underline className='absolute inset-x-0 -bottom-11' />
+            <Underline.underline className='absolute inset-x-0 -bottom-10' />
           </span>
         </h3>
       </motion.div>

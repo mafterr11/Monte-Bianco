@@ -22,7 +22,7 @@ const ProductPageAFH = () => {
       <h2 className='mb-40 max-md:mb-20 text-center mx-auto'>
         <span className='relative'>
           {product.name}{" "}
-          <Underline.underline className='absolute inset-x-0 -bottom-8 md:-bottom-12' />
+          <Underline.underline className='absolute inset-x-0 -bottom-6 md:-bottom-10' />
         </span>
       </h2>
       {/* Product CONTAINER */}

@@ -9,8 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button text-white",
-        back: "bg-body-accent hover:bg-body-accent/70 hover:scale-[0.97] shadow-button text-black-text text-sm max-md:text-base font-semibold"
+        default: "bg-accent hover:bg-blue-hover hover:scale-[0.97] shadow-button text-white transition-all ease-in-out duration-300",
+        back: "bg-body-accent hover:bg-body-accent/70 hover:scale-[0.97] shadow-button text-black-text text-sm max-md:text-base font-semibold transition-all ease-in-out duration-300"
       },
       size: {
         default: "h-10 px-6 py-6",

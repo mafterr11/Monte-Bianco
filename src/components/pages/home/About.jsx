@@ -14,7 +14,7 @@ const About = () => {
         className="flex flex-col xl:flex-row items-center xl:items-start justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4"
       >
         {/* Image */}
-        <div>
+        <>
           <Image
             src="/about/1.png"
             width={650}
@@ -22,7 +22,7 @@ const About = () => {
             className=""
             alt="Echipa Monte Bianco discutând strategii de inovație în fabrica de hârtie"
           />
-        </div>
+        </>
         {/* Text */}
         <div className="text-balance text-center xl:text-left">
           <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
         {/* Image */}
-        <div>
+        <>
           <Image
             src="/about/2.png"
             width={650}
@@ -83,7 +83,7 @@ const About = () => {
             className=""
             alt="Istoric Monte Bianco, echipamentele originale de producție de hârtie"
           />
-        </div>
+        </>
       </motion.div>
       {/* Container 3 */}
       <motion.div
@@ -94,7 +94,7 @@ const About = () => {
         className="flex flex-col xl:flex-row items-center xl:items-start justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4"
       >
         {/* Image */}
-        <div>
+        <>
           <Image
             src="/about/3.png"
             width={650}
@@ -102,7 +102,7 @@ const About = () => {
             className=""
             alt="Angajați Monte Bianco verificând noile tehnologii de producție de hârtie"
           />
-        </div>
+        </>
         {/* Text */}
         <div className="text-balance text-center xl:text-left">
           <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">

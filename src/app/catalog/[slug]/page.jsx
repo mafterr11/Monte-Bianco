@@ -76,14 +76,14 @@ const ProductPage = () => {
                   {/* Flex Details */}
                   <div className='flex flex-col items-center justify-center gap-y-3 px-4'>
                     {/* Image */}
-                    <div>
+                    <>
                       <Image
                         src={details.icon}
                         width={112}
                         height={75}
                         alt={details.title}
                       />
-                    </div>
+                    </>
                     {/* Title */}
                     <div className='text-center max-w-[250px]'>
                       {details.title}
@@ -94,13 +94,13 @@ const ProductPage = () => {
             })}
           </div>
           {/* Back button */}
-          <div>
+          <>
             <Link href='/catalog'>
               <Button variant='back' size='back'>
                 Inapoi
               </Button>
             </Link>
-          </div>
+          </>
         </div>
       </div>
     </div>

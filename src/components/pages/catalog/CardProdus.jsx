@@ -36,7 +36,7 @@ const CardProdus = ({ product, basePath }) => {
         <h3 className="xl:text-[24px] text-center px-8 pt-8 leading-9  text-balance max-w-[95%] xl:group-hover:scale-[1.1] xl:transition-all xl:ease-in-out xl:duration-500">
           {product.name}
         </h3>
-        <div className="mt-auto pb-8">
+        <div className="mt-auto pb-7 xl:group-hover:scale-[1.1] xl:transition-all xl:ease-in-out xl:duration-500">
           <Link href={`${basePath}/${product.slug}`}>
             <Button size="card">Mai multe detalii</Button>
           </Link>

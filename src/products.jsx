@@ -2151,7 +2151,6 @@ export const productData = [
     name: "Puff mozaic",
     image: "/produse/pop-up/Puff mozaic.png",
     alt: "Puff mozaic",
-    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -2193,7 +2192,6 @@ export const productData = [
     name: "Puff trandafiri",
     image: "/produse/pop-up/Puff trandafiri.png",
     alt: "Puff trandafiri",
-    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -2235,7 +2233,6 @@ export const productData = [
     name: "Puff paisley",
     image: "/produse/pop-up/Puff paisley.png",
     alt: "Puff paisley",
-    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -2279,7 +2276,6 @@ export const productData = [
     name: "Fiore",
     image: "/produse/pop-up/Fiore.png",
     alt: "Fiore",
-    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",

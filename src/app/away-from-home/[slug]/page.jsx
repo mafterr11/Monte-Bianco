@@ -1,5 +1,5 @@
 "use client";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,11 +7,27 @@ import { Button } from "@/components/ui/button";
 import { Underline } from "@/components/Underline";
 
 const ProductPageAFH = () => {
+  // const { slug } = useParams();
+
+  // const product = productData.find(
+  //   (product) => product.slug === decodeURIComponent(slug)
+  // );
+
+  const router = useRouter();
   const { slug } = useParams();
 
-  const product = productData.find(
+  // Find the current product based on the slug
+  const productIndex = productData.findIndex(
     (product) => product.slug === decodeURIComponent(slug)
   );
+
+  const product = productData[productIndex];
+
+  const handleNextProduct = () => {
+    const nextProductIndex = (productIndex + 1) % productData.length; 
+    const nextProduct = productData[nextProductIndex];
+    router.push(`/away-from-home/${encodeURIComponent(nextProduct.slug)}`);
+  };
 
   if (!product) {
     return <p>Product not found</p>;
@@ -94,13 +110,26 @@ const ProductPageAFH = () => {
             })}
           </div>
           {/* Back button */}
-          <>
-            <Link href='/catalog'>
-              <Button variant='back' size='back'>
-                Inapoi
+          <div className="flex items-center flex-col-reverse md:flex-row justify-center gap-8">
+            <Link href="/away-from-home">
+              <Button
+                variant="back"
+                size="back"
+                className="flex items-center justify-center gap-x-2 min-w-[240px]"
+              >
+                Catalog
               </Button>
             </Link>
-          </>
+
+            <Button
+              onClick={handleNextProduct}
+              variant="back"
+              size="back"
+              className="flex items-center justify-center gap-x-2 min-w-[240px] bg-accent text-white hover:bg-accent/85"
+            >
+              Înainte
+            </Button>
+          </div>
         </div>
       </div>
     </div>

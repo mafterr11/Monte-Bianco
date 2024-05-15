@@ -185,6 +185,7 @@ export const productData = [
     name: "Puff 1 str. 33 cm 80 buc",
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm 80 buc.png",
     alt: "Puff 1 str. 33 cm 80 buc",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -238,6 +239,7 @@ export const productData = [
     name: "Puff 1 str. 33 cm Horeca",
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm Horeca.png",
     alt: "Puff 1 str. 33 cm Horeca",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -287,6 +289,7 @@ export const productData = [
     name: "Puff select 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff select 2 str. 33 cm.png",
     alt: "Puff select 2 str. 33 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -356,6 +359,7 @@ export const productData = [
     name: "Puff de luxe 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 33 cm.png",
     alt: "Puff de luxe 2 str. 33 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -429,6 +433,7 @@ export const productData = [
     name: "Puff de luxe 2 str. 38 cm",
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 38 cm.png",
     alt: "Puff de luxe 2 str. 38 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -498,6 +503,7 @@ export const productData = [
     name: "Puff eight fold 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 33 cm.png",
     alt: "Puff eight fold 2 str. 33 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -551,6 +557,7 @@ export const productData = [
     name: "Puff eight fold 2 str. 38 cm",
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 38 cm.png",
     alt: "Puff eight fold 2 str. 38 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -604,6 +611,7 @@ export const productData = [
     name: "Puff de lux 2 str. Horeca",
     image: "/produse/servetele-de-masa/Puff de lux 2 str. Horeca.png",
     alt: "Puff de lux 2 str. Horeca",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -655,6 +663,7 @@ export const productData = [
     name: "Fiore 1 str. 25 cm 50 buc",
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 50 buc.png",
     alt: "Fiore 1 str. 25 cm 50 buc",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -704,6 +713,7 @@ export const productData = [
     name: "Fiore 1 str. 25 cm 100 buc",
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 100 buc.png",
     alt: "Fiore 1 str. 25 cm 100 buc",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -753,6 +763,7 @@ export const productData = [
     name: "Fiore 1 str. 30 cm",
     image: "/produse/servetele-de-masa/Fiore 1 str. 30 cm.png",
     alt: "Fiore 1 str. 30 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -802,6 +813,7 @@ export const productData = [
     name: "Fiore 1 str. 33 cm",
     image: "/produse/servetele-de-masa/Fiore 1 str. 33 cm.png",
     alt: "Fiore 1 str. 33 cm",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -853,6 +865,7 @@ export const productData = [
     name: "Neve economic 600 foi",
     image: "/produse/servetele-de-masa/Neve economic 600 foi.png",
     alt: "Neve economic 600 foi",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -2170,6 +2183,7 @@ export const productData = [
     name: "Puff mozaic",
     image: "/produse/pop-up/Puff mozaic.png",
     alt: "Puff mozaic",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -2211,6 +2225,7 @@ export const productData = [
     name: "Puff trandafiri",
     image: "/produse/pop-up/Puff trandafiri.png",
     alt: "Puff trandafiri",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -2252,6 +2267,7 @@ export const productData = [
     name: "Puff paisley",
     image: "/produse/pop-up/Puff paisley.png",
     alt: "Puff paisley",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",
@@ -2292,9 +2308,10 @@ export const productData = [
     category: "Șervețele Pop-up",
     brand: "/marci/fiore.png",
     badge: "Fiore",
-    name: "Fiore",
+    name: "Fiore pop-up",
     image: "/produse/pop-up/Fiore.png",
     alt: "Fiore",
+    grid: "grid-cols-3",
     color: [
       {
         name: "Alb",

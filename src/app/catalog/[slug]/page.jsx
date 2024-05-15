@@ -89,7 +89,7 @@ const ProductPage = () => {
           {/* Details CONTAINER */}
           <div
             className={`grid ${
-              product.grid ? product.grid : "grid-cols-4"
+              product.grid !== "grid-cols-4" ? product.grid : "grid-cols-4"
             } max-md:grid-cols-2 gap-y-16 items-start`}
           >
             {/* Details Grid */}

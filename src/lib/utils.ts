@@ -37,6 +37,6 @@ export function constructMetadata({
       creator: "@montebianco",
     },
     icons,
-    metadataBase: new URL("https://montebianco.vercel.app"),
+    metadataBase: new URL("https://montebianco.vercel.app" || "https://www.montebianco.vercel.app" || "www.montebianco.vercel.app" || "montebianco.vercel.app"),
   };
 }

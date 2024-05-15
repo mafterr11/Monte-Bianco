@@ -967,7 +967,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1026 volum",
       },
       {
@@ -1033,7 +1033,7 @@ export const productData = [
         title: "10 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1026 volum",
       },
       {
@@ -1099,7 +1099,7 @@ export const productData = [
         title: "10 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1026 volum",
       },
       {
@@ -1167,7 +1167,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0792 volum",
       },
       {
@@ -1233,7 +1233,7 @@ export const productData = [
         title: "6 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0950 volum",
       },
       {
@@ -1299,7 +1299,7 @@ export const productData = [
         title: "6 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1425 volum",
       },
       {
@@ -1365,7 +1365,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1026 volum",
       },
       {
@@ -1431,7 +1431,7 @@ export const productData = [
         title: "10 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1026 volum",
       },
       {
@@ -1497,7 +1497,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1232 volum",
       },
       {
@@ -1564,7 +1564,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0233 volum",
       },
       {
@@ -1632,7 +1632,7 @@ export const productData = [
         title: "12 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0466 volum",
       },
       {
@@ -1701,7 +1701,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1082 volum",
       },
       {
@@ -1767,7 +1767,7 @@ export const productData = [
         title: "10 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1082 volum",
       },
       {
@@ -1833,7 +1833,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1125 volum",
       },
       {
@@ -1900,7 +1900,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.119 volum",
       },
       {
@@ -1966,7 +1966,7 @@ export const productData = [
         title: "10 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.119 volum",
       },
       {
@@ -2032,7 +2032,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.143 volum",
       },
       {
@@ -2098,7 +2098,7 @@ export const productData = [
         title: "12 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1215 volum",
       },
       {
@@ -2164,7 +2164,7 @@ export const productData = [
         title: "20 de pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.1013 volum",
       },
       {
@@ -2405,7 +2405,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0766 volum",
       },
       {
@@ -2471,7 +2471,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0916 volum",
       },
       {
@@ -2537,7 +2537,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0766 volum",
       },
       {
@@ -2603,7 +2603,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0916 volum",
       },
       {
@@ -2731,7 +2731,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0381 volum",
       },
       {
@@ -2797,7 +2797,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0452 volum",
       },
       {
@@ -2863,7 +2863,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0528 volum",
       },
       {
@@ -2929,7 +2929,7 @@ export const productData = [
         title: "2 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0306 volum",
       },
       {
@@ -2995,7 +2995,7 @@ export const productData = [
         title: "2 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0384 volum",
       },
       {
@@ -3061,7 +3061,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.048 volum",
       },
       {
@@ -3127,7 +3127,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.048 volum",
       },
       {
@@ -3193,7 +3193,7 @@ export const productData = [
         title: "3 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0459 volum",
       },
       {
@@ -3259,7 +3259,7 @@ export const productData = [
         title: "2 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0384 volum",
       },
       {
@@ -3423,7 +3423,7 @@ export const productData = [
         title: "6 pachete",
       },
       {
-        icon: "/produse/detalii/volum.svg",
+        icon: "/produse/detalii/Volum.svg",
         title: "0.0147 volum",
       },
       {

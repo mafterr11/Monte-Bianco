@@ -895,7 +895,7 @@ export const productData = [
     ],
   },
 
-  //   Hârtie igienică
+  //   Hartie igienică
   //   Puff
   {
     slug: "Puff de luxe 4 role",
@@ -905,6 +905,7 @@ export const productData = [
     name: "Puff de luxe 4 role",
     image: "/produse/hartie-igienica/Puff de luxe 4 role.png",
     alt: "Puff de luxe 4 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -970,6 +971,7 @@ export const productData = [
     name: "Puff de luxe 8 role",
     image: "/produse/hartie-igienica/Puff de luxe 8 role.png",
     alt: "Puff de luxe 8 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1035,6 +1037,7 @@ export const productData = [
     name: "Puff super soft 8 role",
     image: "/produse/hartie-igienica/Puff super soft 8 role.png",
     alt: "Puff super soft 8 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1102,6 +1105,7 @@ export const productData = [
     name: "Fiore 4 role",
     image: "/produse/hartie-igienica/Fiore 4 role.png",
     alt: "Fiore 4 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1167,6 +1171,7 @@ export const productData = [
     name: "Fiore 16 role",
     image: "/produse/hartie-igienica/Fiore 16 role.png",
     alt: "Fiore 16 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1232,6 +1237,7 @@ export const productData = [
     name: "Fiore 24 role",
     image: "/produse/hartie-igienica/Fiore 24 role.png",
     alt: "Fiore 24 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1297,6 +1303,7 @@ export const productData = [
     name: "Fiore super soft 4 role",
     image: "/produse/hartie-igienica/Fiore super soft 4 role.png",
     alt: "Fiore super soft 4 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1362,6 +1369,7 @@ export const productData = [
     name: "Fiore super soft 8 role",
     image: "/produse/hartie-igienica/Fiore super soft 8 role.png",
     alt: "Fiore super soft 8 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1427,6 +1435,7 @@ export const productData = [
     name: "Fiore super soft 16 role",
     image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
     alt: "Fiore super soft 16 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1493,6 +1502,7 @@ export const productData = [
     name: "Neve Profesional 170 m",
     image: "/produse/hartie-igienica/Neve Profesional 170 m.png",
     alt: "Neve Profesional 170 m",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1560,6 +1570,7 @@ export const productData = [
     name: "Horeca 170 m",
     image: "/produse/hartie-igienica/Horeca 170 m.png",
     alt: "Horeca 170 m",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1628,6 +1639,7 @@ export const productData = [
     name: "Puff 2 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 2 role 3 str..png",
     alt: "Puff 2 role 3 str.",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1693,6 +1705,7 @@ export const productData = [
     name: "Puff 4 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
     alt: "Puff 4 role 3 str.",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1758,6 +1771,7 @@ export const productData = [
     name: "Monorolă Puff",
     image: "/produse/prosoape-de-bucatarie/Monorolă Puff.png",
     alt: "Monorolă Puff",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1824,6 +1838,7 @@ export const productData = [
     name: "Fiore 2 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 role.png",
     alt: "Fiore 2 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1889,6 +1904,7 @@ export const productData = [
     name: "Fiore 4 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 4 role.png",
     alt: "Fiore 4 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1954,6 +1970,7 @@ export const productData = [
     name: "Fiore 8 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 8 role.png",
     alt: "Fiore 8 role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2019,6 +2036,7 @@ export const productData = [
     name: "Fiore 2 maxi role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 maxi role.png",
     alt: "Fiore 2 maxi role",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2084,6 +2102,7 @@ export const productData = [
     name: "Monorolă Fiore",
     image: "/produse/prosoape-de-bucatarie/Monorolă Fiore.png",
     alt: "Monorolă Fiore",
+    grid:"grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2320,6 +2339,7 @@ export const productData = [
     name: "Cearceaf 50 cm 50 m",
     image: "/produse/AFH/Cearceaf 50 cm 50 m.png",
     alt: "Cearceaf 50 cm 50 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2385,6 +2405,7 @@ export const productData = [
     name: "Cearceaf 60 cm 50 m",
     image: "/produse/AFH/Cearceaf 60 cm 50 m.png",
     alt: "Cearceaf 60 cm 50 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2450,6 +2471,7 @@ export const productData = [
     name: "Cearceaf 50 cm 80 m",
     image: "/produse/AFH/Cearceaf 50 cm 80 m.png",
     alt: "Cearceaf 50 cm 80 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2515,6 +2537,7 @@ export const productData = [
     name: "Cearceaf 60 cm 80 m",
     image: "/produse/AFH/Cearceaf 60 cm 80 m.png",
     alt: "Cearceaf 60 cm 80 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2642,6 +2665,7 @@ export const productData = [
     name: "Prosop 61 m",
     image: "/produse/AFH/Prosop 61 m.png",
     alt: "Prosop 61 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2707,6 +2731,7 @@ export const productData = [
     name: "Prosop 80 m",
     image: "/produse/AFH/Prosop 80 m.png",
     alt: "Prosop 80 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2772,6 +2797,7 @@ export const productData = [
     name: "Prosop 100 m",
     image: "/produse/AFH/Prosop 100 m.png",
     alt: "Prosop 100 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2837,6 +2863,7 @@ export const productData = [
     name: "Prosop 150 m",
     image: "/produse/AFH/Prosop 150 m.png",
     alt: "Prosop 150 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2902,6 +2929,7 @@ export const productData = [
     name: "Prosop 200 m",
     image: "/produse/AFH/Prosop 200 m.png",
     alt: "Prosop 200 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2967,6 +2995,7 @@ export const productData = [
     name: "Prosop economic 350 foi",
     image: "/produse/AFH/Prosop economic 350 foi.png",
     alt: "Prosop economic 350 foi",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -3032,6 +3061,7 @@ export const productData = [
     name: "Prosop economic 500 foi",
     image: "/produse/AFH/Prosop economic 500 foi.png",
     alt: "Prosop economic 500 foi",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -3097,6 +3127,7 @@ export const productData = [
     name: "Prosop economic 700 foi",
     image: "/produse/AFH/Prosop economic 700 foi.png",
     alt: "Prosop economic 700 foi",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -3162,6 +3193,7 @@ export const productData = [
     name: "Prosop economic 1000 foi",
     image: "/produse/AFH/Prosop economic 1000 foi.png",
     alt: "Prosop economic 1000 foi",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -3319,12 +3351,13 @@ export const productData = [
   },
   // Horeca
   {
-    name: "Prosop autocut 130 m",
+    slug: "Prosop autocut 130 m",
     brand: "/marci/horeca.png",
     badge: "Horeca",
     name: "Prosop autocut 130 m",
     image: "/produse/AFH/Prosop autocut 130 m.png",
     alt: "Prosop autocut 130 m",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",

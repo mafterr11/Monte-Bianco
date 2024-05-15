@@ -19,26 +19,24 @@ export function constructMetadata({
   image?: string;
   icons?: string;
 } = {}): Metadata {
-  const baseUrl = "https://montebianco.vercel.app";
   return {
     title,
     description,
     keywords,
     openGraph: {
-      type: "website",
-      url: baseUrl,
       title,
       description,
-      images: [{ url: `${baseUrl}${image}` }],
+      images: [{ url: image }],
+      type: 'website',
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [`${baseUrl}${image}`],
+      images: [image],
       creator: "@montebianco",
     },
     icons,
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL("https://montebianco.vercel.app"),
   };
 }

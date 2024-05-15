@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Underline } from "@/components/Underline";
 
-
 const ProductPageAFH = () => {
   // const { slug } = useParams();
 
@@ -25,8 +24,16 @@ const ProductPageAFH = () => {
   const product = productData[productIndex];
 
   const handleNextProduct = () => {
-    const nextProductIndex = (productIndex + 1) % productData.length;
-    const nextProduct = productData[nextProductIndex];
+    const currentCategory = product.categoryAFH;
+    const categoryProducts = productData.filter(
+      (p) => p.categoryAFH === currentCategory
+    );
+    const currentProductIndex = categoryProducts.findIndex(
+      (p) => p.slug === product.slug
+    );
+    const nextProductIndex =
+      (currentProductIndex + 1) % categoryProducts.length;
+    const nextProduct = categoryProducts[nextProductIndex];
     router.push(`/away-from-home/${encodeURIComponent(nextProduct.slug)}`);
   };
 
@@ -43,7 +50,7 @@ const ProductPageAFH = () => {
         </span>
       </h2>
       {/* Product CONTAINER */}
-      <div className="flex max-xl:flex-col xl:items-center justify-center gap-x-8 max-xl:gap-y-12">
+      <div className="flex max-xl:flex-col xl:items-end justify-center gap-x-8 max-xl:gap-y-12">
         {/* Left side */}
         <div className="relative flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-12">
           {/* Color */}
@@ -82,11 +89,18 @@ const ProductPageAFH = () => {
           {/* Details CONTAINER */}
           <div
             className={`grid ${
-              product.grid ? "grid-cols-2" : "grid-cols-3"
+              product.grid ? product.grid : "grid-cols-3"
             } max-md:grid-cols-2 gap-y-16 items-start `}
           >
             {/* Details Grid */}
             {product.details.map((details, index) => {
+              if (details.title === "Plastic") {
+                return (
+                  <div key={index}>
+                    <h2>{details.title}</h2>
+                  </div>
+                );
+              }
               return (
                 // Container
                 <div key={index}>

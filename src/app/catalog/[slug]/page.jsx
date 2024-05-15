@@ -1,5 +1,5 @@
 "use client";
-import { useParams, useRouter } from "next/navigation";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,14 +8,16 @@ import { Underline } from "@/components/Underline";
 import { Undo2 } from "lucide-react";
 
 const ProductPage = () => {
-   // const { slug } = useParams();
+  // const { slug } = useParams();
 
   // const product = productData.find(
   //   (product) => product.slug === decodeURIComponent(slug)
   // );
   const router = useRouter();
   const { slug } = useParams();
-
+  const searchParams = useSearchParams();
+  const filterType = searchParams.get("filterType");
+  const filterValue = decodeURIComponent(searchParams.get("filterValue"));
   // Find the current product based on the slug
   const productIndex = productData.findIndex(
     (product) => product.slug === decodeURIComponent(slug)
@@ -24,8 +26,16 @@ const ProductPage = () => {
   const product = productData[productIndex];
 
   const handleNextProduct = () => {
-    const nextProductIndex = (productIndex + 1) % productData.length; 
-    const nextProduct = productData[nextProductIndex];
+    const currentCategory = product.category;
+    const categoryProducts = productData.filter(
+      (p) => p.category === currentCategory
+    );
+    const currentProductIndex = categoryProducts.findIndex(
+      (p) => p.slug === product.slug
+    );
+    const nextProductIndex =
+      (currentProductIndex + 1) % categoryProducts.length;
+    const nextProduct = categoryProducts[nextProductIndex];
     router.push(`/catalog/${encodeURIComponent(nextProduct.slug)}`);
   };
 
@@ -70,6 +80,7 @@ const ProductPage = () => {
             <Image
               src={product.image}
               fill
+              priority
               className="z-10 object-cover"
               alt={product.alt}
             />

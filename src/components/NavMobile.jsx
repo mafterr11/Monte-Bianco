@@ -9,7 +9,6 @@ import { RiMenu2Line } from "react-icons/ri";
 import Logo from "./Logo";
 import Social from "./Social";
 
-
 export const links = [
   {
     path: "/",
@@ -51,44 +50,43 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
       {/* nav trigger btn */}
       <div
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className='cursor-pointer outline-none'
+        className="cursor-pointer outline-none"
       >
-        <RiMenu2Line className='text-4xl transition-all duration-200' />
+        <RiMenu2Line className="text-4xl transition-all duration-200" />
       </div>
       <aside
         className={`${
           isMenuOpen ? "top-0 right-0" : "-top-full -right-full"
         } bg-body fixed z-10 h-full p-10 inset-0 transition-all duration-500`}
       >
-        <div className='flex flex-col items-center justify-between h-full text-black-text'>
+        <div className="flex flex-col items-center justify-between h-full text-black-text">
           {/* close btn */}
           <div
             onClick={() => setIsMenuOpen(false)}
-            className='cursor-pointer text-4xl  absolute w-10 h-10 right-8 top-8 flex items-center justify-center'
+            className="cursor-pointer text-4xl  absolute w-10 h-10 right-8 top-8 flex items-center justify-center"
           >
             <IoCloseOutline />
           </div>
           {/* logo */}
-         <Logo />
+          <Logo />
           {/* links */}
-          <div className='flex flex-col gap-y-8 md:gap-y-12'>
+          <div className="flex flex-col gap-y-8 md:gap-y-12">
             {links.map((link, index) => {
-                return (
-                  <Link
-                    key={index}
-                    href={link.path}
-                    className='flex items-center gap-x-3 justify-base'
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    <div className={`${iconStyles}`}>{link.icon}</div>
-                    <div className={`${linkStyles}`}>{link.name}</div>
-                  </Link>
-                );
-              })}
+              return (
+                <Link
+                  key={index}
+                  href={link.path}
+                  className="flex items-center gap-x-3 justify-base"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <div className={`${iconStyles}`}>{link.icon}</div>
+                  <div className={`${linkStyles}`}>{link.name}</div>
+                </Link>
+              );
+            })}
           </div>
-         <Social />
+          <Social containerStyles="flex" />
         </div>
-       
       </aside>
     </div>
   );

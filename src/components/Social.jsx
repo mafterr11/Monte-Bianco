@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-const Social = () => {
+const Social = ({ containerStyles }) => {
   return (
-    <div className="hidden xl:flex items-center justify-center gap-x-8">
+    <div className={`${containerStyles} items-center justify-center gap-x-8`}>
       {/* Descarca Catalog */}
       <div className="text-white">
         <a

@@ -82,7 +82,7 @@ const Header = () => {
           linkStyles="uppercase xs:text-[18px] md:text-[21px]"
         />
         {/* Right side */}
-        <Social />
+        <Social containerStyles="hidden xl:flex" />
       </div>
     </header>
   );

@@ -2577,44 +2577,62 @@ export const productData = [
     ],
   },
   {
-    name: "Dispenser z-fold",
     image: "/produse/AFH/Dispenser z-fold.png",
+    slug: "Dispenser z-fold",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser z-fold",
     name: "Dispenser z-fold",
+    grid: "grid-cols-1",
     color: [
       {
         name: "Alb",
         color: "#FEFEFE",
       },
     ],
+    details: [
+      {
+        title: "Plastic",
+      },
+    ],
   },
   {
-    name: "Dispenser hârtie igienică",
-    image: "/produse/AFH/Dispenser hârtie igienică.png",
+    image: "/produse/AFH/Dispenser hartie igienica.png",
+    slug: "Dispenser hârtie igienică",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser hârtie igienică",
     name: "Dispenser hârtie igienică",
+    grid: "grid-cols-1",
     color: [
       {
         name: "Alb",
         color: "#FEFEFE",
       },
     ],
+    details: [
+      {
+        title: "Plastic",
+      },
+    ],
   },
   {
-    name: "Dispenser autocut",
     image: "/produse/AFH/Dispenser autocut.png",
+    slug: "Dispenser autocut",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     alt: "Dispenser autocut",
     name: "Dispenser autocut",
+    grid: "grid-cols-1",
     color: [
       {
         name: "Alb",
         color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        title: "Plastic",
       },
     ],
   },

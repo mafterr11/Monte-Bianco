@@ -38,7 +38,7 @@ const certificate = [
 
 const Certificari = () => {
   return (
-    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center xl:gap-x-40 py-24 px-8">
+    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center lg:gap-x-24 xl:gap-x-40 py-24 px-8">
       {certificate.map((certificat, index) => (
         <motion.div 
         variants={fadeIn('down', certificat.fadeSpeed)}

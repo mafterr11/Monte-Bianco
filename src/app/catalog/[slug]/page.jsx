@@ -105,6 +105,7 @@ const ProductPage = () => {
                         src={details.icon}
                         width={112}
                         height={75}
+                        priority
                         alt={details.title}
                       />
                     </>

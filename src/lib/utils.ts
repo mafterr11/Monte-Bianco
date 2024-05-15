@@ -46,3 +46,12 @@ export function constructMetadata({
     ),
   };
 }
+
+export const generateProductMetadata = (product) => {
+  return constructMetadata({
+    title: `${product.name} - Monte Bianco`,
+    description: "Descoperiți gama noastră variată de produse de hârtie de înaltă calitate. De la hârtie igienică și prosoape de hârtie, la șervețele și soluții profesionale pentru Horeca, Monte Bianco și subcompaniile sale, Puff, Fiore, Neve, și Monte Bianco Professional, vă oferă cele mai bune soluții pentru nevoile dumneavoastră zilnice. Mulțumim că ne alegeți pentru calitate și inovație!",
+    keywords: "Monte Bianco, produse de hârtie, hârtie igienică, prosoape de hârtie, șervețele, solutii HORECA, Puff, Fiore, Neve, Monte Bianco Professional",
+    image: product.image,
+  });
+};

@@ -1,5 +1,5 @@
 "use client";
-import { useParams, useRouter, useSearchParams } from "next/navigation";
+import { useParams, useRouter} from "next/navigation";
 import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,9 +15,6 @@ const ProductPage = () => {
   // );
   const router = useRouter();
   const { slug } = useParams();
-  const searchParams = useSearchParams();
-  const filterType = searchParams.get("filterType");
-  const filterValue = decodeURIComponent(searchParams.get("filterValue"));
   // Find the current product based on the slug
   const productIndex = productData.findIndex(
     (product) => product.slug === decodeURIComponent(slug)
@@ -97,13 +94,6 @@ const ProductPage = () => {
           >
             {/* Details Grid */}
             {product.details.map((details, index) => {
-              if (details.title === "Plastic") {
-                return (
-                  <div key={index}>
-                    <h2>{details.title}</h2>
-                  </div>
-                );
-              }
               return (
                 // Container
                 <div key={index}>

@@ -90,7 +90,7 @@ const ProductPage = () => {
           <div
             className={`grid ${
               product.grid ? product.grid : "grid-cols-4"
-            } max-md:grid-cols-2 gap-y-16 xl:gap-x-2 items-start`}
+            } max-md:grid-cols-2 gap-y-16 items-start`}
           >
             {/* Details Grid */}
             {product.details.map((details, index) => {

@@ -6,14 +6,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Underline } from "@/components/Underline";
 
-export function generateProductMetadata({ params }) {
-  const product = productData.find(
-    (product) => product.slug === decodeURIComponent(params.slug)
-  );
-  if (product) {
-    return generateProductMetadata(product);
-  }
-}
 
 const ProductPageAFH = () => {
   // const { slug } = useParams();

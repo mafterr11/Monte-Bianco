@@ -11,7 +11,7 @@ export const productData = [
     name: "Puff 4 str. de luxe",
     image: "/produse/batiste-nazale/Puff 4 str. de luxe.png",
     alt: "Puff 4 str. de luxe",
-    grid: "grid-cols-3",
+    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -53,7 +53,7 @@ export const productData = [
     name: "Puff 3 str. parfumate",
     image: "/produse/batiste-nazale/Puff 3 str. parfumate.png",
     alt: "Puff 3 str. parfumate",
-    grid: "grid-cols-3",
+    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -95,7 +95,7 @@ export const productData = [
     name: "Puff 3 str.",
     image: "/produse/batiste-nazale/Puff 3 str..png",
     alt: "Puff 3 str.",
-    grid: "grid-cols-3",
+    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",
@@ -139,7 +139,7 @@ export const productData = [
     name: "Fiore 2 str.",
     image: "/produse/batiste-nazale/Fiore 2 str..png",
     alt: "Fiore 2 str.",
-    grid: "grid-cols-3",
+    grid: "grid-cols-2",
     color: [
       {
         name: "Alb",

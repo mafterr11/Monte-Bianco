@@ -89,8 +89,8 @@ const ProductPageAFH = () => {
           {/* Details CONTAINER */}
           <div
             className={`grid ${
-              product.grid ? product.grid : "grid-cols-3"
-            } max-md:grid-cols-2 gap-y-16 items-start `}
+              product.grid ? product.grid : "grid-cols-2"
+            } max-md:grid-cols-2 gap-y-16 items-start`}
           >
             {/* Details Grid */}
             {product.details.map((details, index) => {

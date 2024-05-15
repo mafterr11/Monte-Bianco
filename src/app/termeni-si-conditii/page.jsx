@@ -1,17 +1,27 @@
+import { constructMetadata } from "@/lib/utils";
+
+export const metadata = constructMetadata({
+  title: "Termeni și Condiții - Monte Bianco",
+  description:
+    "Citiți cu atenție Termenii și Condițiile noastre pentru utilizarea site-ului Monte Bianco. Acestea includ informații despre confidențialitate, drepturi de proprietate intelectuală, responsabilități legale și multe altele.",
+  keywords:
+    "Monte Bianco termeni și condiții, politica confidențialitate, drepturi proprietate intelectuală, responsabilități legale",
+});
+
 const TermeniSiConditii = () => {
   return (
-    <div className='py-40 mx-40'>
-      <h2 className='text-center mb-32 text-shadow'>TERMENI ȘI CONDIȚII</h2>
-      <div className='flex flex-col items-start justify-center gap-y-4 mb-8'>
-        <h5 className=' text-[20px]'>
-          <span className='text-accent'>&#9679;</span> Va multumim pentru
+    <div className="py-40 mx-40">
+      <h2 className="text-center mb-32 text-shadow">TERMENI ȘI CONDIȚII</h2>
+      <div className="flex flex-col items-start justify-center gap-y-4 mb-8">
+        <h5 className=" text-[20px]">
+          <span className="text-accent">&#9679;</span> Va multumim pentru
           vizitarea acestui website. Va rugam sa cititi cu atentie Termenii si
           Conditiile din acest document, deoarece orice folosire a acestui
           website necesita acceptarea de catre dumneavoastra a Termenilor si
           Conditiilor prezentate aici.
         </h5>
-        <h5 className='text-[20px]'>
-          <span className='text-accent'>&#9679;</span> Termenii „noi”,
+        <h5 className="text-[20px]">
+          <span className="text-accent">&#9679;</span> Termenii „noi”,
           „a/al/ai/ale noastra/nostru/nostri/noastre”, si „Monte Bianco ” ce
           apar pe parcusul acestui site se refera la Monte Bianco S.A. si la
           oricare dintre companiile afiliate acesteia, dupa cum o cere
@@ -21,10 +31,10 @@ const TermeniSiConditii = () => {
         </h5>
       </div>
       {/* Container */}
-      <div className='flex flex-col items-start gap-y-12 mb-32'>
+      <div className="flex flex-col items-start gap-y-12 mb-32">
         {/* 1 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">
             Politica de confidentialitate a website-ului
           </h5>
           <p>
@@ -34,8 +44,8 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 2 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">
             Acuratetea, integralitatea si actualitatea informatiei
           </h5>
           <p>
@@ -50,8 +60,8 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 3 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Transmitere</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Transmitere</h5>
           <p>
             Orice comunicare sau material fara caracter personal transmise
             acestui website prin posta electronica sau in alt mod, incluzand
@@ -76,10 +86,10 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 4 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Drepturi de proprietate intelectuala</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Drepturi de proprietate intelectuala</h5>
           {/* Multiple */}
-          <div className='flex flex-col items-start gap-y-6'>
+          <div className="flex flex-col items-start gap-y-6">
             <p>
               Toate drepturile de autor, marcile si orice alte drepturi de
               proprietate intelectuala din toate textele, imaginile sau alte
@@ -101,8 +111,8 @@ const TermeniSiConditii = () => {
           </div>
         </div>
         {/* 5 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">
             ® Marca inregistrata a Monte Bianco S.A.. Toate drepturile
             rezervate.
           </h5>
@@ -120,8 +130,8 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 6 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Link-uri catre alte website-uri</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Link-uri catre alte website-uri</h5>
           <p>
             Link-urile de pe website-ul Monte Bianco S.A. va pot trimite in
             afara retelei si sistemelor Monte Bianco S.A., iar Monte Bianco
@@ -137,18 +147,18 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 7  */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Garantii si avertizari</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Garantii si avertizari</h5>
           <p>
             Folosirea acestui website se va face pe riscul dumneavoastra
             personal si exclusiv.
           </p>
         </div>
         {/* 8 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Garantii</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Garantii</h5>
           {/* Multiple */}
-          <div className='flex flex-col items-start gap-y-6'>
+          <div className="flex flex-col items-start gap-y-6">
             <p>
               {" "}
               Acest website va este oferit „asa cum este” si „asa cum este pus
@@ -181,10 +191,10 @@ const TermeniSiConditii = () => {
           </div>
         </div>
         {/* 9 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Responsabilitate legala</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Responsabilitate legala</h5>
           {/* Multiple */}
-          <div className='flex flex-col items-start gap-y-6'>
+          <div className="flex flex-col items-start gap-y-6">
             <p>
               Monte Bianco S.A. si /sau orice alte parti implicate in crearea,
               executia sau prezentarea acestui website in numele nostru nu vor
@@ -226,10 +236,10 @@ const TermeniSiConditii = () => {
           </div>
         </div>
         {/* 10 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Jurisdictie si lege aplicabila</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Jurisdictie si lege aplicabila</h5>
           {/* Multiple */}
-          <div className='flex flex-col items-start gap-y-6'>
+          <div className="flex flex-col items-start gap-y-6">
             <p>
               Produsele Monte Bianco S.A., materialele, ofertele și informațiile
               care apar pe acest site sunt destinate pentru clientii si
@@ -256,8 +266,8 @@ const TermeniSiConditii = () => {
           </div>
         </div>
         {/* 11 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Actualizarea avizului legal</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Actualizarea avizului legal</h5>
           <p>
             Ne rezervam dreptul de a face orice completari sau modificari la
             aceasta notificare legala. Va rugam sa vizitati aceasta pagina din
@@ -266,8 +276,8 @@ const TermeniSiConditii = () => {
           </p>
         </div>
         {/* 12 */}
-        <div className='flex flex-col items-start gap-y-4'>
-          <h5 className='text-accent'>Activitati interzise</h5>
+        <div className="flex flex-col items-start gap-y-4">
+          <h5 className="text-accent">Activitati interzise</h5>
           {/* Multiple */}
           <div className="flex flex-col items-start gap-y-6">
             <p>

@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import Image from "next/image";
-import { motion } from 'framer-motion';
-import { fadeIn } from '../../../../variants';
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../../variants";
 
 const certificate = [
   {
@@ -38,15 +38,22 @@ const certificate = [
 
 const Certificari = () => {
   return (
-    <section className="flex flex-row flex-1 flex-wrap gap-8 items-center justify-center lg:gap-x-24 xl:gap-x-40 py-24 px-8">
+    <section className="flex flex-1 flex-row flex-wrap items-center justify-center gap-8 px-8 py-24 lg:gap-x-24 xl:gap-x-40">
       {certificate.map((certificat, index) => (
-        <motion.div 
-        variants={fadeIn('down', certificat.fadeSpeed)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{once:true, ammount:0.4}}
-        key={index}>
-          <Image src={certificat.icon} width={100} height={70} alt={certificat.name} className="w-auto h-[70px] xs:max-xl:h-[85px] xl:h-[90px] " />
+        <motion.div
+          variants={fadeIn("down", certificat.fadeSpeed)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: true, ammount: 0.4 }}
+          key={index}
+        >
+          <Image
+            src={certificat.icon}
+            width={100}
+            height={70}
+            alt={certificat.name}
+            className="h-[70px] w-auto xs:max-xl:h-[85px] xl:h-[90px] "
+          />
         </motion.div>
       ))}
     </section>

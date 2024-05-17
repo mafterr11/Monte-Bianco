@@ -17,7 +17,7 @@ const Header = () => {
 
   const checkIsMobile = () => {
     return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
+      navigator.userAgent,
     );
   };
 
@@ -58,15 +58,15 @@ const Header = () => {
       className={`${
         currentRoute === "/"
           ? active
-            ? "bg-body border-b border-black-text/90 shadow-nav"
-            : "bg-body-transparent bg-opacity-0  xl:backdrop-blur-[10px] text-white"
-          : "bg-body border-b border-black-text/90 shadow-nav"
-      } fixed top-0 right-0 left-0 w-full z-50 transition-all duration-100 ease-in-out py-[12px] max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px] border-b-[0.5px] border-black/50`}
+            ? "border-b border-black-text/90 bg-body shadow-nav"
+            : "bg-body-transparent bg-opacity-0  text-white xl:backdrop-blur-[10px]"
+          : "border-b border-black-text/90 bg-body shadow-nav"
+      } fixed left-0 right-0 top-0 z-50 w-full border-b-[0.5px] border-black/50 py-[12px] transition-all duration-100 ease-in-out max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px]`}
     >
       {/* blurry overlay on mobile */}
-      <div className="max-xl:absolute inset-0 w-full h-full backdrop-blur-[5px] md:max-xl:backdrop-blur-[8px] z-30"></div>
+      <div className="inset-0 z-30 h-full w-full backdrop-blur-[5px] max-xl:absolute md:max-xl:backdrop-blur-[8px]"></div>
       {/* Container */}
-      <div className="relative flex items-center justify-between z-40">
+      <div className="relative z-40 flex items-center justify-between">
         {/* Logo */}
         <Logo />
         {/* Navigation */}

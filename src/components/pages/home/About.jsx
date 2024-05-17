@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../../../variants";
 const About = () => {
   return (
-    <section className="max-md:pb-12 pb-40 overflow-x-hidden">
+    <section className="overflow-x-hidden pb-40 max-md:pb-12">
       {/* Container 1 */}
       <motion.div
         variants={fadeIn("left", 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.8 }}
-        className="flex flex-col xl:flex-row items-center xl:items-start justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4"
+        className="mb-6 flex flex-col items-center justify-center gap-x-32 bg-body-accent max-xl:gap-y-8 max-md:px-4 max-md:py-10 md:py-16 md:max-xl:mb-12 xl:flex-row xl:items-start xl:py-24"
       >
         {/* Image */}
         <>
@@ -25,7 +25,7 @@ const About = () => {
         </>
         {/* Text */}
         <div className="text-balance text-center xl:text-left">
-          <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">
+          <h3 className="mb-5 leading-normal text-accent xl:max-w-[430px]">
             Misiunea noastră: Lider al produselor de profil
           </h3>
           <div className="max-w-[630px]">
@@ -50,11 +50,11 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
-        className="flex flex-col-reverse xl:flex-row items-center xl:items-start justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 max-lg:py-10 md:py-16 xl:py-24 max-md:px-4"
+        className="mb-6 flex flex-col-reverse items-center justify-center gap-x-32 max-xl:gap-y-8 max-lg:py-10 max-md:px-4 md:py-16 md:max-xl:mb-12 xl:flex-row xl:items-start xl:py-24"
       >
         {/* Text */}
         <div className="text-balance text-center xl:text-left">
-          <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">
+          <h3 className="mb-5 leading-normal text-accent xl:max-w-[430px]">
             Povestea noastră
           </h3>
           <div className="max-w-[630px]">
@@ -91,7 +91,7 @@ const About = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
-        className="flex flex-col xl:flex-row items-center xl:items-start justify-center gap-x-32 max-xl:gap-y-8 mb-6 md:max-xl:mb-12 bg-body-accent max-md:py-10 md:py-16 xl:py-24 max-md:px-4"
+        className="mb-6 flex flex-col items-center justify-center gap-x-32 bg-body-accent max-xl:gap-y-8 max-md:px-4 max-md:py-10 md:py-16 md:max-xl:mb-12 xl:flex-row xl:items-start xl:py-24"
       >
         {/* Image */}
         <>
@@ -105,7 +105,7 @@ const About = () => {
         </>
         {/* Text */}
         <div className="text-balance text-center xl:text-left">
-          <h3 className="xl:max-w-[430px] mb-5 text-accent leading-normal">
+          <h3 className="mb-5 leading-normal text-accent xl:max-w-[430px]">
             Obiectivele Monte Bianco
           </h3>
           <div className="max-w-[640px]">

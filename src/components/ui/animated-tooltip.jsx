@@ -5,9 +5,15 @@ export const AnimatedTooltip = ({ children, message }) => {
   const [isHovered, setIsHovered] = useState(false);
   const springConfig = { stiffness: 100, damping: 5 };
   const x = useMotionValue(0);
-  
-  const rotate = useSpring(useTransform(x, [-100, 100], [-45, 45]), springConfig);
-  const translateX = useSpring(useTransform(x, [-100, 100], [-50, 50]), springConfig);
+
+  const rotate = useSpring(
+    useTransform(x, [-100, 100], [-45, 45]),
+    springConfig,
+  );
+  const translateX = useSpring(
+    useTransform(x, [-100, 100], [-50, 50]),
+    springConfig,
+  );
 
   const handleMouseMove = (event) => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -18,7 +24,7 @@ export const AnimatedTooltip = ({ children, message }) => {
 
   return (
     <div
-      className="inline-block relative"
+      className="relative inline-block"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onMouseMove={handleMouseMove}
@@ -43,9 +49,9 @@ export const AnimatedTooltip = ({ children, message }) => {
             whiteSpace: "nowrap",
             pointerEvents: "none",
           }}
-          className="absolute -top-8 -left-0 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-gradient-to-t from-[#749db9] to-accent border-accent border z-50 high-shadow px-4 py-2"
+          className="high-shadow absolute -left-0 -top-8 z-50 flex translate-x-1/2 flex-col items-center justify-center rounded-md border border-accent bg-gradient-to-t from-[#749db9] to-accent px-4 py-2 text-xs"
         >
-          <div className="font-bold text-white-text relative z-30 text-base">
+          <div className="relative z-30 text-base font-bold text-white-text">
             {message}
           </div>
         </motion.div>

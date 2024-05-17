@@ -38,7 +38,7 @@ const CatalogPage = () => {
   const productsWithBrands = productData.filter((product) => product.brand);
   // Filter products that have categories defined
   const productsWithCategories = productData.filter(
-    (product) => product.category
+    (product) => product.category,
   );
 
   const filteredProducts =
@@ -46,12 +46,12 @@ const CatalogPage = () => {
       ? productsWithCategories.filter(
           (product) =>
             activeFilter.value === "Toate produsele" ||
-            product.category === activeFilter.value
+            product.category === activeFilter.value,
         )
       : productsWithBrands.filter(
           (product) =>
             activeFilter.value === "All Brands" ||
-            product.brand === activeFilter.value
+            product.brand === activeFilter.value,
         );
 
   const uniqueCategories = [
@@ -63,21 +63,21 @@ const CatalogPage = () => {
   return (
     <section className="min-h-screen pt-24 md:mt-16">
       <div className="container mx-auto">
-        <h2 className="max-md:mb-24 md:mb-36 xl:mb-56 text-center mx-auto">
+        <h2 className="mx-auto text-center max-md:mb-24 md:mb-36 xl:mb-56">
           Gama de produse <span className="text-accent">Monte Bianco</span>
         </h2>
         {/* tabs */}
         <Tabs className="mb-24 xl:mb-48">
           {/* Category and brand Tabs */}
-          <TabsList className="max-md:hidden flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 max-md:mb-40 mb-24 ">
-            <div className="w-full grid h-full grid-cols-1 md:grid-cols-3 lg:max-w-[940px] max-md:mb-32 mb-20 mx-auto gap-2">
+          <TabsList className="mb-24 flex flex-col items-center justify-center gap-y-8 max-md:mb-40 max-md:hidden max-md:gap-y-48 ">
+            <div className="mx-auto mb-20 grid h-full w-full grid-cols-1 gap-2 max-md:mb-32 md:grid-cols-3 lg:max-w-[940px]">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`uppercase w-[300px] max-md:mx-auto md:w-auto p-3 border-[#dadada] border ${
+                  className={`w-[300px] border border-[#dadada] p-3 uppercase max-md:mx-auto md:w-auto ${
                     activeFilter.type === "category" &&
                     activeFilter.value === cat
-                      ? "bg-accent text-white-text shadow-button font-semibold"
+                      ? "bg-accent font-semibold text-white-text shadow-button"
                       : "hover:bg-accent/10"
                   }`}
                   onClick={() => handleCategoryChange(cat)}
@@ -86,11 +86,11 @@ const CatalogPage = () => {
                 </TabsTrigger>
               ))}
             </div>
-            <div className="w-full grid h-full grid-cols-1 md:grid-cols-5 lg:max-w-[800px] mx-auto gap-2 max-md:mt-6">
+            <div className="mx-auto grid h-full w-full grid-cols-1 gap-2 max-md:mt-6 md:grid-cols-5 lg:max-w-[800px]">
               {uniqueBrands.map((br, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`relative z-20 uppercase w-[300px] max-md:mx-auto md:w-auto border-[#dadada] border ${
+                  className={`relative z-20 w-[300px] border border-[#dadada] uppercase max-md:mx-auto md:w-auto ${
                     activeFilter.type === "brand" && activeFilter.value === br
                       ? "bg-gradient-to-t from-accent/35 via-accent/10 to-body-accent/10 shadow-button"
                       : "hover:bg-accent/10"
@@ -105,7 +105,7 @@ const CatalogPage = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className="text-lg mt-20 md:mt-36 xl:mt-44 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:max-w-[80%] mx-auto gap-10">
+          <div className="mx-auto mt-20 grid grid-cols-1 gap-10 text-lg md:mt-36 lg:grid-cols-2 xl:mt-44 xl:grid-cols-3 2xl:max-w-[80%]">
             {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/catalog" />

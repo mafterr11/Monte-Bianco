@@ -33,30 +33,29 @@ const dropdownLinksCatalog = [
   {
     path: "/catalog",
     query: "category=Batiste%20nazale",
-    name: "Batiste nazale"
+    name: "Batiste nazale",
   },
   {
     path: "/catalog",
     query: "category=Șervețele%20de%20masă",
-    name: "Șervețele de masă"
+    name: "Șervețele de masă",
   },
   {
     path: "/catalog",
     query: "category=Hârtie%20igienică",
-    name: "Hârtie igienică"
+    name: "Hârtie igienică",
   },
   {
     path: "/catalog",
     query: "category=Prosoape%20de%20bucătărie",
-    name: "Prosoape de bucătărie"
+    name: "Prosoape de bucătărie",
   },
   {
     path: "/catalog",
     query: "category=Șervețele%20Pop-up",
-    name: "Șervețele Pop-up"
-  }
+    name: "Șervețele Pop-up",
+  },
 ];
-
 
 const dropdownLinksAFH = [
   {
@@ -81,7 +80,6 @@ const dropdownLinksAFH = [
   },
 ];
 
-
 const Nav = ({ containerStyles, linkStyles }) => {
   const currentRoute = usePathname();
   return (
@@ -97,14 +95,17 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/catalog"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
-                          : "capitalize text-base hover hover:scale-[0.97]"
+                          ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
+                          : "hover text-base capitalize hover:scale-[0.97]"
                       }`}
                     >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0 bg-gradient-blue">
+                  <NavigationMenuContent
+                    as="div"
+                    className="bg-gradient-blue px-0"
+                  >
                     {dropdownLinksCatalog.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
@@ -114,9 +115,9 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         legacyBehavior
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
-                        <div className="p-4 w-[18rem] text-center flex gap-x-3">
+                          <div className="flex w-[18rem] gap-x-3 p-4 text-center">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav text-black font-medium">
+                            <div className="hover-nav font-medium text-black">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>
@@ -138,14 +139,17 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/away-from-home"
                       className={`${
                         currentRoute === link.path
-                          ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
-                          : "capitalize text-base hover hover:scale-[0.97]"
+                          ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
+                          : "hover text-base capitalize hover:scale-[0.97]"
                       }`}
                     >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent as="div" className="px-0 bg-gradient-blue">
+                  <NavigationMenuContent
+                    as="div"
+                    className="bg-gradient-blue px-0"
+                  >
                     {dropdownLinksAFH.map((dropdownLink, dropdownIndex) => (
                       <Link
                         key={dropdownIndex}
@@ -154,9 +158,9 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         legacyBehavior
                       >
                         <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
-                          <div className="p-4 w-[15rem] text-center flex gap-x-3">
+                          <div className="flex w-[15rem] gap-x-3 p-4 text-center">
                             <span className="text-accent">&#9679;</span>
-                            <div className="hover-nav text-black font-medium">
+                            <div className="hover-nav font-medium text-black">
                               <span>{dropdownLink.name}</span>
                             </div>
                           </div>
@@ -175,8 +179,8 @@ const Nav = ({ containerStyles, linkStyles }) => {
               href={link.path}
               className={`${linkStyles} ${
                 currentRoute === link.path
-                  ? "underline decoration-accent decoration-4 underline-offset-[1.7rem] capitalize text-base hover:scale-[0.97] font-semibold"
-                  : "capitalize text-base hover hover:scale-[0.97]"
+                  ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
+                  : "hover text-base capitalize hover:scale-[0.97]"
               }`}
             >
               <span>{link.name}</span>

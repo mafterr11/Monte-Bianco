@@ -1,5 +1,5 @@
 "use client";
-import { useParams, useRouter} from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const ProductPage = () => {
   const { slug } = useParams();
   // Find the current product based on the slug
   const productIndex = productData.findIndex(
-    (product) => product.slug === decodeURIComponent(slug)
+    (product) => product.slug === decodeURIComponent(slug),
   );
 
   const product = productData[productIndex];
@@ -25,10 +25,10 @@ const ProductPage = () => {
   const handleNextProduct = () => {
     const currentCategory = product.category;
     const categoryProducts = productData.filter(
-      (p) => p.category === currentCategory
+      (p) => p.category === currentCategory,
     );
     const currentProductIndex = categoryProducts.findIndex(
-      (p) => p.slug === product.slug
+      (p) => p.slug === product.slug,
     );
     const nextProductIndex =
       (currentProductIndex + 1) % categoryProducts.length;
@@ -41,37 +41,37 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="min-h-screen pt-24 pb-72 md:mt-16">
-      <h2 className="mb-40 max-md:mb-20 text-center mx-auto">
+    <div className="min-h-screen pb-72 pt-24 md:mt-16">
+      <h2 className="mx-auto mb-40 text-center max-md:mb-20">
         <span className="relative">
           {product.name}{" "}
           <Underline.underline className="absolute inset-x-0 -bottom-6 md:-bottom-10" />
         </span>
       </h2>
       {/* Product CONTAINER */}
-      <div className="flex max-xl:flex-col xl:items-end justify-center gap-x-8 max-xl:gap-y-12">
+      <div className="flex justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end">
         {/* Left side */}
-        <div className="relative flex max-xl:flex-col-reverse max-xl:gap-y-6 max-xl:items-center items-end justify-center gap-x-12">
+        <div className="relative flex items-end justify-center gap-x-12 max-xl:flex-col-reverse max-xl:items-center max-xl:gap-y-6">
           {/* Color */}
-          <div className="xl:absolute xl:-left-24 xl:bottom-0 flex flex-col max-xl:flex-row max-xl:flex-wrap max-xl:container justify-center xl:-space-y-8 xl:hover:space-y-4 max-xl:-space-x-6 max-md:hover:space-x-2 md:max-xl:hover:space-x-4 group">
+          <div className="group flex flex-col justify-center max-xl:container max-xl:flex-row max-xl:flex-wrap max-xl:-space-x-6 max-md:hover:space-x-2 md:max-xl:hover:space-x-4 xl:absolute xl:-left-24 xl:bottom-0 xl:-space-y-8 xl:hover:space-y-4">
             {/* Map through colors and create a circle for each */}
             {product.color.map((color, index) => (
               <div
                 key={index}
-                className="transition-all duration-500 ease-in-out flex flex-col items-center justify-center max-xl:justify-end gap-y-1"
+                className="flex flex-col items-center justify-center gap-y-1 transition-all duration-500 ease-in-out max-xl:justify-end"
               >
                 <div
-                  className="w-9 h-9 md:w-12 md:h-12 rounded-full shadow-button border border-black-text/40"
+                  className="h-9 w-9 rounded-full border border-black-text/40 shadow-button md:h-12 md:w-12"
                   style={{ backgroundColor: color.color }}
                 />
-                <div className="text-xs md:text-sm opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500">
+                <div className="text-xs opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100 md:text-sm">
                   {color.name}
                 </div>
               </div>
             ))}
           </div>
           {/* Image with gradient background */}
-          <div className="relative max-md:w-full max-md:mx-auto max-md:h-[400px] h-[500px] w-[500px]">
+          <div className="relative h-[500px] w-[500px] max-md:mx-auto max-md:h-[400px] max-md:w-full">
             {" "}
             {/* Adjust width and height to match Image's dimensions */}
             <Image
@@ -81,7 +81,7 @@ const ProductPage = () => {
               className="z-10 object-cover"
               alt={product.alt}
             />
-            <div className="absolute bottom-0 left-0 w-full h-full bg-product-gradient z-0"></div>
+            <div className="absolute bottom-0 left-0 z-0 h-full w-full bg-product-gradient"></div>
           </div>
         </div>
         {/* Right side */}
@@ -90,7 +90,7 @@ const ProductPage = () => {
           <div
             className={`grid ${
               product.grid ? product.grid : "grid-cols-4"
-            } max-md:grid-cols-2 gap-y-16 items-start`}
+            } items-start gap-y-16 max-md:grid-cols-2`}
           >
             {/* Details Grid */}
             {product.details.map((details, index) => {
@@ -110,7 +110,7 @@ const ProductPage = () => {
                       />
                     </>
                     {/* Title */}
-                    <div className="text-center max-w-[250px]">
+                    <div className="max-w-[250px] text-center">
                       {details.title}
                     </div>
                   </div>
@@ -119,12 +119,12 @@ const ProductPage = () => {
             })}
           </div>
           {/* Back button */}
-          <div className="flex items-center flex-col-reverse md:flex-row justify-center gap-8">
+          <div className="flex flex-col-reverse items-center justify-center gap-8 md:flex-row">
             <Link href="/catalog">
               <Button
                 variant="back"
                 size="back"
-                className="flex items-center justify-center gap-x-2 min-w-[240px]"
+                className="flex min-w-[240px] items-center justify-center gap-x-2"
               >
                 Catalog
               </Button>
@@ -134,7 +134,7 @@ const ProductPage = () => {
               onClick={handleNextProduct}
               variant="back"
               size="back"
-              className="flex items-center justify-center gap-x-2 min-w-[240px] bg-accent text-white hover:bg-accent/85"
+              className="flex min-w-[240px] items-center justify-center gap-x-2 bg-accent text-white hover:bg-accent/85"
             >
               Înainte
             </Button>

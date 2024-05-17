@@ -17,7 +17,7 @@ const Social = ({ containerStyles }) => {
         </a>
       </div>
       {/* Facebook */}
-      <div className="shadow-button transition-all ease-in-out duration-300 hover:scale-[0.95]">
+      <div className="shadow-button transition-all duration-300 ease-in-out hover:scale-[0.95]">
         <Link href="https://web.facebook.com/MonteBiancoRo">
           <Image
             src="/facebook.svg"

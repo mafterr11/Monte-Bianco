@@ -17,7 +17,7 @@ const Path = (props) => (
 const MenuButton = ({ onClick, isOpen }) => {
   return (
     <motion.button
-      className={`flex items-center justify-center w-14 h-14 bg-accent ${isOpen ? 'rounded-full' : 'rounded-[10px]'} cursor-pointer`}
+      className={`flex h-14 w-14 items-center justify-center bg-accent ${isOpen ? "rounded-full" : "rounded-[10px]"} cursor-pointer`}
       onClick={onClick}
       animate={isOpen ? "open" : "closed"}
       initial={false}
@@ -26,7 +26,7 @@ const MenuButton = ({ onClick, isOpen }) => {
         width="25"
         height="25"
         viewBox="0 0 25 25"
-        className="mt-[4px] ml-[2px] text-white"
+        className="ml-[2px] mt-[4px] text-white"
       >
         <Path
           variants={{
@@ -81,7 +81,6 @@ const rightMenu = [
   },
 ];
 
-  
 const leftMenu = [
   {
     path: "/catalog",
@@ -149,7 +148,7 @@ const slideHorizontalAnimation = {
   },
 };
 
-const DropdownMenu = ({containerStyles}) => {
+const DropdownMenu = ({ containerStyles }) => {
   const [isOpen, toggleDropdown] = useCycle(false, true);
   const [isLeftMenu, toggleMenu] = useCycle(true, false);
   const leftMenuHeight = (leftMenu.length + 1) * 65; // Height in pixels, adjust as needed
@@ -157,24 +156,24 @@ const DropdownMenu = ({containerStyles}) => {
   const height = isLeftMenu ? leftMenuHeight : rightMenuHeight;
 
   return (
-    <div className={`z-40 fixed ${containerStyles} py-96`}>
+    <div className={`fixed z-40 ${containerStyles} py-96`}>
       <MenuButton onClick={toggleDropdown} isOpen={isOpen} />
       <motion.div
-        className="absolute top-[28rem] right-2 w-[18rem] rounded-lg shadow-lg z-20 border-2 border-body-accent overflow-hidden bg-gradient-blue"
+        className="absolute right-2 top-[28rem] z-20 w-[18rem] overflow-hidden rounded-lg border-2 border-body-accent bg-gradient-blue shadow-lg"
         style={{ height }}
         initial="close"
         animate={isOpen ? "open" : "close"}
         variants={slideVerticalAnimation}
       >
         <motion.div
-          className="flex h-full relative w-[50rem]"
+          className="relative flex h-full w-[50rem]"
           initial="left"
           animate={isLeftMenu ? "left" : "right"}
           variants={slideHorizontalAnimation}
         >
-          <motion.div className="flex flex-col w-[18rem] h-full px-8">
+          <motion.div className="flex h-full w-[18rem] flex-col px-8">
             <h4
-              className="text-center text-xl my-8 cursor-pointer transition duration-200 "
+              className="my-8 cursor-pointer text-center text-xl transition duration-200 "
               onClick={toggleMenu}
             >
               Către mărci &#8594;
@@ -183,16 +182,21 @@ const DropdownMenu = ({containerStyles}) => {
               {leftMenu.map((link, i) => (
                 <li
                   key={i}
-                  className="text-center cursor-pointer transition duration-200 font-medium py-3"
+                  className="cursor-pointer py-3 text-center font-medium transition duration-200"
                 >
-                  <Link href={`${link.path}?${link.query}`} onClick={toggleDropdown}>{link.name}</Link>
+                  <Link
+                    href={`${link.path}?${link.query}`}
+                    onClick={toggleDropdown}
+                  >
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
           </motion.div>
-          <motion.div className="flex flex-col items-center justify-center w-[18rem] h-full px-8 absolute right-[16.5rem] top-0">
+          <motion.div className="absolute right-[16.5rem] top-0 flex h-full w-[18rem] flex-col items-center justify-center px-8">
             <h4
-              className="text-center items-center text-xl my-3 cursor-pointer transition duration-200"
+              className="my-3 cursor-pointer items-center text-center text-xl transition duration-200"
               onClick={toggleMenu}
             >
               &#8592; Categorii
@@ -201,10 +205,18 @@ const DropdownMenu = ({containerStyles}) => {
               {rightMenu.map((dropdownLink, i) => (
                 <li
                   key={i}
-                  className="cursor-pointer transition duration-200 w-[100px] py-3 focus:bg-gradient-blue"
+                  className="w-[100px] cursor-pointer py-3 transition duration-200 focus:bg-gradient-blue"
                 >
-                    <Link href={`${dropdownLink.path}?${dropdownLink.query}`} onClick={toggleDropdown}>
-                  <Image src={dropdownLink.icon} width={120} height={70} alt="brands" />
+                  <Link
+                    href={`${dropdownLink.path}?${dropdownLink.query}`}
+                    onClick={toggleDropdown}
+                  >
+                    <Image
+                      src={dropdownLink.icon}
+                      width={120}
+                      height={70}
+                      alt="brands"
+                    />
                   </Link>
                 </li>
               ))}

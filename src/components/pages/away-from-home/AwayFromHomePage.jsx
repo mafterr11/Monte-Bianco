@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useCallback, useEffect } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import CardProdus from "@/components/pages/catalog/CardProdus";
@@ -7,62 +7,65 @@ import { useSearchParams } from "next/navigation";
 
 const AwayFromHomePage = () => {
   const searchParams = useSearchParams();
-  const [activeFilter, setActiveFilter] = useState({ type: 'categoryAFH', value: 'Toate produsele' });
+  const [activeFilter, setActiveFilter] = useState({
+    type: "categoryAFH",
+    value: "Toate produsele",
+  });
 
   useEffect(() => {
     const categoryFromUrl = searchParams.get("categoryAFH");
     if (categoryFromUrl) {
       const decodedCategory = decodeURIComponent(categoryFromUrl);
       console.log("Decoded Category:", decodedCategory); // Ensure this logs the expected value
-      setActiveFilter({ type: 'categoryAFH', value: decodedCategory });
+      setActiveFilter({ type: "categoryAFH", value: decodedCategory });
     }
   }, [searchParams]);
-  
 
-  const handleCategoryChange = useCallback((cat) => { 
-    setActiveFilter({ type: 'categoryAFH', value: cat });
+  const handleCategoryChange = useCallback((cat) => {
+    setActiveFilter({ type: "categoryAFH", value: cat });
   }, []);
-
- 
-
 
   // Filter products that have categories defined
   const productsWithCategories = productData.filter(
-    (product) => product.categoryAFH
+    (product) => product.categoryAFH,
   );
 
-  const filteredProducts = productsWithCategories.filter(product =>
-    activeFilter.value === "Toate produsele" || product.categoryAFH === activeFilter.value
-  ); 
+  const filteredProducts = productsWithCategories.filter(
+    (product) =>
+      activeFilter.value === "Toate produsele" ||
+      product.categoryAFH === activeFilter.value,
+  );
 
- const uniqueCategories = ["Toate produsele", ...new Set(productsWithCategories.map(p => p.categoryAFH))];
+  const uniqueCategories = [
+    "Toate produsele",
+    ...new Set(productsWithCategories.map((p) => p.categoryAFH)),
+  ];
 
   return (
-    <section className='min-h-screen pt-24 md:mt-16'>
-      <div className='container mx-auto'>
-        <h2 className='mb-28 text-center mx-auto'>
-          Away From Home
-        </h2>
+    <section className="min-h-screen pt-24 md:mt-16">
+      <div className="container mx-auto">
+        <h2 className="mx-auto mb-28 text-center">Away From Home</h2>
         {/* tabs */}
-        <Tabs className='relative mb-24 xl:mb-48'>
+        <Tabs className="relative mb-24 xl:mb-48">
           {/* Category and brand Tabs */}
-          <TabsList className='xl:absolute top-8 -left-24 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48'>
-            <div className='w-full grid h-full grid-cols-1 md:max-xl:w-1/2 lg:max-w-[940px] mb-12 mx-auto gap-2 overflow'>
+          <TabsList className="-left-24 top-8 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 xl:absolute">
+            <div className="overflow mx-auto mb-12 grid h-full w-full grid-cols-1 gap-2 md:max-xl:w-1/2 lg:max-w-[940px]">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`uppercase w-[300px] p-4 max-md:mx-auto md:w-auto border-[#dadada] border ${activeFilter.type === 'categoryAFH' && activeFilter.value === cat ? 'bg-accent text-white-text shadow-button font-semibold' : ''}`}
-                  onClick={() => handleCategoryChange(cat)}>
+                  className={`w-[300px] border border-[#dadada] p-4 uppercase max-md:mx-auto md:w-auto ${activeFilter.type === "categoryAFH" && activeFilter.value === cat ? "bg-accent font-semibold text-white-text shadow-button" : ""}`}
+                  onClick={() => handleCategoryChange(cat)}
+                >
                   {cat}
                 </TabsTrigger>
               ))}
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className='text-lg max-xl:mt-[17rem] xl:mt-24 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xl:max-w-[70%] 2xl:max-w-[80%] 2xl:w-full 2xl:grid-cols-3 mx-auto gap-10'>
-          {filteredProducts.map((product, index) => (
+          <div className="mx-auto grid grid-cols-1 gap-10 text-lg max-xl:mt-[17rem] lg:grid-cols-2 xl:mt-24 xl:max-w-[70%] xl:grid-cols-2 2xl:w-full 2xl:max-w-[80%] 2xl:grid-cols-3">
+            {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
-                <CardProdus product={product} basePath="/away-from-home"/>
+                <CardProdus product={product} basePath="/away-from-home" />
               </TabsContent>
             ))}
           </div>

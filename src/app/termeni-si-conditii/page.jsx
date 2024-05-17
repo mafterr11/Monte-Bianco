@@ -10,9 +10,9 @@ export const metadata = constructMetadata({
 
 const TermeniSiConditii = () => {
   return (
-    <div className="py-40 mx-40">
-      <h2 className="text-center mb-32 text-shadow">TERMENI ȘI CONDIȚII</h2>
-      <div className="flex flex-col items-start justify-center gap-y-4 mb-8">
+    <div className="mx-40 py-40">
+      <h2 className="text-shadow mb-32 text-center">TERMENI ȘI CONDIȚII</h2>
+      <div className="mb-8 flex flex-col items-start justify-center gap-y-4">
         <h5 className=" text-[20px]">
           <span className="text-accent">&#9679;</span> Va multumim pentru
           vizitarea acestui website. Va rugam sa cititi cu atentie Termenii si
@@ -31,7 +31,7 @@ const TermeniSiConditii = () => {
         </h5>
       </div>
       {/* Container */}
-      <div className="flex flex-col items-start gap-y-12 mb-32">
+      <div className="mb-32 flex flex-col items-start gap-y-12">
         {/* 1 */}
         <div className="flex flex-col items-start gap-y-4">
           <h5 className="text-accent">

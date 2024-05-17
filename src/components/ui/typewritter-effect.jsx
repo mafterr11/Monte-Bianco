@@ -28,7 +28,7 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
           duration: 0.3,
           delay: stagger(0.1),
           ease: "easeInOut",
-        }
+        },
       );
     }
   }, [isInView]);
@@ -44,8 +44,8 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
                   initial={{}}
                   key={`char-${index}`}
                   className={cn(
-                    `dark:text-white text-black opacity-0 hidden`,
-                    word.className
+                    `hidden text-black opacity-0 dark:text-white`,
+                    word.className,
                   )}
                 >
                   {char}
@@ -61,8 +61,8 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
   return (
     <div
       className={cn(
-        "text-base sm:text-xl md:text-3xl lg:text-5xl font-bold text-center",
-        className
+        "text-center text-base font-bold sm:text-xl md:text-3xl lg:text-5xl",
+        className,
       )}
     >
       {renderWords()}
@@ -79,8 +79,8 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
           repeatType: "reverse",
         }}
         className={cn(
-          "inline-block rounded-sm w-[4px] h-4 md:h-6 lg:h-10 bg-blue-500",
-          cursorClassName
+          "bg-blue-500 inline-block h-4 w-[4px] rounded-sm md:h-6 lg:h-10",
+          cursorClassName,
         )}
       ></motion.span>
     </div>
@@ -108,7 +108,7 @@ export const TypewriterEffectSmooth = ({
               {word.text.map((char, index) => (
                 <span
                   key={`char-${index}`}
-                  className={cn(`dark:text-white text-black `, word.className)}
+                  className={cn(`text-black dark:text-white `, word.className)}
                 >
                   {char}
                 </span>
@@ -160,8 +160,8 @@ export const TypewriterEffectSmooth = ({
           repeatType: "reverse",
         }}
         className={cn(
-          "block rounded-sm w-[4px] h-6 xl:h-8 bg-accent",
-          cursorClassName
+          "block h-6 w-[4px] rounded-sm bg-accent xl:h-8",
+          cursorClassName,
         )}
       ></motion.span>
     </div>

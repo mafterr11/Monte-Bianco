@@ -918,7 +918,7 @@ export const productData = [
     name: "Puff de luxe 4 role",
     image: "/produse/hartie-igienica/Puff de luxe 4 role.png",
     alt: "Puff de luxe 4 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -984,7 +984,7 @@ export const productData = [
     name: "Puff de luxe 8 role",
     image: "/produse/hartie-igienica/Puff de luxe 8 role.png",
     alt: "Puff de luxe 8 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1050,7 +1050,7 @@ export const productData = [
     name: "Puff super soft 8 role",
     image: "/produse/hartie-igienica/Puff super soft 8 role.png",
     alt: "Puff super soft 8 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1118,7 +1118,7 @@ export const productData = [
     name: "Fiore 4 role",
     image: "/produse/hartie-igienica/Fiore 4 role.png",
     alt: "Fiore 4 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1184,7 +1184,7 @@ export const productData = [
     name: "Fiore 16 role",
     image: "/produse/hartie-igienica/Fiore 16 role.png",
     alt: "Fiore 16 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1250,7 +1250,7 @@ export const productData = [
     name: "Fiore 24 role",
     image: "/produse/hartie-igienica/Fiore 24 role.png",
     alt: "Fiore 24 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1316,7 +1316,7 @@ export const productData = [
     name: "Fiore super soft 4 role",
     image: "/produse/hartie-igienica/Fiore super soft 4 role.png",
     alt: "Fiore super soft 4 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1382,7 +1382,7 @@ export const productData = [
     name: "Fiore super soft 8 role",
     image: "/produse/hartie-igienica/Fiore super soft 8 role.png",
     alt: "Fiore super soft 8 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1448,7 +1448,7 @@ export const productData = [
     name: "Fiore super soft 16 role",
     image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
     alt: "Fiore super soft 16 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1515,7 +1515,7 @@ export const productData = [
     name: "Neve Profesional 170 m",
     image: "/produse/hartie-igienica/Neve Profesional 170 m.png",
     alt: "Neve Profesional 170 m",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1583,7 +1583,7 @@ export const productData = [
     name: "Horeca 170 m",
     image: "/produse/hartie-igienica/Horeca 170 m.png",
     alt: "Horeca 170 m",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1652,7 +1652,7 @@ export const productData = [
     name: "Puff 2 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 2 role 3 str..png",
     alt: "Puff 2 role 3 str.",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1718,7 +1718,7 @@ export const productData = [
     name: "Puff 4 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
     alt: "Puff 4 role 3 str.",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1784,7 +1784,7 @@ export const productData = [
     name: "Monorolă Puff",
     image: "/produse/prosoape-de-bucatarie/Monorolă Puff.png",
     alt: "Monorolă Puff",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1851,7 +1851,7 @@ export const productData = [
     name: "Fiore 2 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 role.png",
     alt: "Fiore 2 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1917,7 +1917,7 @@ export const productData = [
     name: "Fiore 4 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 4 role.png",
     alt: "Fiore 4 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -1983,7 +1983,7 @@ export const productData = [
     name: "Fiore 8 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 8 role.png",
     alt: "Fiore 8 role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2049,7 +2049,7 @@ export const productData = [
     name: "Fiore 2 maxi role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 maxi role.png",
     alt: "Fiore 2 maxi role",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",
@@ -2115,7 +2115,7 @@ export const productData = [
     name: "Monorolă Fiore",
     image: "/produse/prosoape-de-bucatarie/Monorolă Fiore.png",
     alt: "Monorolă Fiore",
-    grid:"grid-cols-4",
+    grid: "grid-cols-4",
     color: [
       {
         name: "Alb",

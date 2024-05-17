@@ -20,7 +20,7 @@ export const pictures = [
 
 export function Hero() {
   return (
-    <section className='relative overflow-hidden border-b border-accent'>
+    <section className="relative overflow-hidden border-b border-accent">
       <Carousel
         plugins={[
           Autoplay({
@@ -32,38 +32,44 @@ export function Hero() {
           {pictures.map((picture, index) => (
             <CarouselItem
               key={index}
-              className='flex relative h-60 md:h-screen'
+              className="relative flex h-60 md:h-screen"
             >
               {" "}
               <Image
                 src={picture.image}
                 fill
                 priority={true}
-                alt='Poze de intro pentru Monte Bianco - părerea dumneavoastră contează'
-                className='object-cover'
+                alt="Poze de intro pentru Monte Bianco - părerea dumneavoastră contează"
+                className="object-cover"
               />
             </CarouselItem>
           ))}
         </CarouselContent>
       </Carousel>
-      <div className='absolute top-4 left-0 w-full h-full xl:pl-60 xl:pb-20 flex flex-col items-center xl:items-start justify-center z-20 text-white gap-y-2'>
+      <div className="absolute left-0 top-4 z-20 flex h-full w-full flex-col items-center justify-center gap-y-2 text-white xl:items-start xl:pb-20 xl:pl-60">
         {/* <h4 className="max-xs:text-[20px] max-xs:text-center max-xs:pt-6 mb-[5px] text-white-text">Parerea dumneavoastra conteaza!</h4> */}
-        <h4 className='text-center md:text-left max-md:pt-12'>
+        <h4 className="text-center max-md:pt-12 md:text-left">
           <HeroTypewritter />
         </h4>
-        <h1 className='max-w-4xl  hidden md:inline-block xl:mb-[35px]'>
+        <h1 className="hidden  max-w-4xl md:inline-block xl:mb-[35px]">
           30 de ani dedicați satisfacției clienților
         </h1>
-        <p className='max-w-xl lg:max-xl:max-w-2xl hidden md:inline-block mb-[35px] text-white-text md:max-xl:text-center'>
+        <p className="mb-[35px] hidden max-w-xl text-white-text md:inline-block md:max-xl:text-center lg:max-xl:max-w-2xl">
           Apreciem în mod deosebit faptul că ne-ați acordat încrederea voastră
           și că ne-ați oferit oportunitatea de a servi în mod constant
         </p>
-        <Link href='/contact' className='hidden md:inline-block'>
-          <Button size='lg' className="flex items-center justify-center gap-x-2">Contactați-ne<PhoneOutgoing strokeWidth={1.5} size={22}/></Button>
+        <Link href="/contact" className="hidden md:inline-block">
+          <Button
+            size="lg"
+            className="flex items-center justify-center gap-x-2"
+          >
+            Contactați-ne
+            <PhoneOutgoing strokeWidth={1.5} size={22} />
+          </Button>
         </Link>
       </div>
 
-      <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/35 z-10'></div>
+      <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-r from-black/35"></div>
     </section>
   );
 }

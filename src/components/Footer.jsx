@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="max-md:text-[13px]">
         Creat de{" "}
         <Link href="https://www.myriad-tech.ro/" className="hover-nav group">
-          <span className="group-hover:font-medium">Myriad Tech</span>
+          <span className="group-hover:font-semibold font-medium">Myriad Tech</span>
         </Link>{" "}
         - Toate drepturile rezervate
       </div>

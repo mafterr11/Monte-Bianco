@@ -143,7 +143,7 @@ const ContactPage = () => {
                 <a
                   href="https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8"
                   target="_blank"
-                  className="hover mt-1 font-medium text-accent hover:decoration-2 hover:underline-offset-4"
+                  className="hover mt-1 font-medium hover:scale-[1.02] text-accent hover:decoration-2 hover:underline-offset-4"
                 >
                   Strada Fructelor, Numărul 5, Pucioasa, 135400, Dâmboviţa
                   România

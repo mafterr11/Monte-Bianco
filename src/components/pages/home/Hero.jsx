@@ -51,7 +51,7 @@ export function Hero() {
         <h4 className="text-center max-md:pt-12 md:text-left">
           <HeroTypewritter />
         </h4>
-        <h1 className="hidden  max-w-4xl md:inline-block xl:mb-[35px]">
+        <h1 className="hidden max-w-4xl md:inline-block xl:mb-[35px]">
           30 de ani dedicați satisfacției clienților
         </h1>
         <p className="mb-[35px] hidden max-w-xl text-white-text md:inline-block md:max-xl:text-center lg:max-xl:max-w-2xl">

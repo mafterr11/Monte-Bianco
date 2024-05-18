@@ -61,10 +61,10 @@ export function Hero() {
         <Link href="/contact" className="hidden md:inline-block">
           <Button
             size="lg"
-            className="flex items-center justify-center gap-x-2"
+            className="flex items-center justify-center gap-x-2 group"
           >
             Contactați-ne
-            <PhoneOutgoing strokeWidth={1.5} size={22} />
+            <PhoneOutgoing strokeWidth={1.5} size={22} className="transition-all duration-300 group-hover:rotate-[20deg] ease-in-out"/>
           </Button>
         </Link>
       </div>

@@ -13,9 +13,9 @@ import { HeroTypewritter } from "./HeroTypewritter";
 import { PhoneOutgoing } from "lucide-react";
 // Data
 export const pictures = [
-  { image: "/hero/1.png" },
-  { image: "/hero/2.png" },
-  { image: "/hero/3.png" },
+  { image: "/hero/1.webp" },
+  { image: "/hero/2.jpg" },
+  { image: "/hero/3.webp" },
 ];
 
 export function Hero() {
@@ -69,7 +69,7 @@ export function Hero() {
         </Link>
       </div>
 
-      <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-r from-black/35"></div>
+      <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-r from-black/70 to-black/20"></div>
     </section>
   );
 }

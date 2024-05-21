@@ -42,7 +42,7 @@ const Brands = () => {
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
           key={index}
-          className={`${brand.class} z-40`}
+          className={`${brand.class} z-20`}
         >
           <Image
             src={brand.icon}
@@ -54,7 +54,7 @@ const Brands = () => {
           />
         </motion.div>
       ))}
-      <div className="absolute inset-0 z-50"></div>
+      <div className="absolute inset-0 z-30"></div>
     </section>
   );
 };

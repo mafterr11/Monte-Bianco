@@ -29,6 +29,7 @@ const CardProdus = ({ product, basePath }) => {
             height={255}
             alt={product.alt}
             priority
+            unoptimized
           />
         </div>
       </CardHeader>

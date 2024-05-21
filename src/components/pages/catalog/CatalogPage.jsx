@@ -99,7 +99,7 @@ const CatalogPage = () => {
                 >
                   <div className="absolute inset-0 z-30"></div>
 
-                  {br && <Image src={br} width={120} height={60} alt={br} />}
+                  {br && <Image src={br} width={120} height={60} alt={br} unoptimized/>}
                 </TabsTrigger>
               ))}
             </div>

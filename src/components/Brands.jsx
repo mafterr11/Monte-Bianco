@@ -50,6 +50,7 @@ const Brands = () => {
             height={70}
             alt={brand.alt}
             className="h-auto"
+            unoptimized
           />
         </motion.div>
       ))}

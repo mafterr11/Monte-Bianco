@@ -53,6 +53,7 @@ const Certificari = () => {
             height={70}
             alt={certificat.name}
             className="h-[70px] w-auto xs:max-xl:h-[85px] xl:h-[90px] "
+            unoptimized
           />
         </motion.div>
       ))}

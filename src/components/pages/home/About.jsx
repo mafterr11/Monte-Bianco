@@ -21,6 +21,7 @@ const About = () => {
             height={473}
             className=""
             alt="Echipa Monte Bianco discutând strategii de inovație în fabrica de hârtie"
+            unoptimized
           />
         </>
         {/* Text */}
@@ -82,6 +83,7 @@ const About = () => {
             height={373}
             className=""
             alt="Istoric Monte Bianco, echipamentele originale de producție de hârtie"
+            unoptimized
           />
         </>
       </motion.div>
@@ -101,6 +103,7 @@ const About = () => {
             height={373}
             className=""
             alt="Angajați Monte Bianco verificând noile tehnologii de producție de hârtie"
+            unoptimized
           />
         </>
         {/* Text */}

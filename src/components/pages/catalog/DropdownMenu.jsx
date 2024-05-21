@@ -216,6 +216,7 @@ const DropdownMenu = ({ containerStyles }) => {
                       width={120}
                       height={70}
                       alt="brands"
+                      unoptimized
                     />
                   </Link>
                 </li>

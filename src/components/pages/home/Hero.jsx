@@ -41,6 +41,7 @@ export function Hero() {
                 priority={true}
                 alt="Poze de intro pentru Monte Bianco - părerea dumneavoastră contează"
                 className="object-cover"
+                unoptimized
               />
             </CarouselItem>
           ))}

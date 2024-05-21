@@ -65,6 +65,7 @@ const ProductPage = ({product}) => {
               priority
               className="z-10 object-cover"
               alt={product.alt}
+              unoptimized
             />
             <div className="absolute bottom-0 -left-6 z-0 h-[200px] w-[110%] bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20"/>
           </div>

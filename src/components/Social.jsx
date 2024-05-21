@@ -24,6 +24,7 @@ const Social = ({ containerStyles }) => {
             width={46}
             height={46}
             alt="Monte Bianco facebook link"
+            unoptimized
           />
         </Link>
       </div>

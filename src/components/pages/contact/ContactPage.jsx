@@ -111,7 +111,7 @@ const ContactPage = () => {
             target="_blank"
             className="hover mt-1 text-center font-medium text-accent hover:decoration-2 hover:underline-offset-4"
           >
-            Strada Fructelor, Numărul 5, Pucioasa, 135400, Dâmboviţa România
+            Strada Laminorului, numărul 16, Târgoviște, Dâmboviţa
           </a>
         </motion.div>
       </div>
@@ -145,8 +145,7 @@ const ContactPage = () => {
                   target="_blank"
                   className="hover mt-1 font-medium hover:scale-[1.02] text-accent hover:decoration-2 hover:underline-offset-4"
                 >
-                  Strada Fructelor, Numărul 5, Pucioasa, 135400, Dâmboviţa
-                  România
+                  Strada Laminorului, numărul 16, Târgoviște, Dâmboviţa
                 </a>
               </div>
             </div>

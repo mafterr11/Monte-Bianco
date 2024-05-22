@@ -143,7 +143,7 @@ const ContactPage = () => {
                 <a
                   href="https://maps.app.goo.gl/p1wcRJjfmqQvtwxq8"
                   target="_blank"
-                  className="hover mt-1 font-medium hover:scale-[1.02] text-accent hover:decoration-2 hover:underline-offset-4"
+                  className="hover mt-1 text-[17px] font-medium hover:scale-[1.02] text-accent hover:decoration-2 hover:underline-offset-4"
                 >
                   Strada Laminorului, numărul 16, Târgoviște, Dâmboviţa
                 </a>
@@ -160,7 +160,7 @@ const ContactPage = () => {
                   <a
                     href="tel:+40245606296"
                     target="blank"
-                    className="font-medium text-accent  hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
+                    className="font-medium text-[17px] text-accent  hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
                   >
                     +40.245.606.296
                   </a>
@@ -176,7 +176,7 @@ const ContactPage = () => {
                   <a
                     href="tel:+40245606286"
                     target="blank"
-                    className="font-medium text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
+                    className="font-medium text-[17px] text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
                   >
                     +40.245.606.286
                   </a>
@@ -190,7 +190,7 @@ const ContactPage = () => {
                 <a
                   href="mailto: sales@montebianco.ro"
                   target="blank"
-                  className="flex items-center justify-center gap-x-1 font-medium text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
+                  className="flex items-center text-[17px] justify-center gap-x-1 font-medium text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
                 >
                   sales@montebianco.ro
                 </a>
@@ -203,7 +203,7 @@ const ContactPage = () => {
                 <a
                   href="mailto: montebianco@montebianco.ro"
                   target="blank"
-                  className="flex items-center justify-center gap-x-1 font-medium text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
+                  className="flex items-center text-[17px] justify-center gap-x-1 font-medium text-accent hover:scale-[1.02] hover:underline hover:decoration-2 hover:underline-offset-4"
                 >
                   montebianco@montebianco.ro
                 </a>

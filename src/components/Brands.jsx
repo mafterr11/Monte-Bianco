@@ -54,7 +54,7 @@ const Brands = () => {
           />
         </motion.div>
       ))}
-      <div className="absolute inset-0 z-30"></div>
+      <div className="absolute inset-0 z-30"/>
     </section>
   );
 };

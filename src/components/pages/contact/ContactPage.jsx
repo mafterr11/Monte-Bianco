@@ -71,7 +71,7 @@ const ContactPage = () => {
           viewport={{ once: true, ammount: 0.4 }}
           className="flex flex-col flex-wrap items-center justify-start rounded bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
         >
-          <span className="font-semibold">Vanzari:</span>
+          <span className="font-semibold">Vânzări:</span>
           <a
             href="mailto: sales@montebianco.ro"
             target="blank"
@@ -168,7 +168,7 @@ const ContactPage = () => {
               </div>
             </AnimatedTooltip>
             {/* Fax */}
-            <AnimatedTooltip message="Avem chiar si fax!">
+            <AnimatedTooltip message="Avem chiar și fax!">
               <div className="hidden items-center justify-center gap-x-4 rounded bg-body/90 p-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
                 <MdOutlineFax size={32} />
                 <div className="flex-col flex-wrap md:flex">
@@ -184,9 +184,9 @@ const ContactPage = () => {
               </div>
             </AnimatedTooltip>
             {/* Vanzari */}
-            <AnimatedTooltip message="Emailul departamentului de vanzari">
+            <AnimatedTooltip message="Emailul departamentului de vânzări">
               <div className="hidden flex-col  flex-wrap items-start justify-start rounded bg-body/90 px-3 py-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
-                <p className="font-semibold">Vanzari:</p>
+                <p className="font-semibold">Vânzări:</p>
                 <a
                   href="mailto: sales@montebianco.ro"
                   target="blank"

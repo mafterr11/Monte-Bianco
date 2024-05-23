@@ -6,7 +6,7 @@ export const productData = [
   {
     slug: "Puff 4 str. de luxe",
     category: "Batiste nazale",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 4 str. de luxe",
     image: "/produse/batiste-nazale/Puff 4 str. de luxe.png",
@@ -48,7 +48,7 @@ export const productData = [
   {
     slug: "Puff 3 str. parfumate",
     category: "Batiste nazale",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 3 str. parfumate",
     image: "/produse/batiste-nazale/Puff 3 str. parfumate.png",
@@ -90,7 +90,7 @@ export const productData = [
   {
     slug: "Puff 3 str.",
     category: "Batiste nazale",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 3 str.",
     image: "/produse/batiste-nazale/Puff 3 str..png",
@@ -134,7 +134,7 @@ export const productData = [
   {
     slug: "Fiore 2 str.",
     category: "Batiste nazale",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 2 str.",
     image: "/produse/batiste-nazale/Fiore 2 str..png",
@@ -180,7 +180,7 @@ export const productData = [
   {
     slug: "Puff 1 str. 33 cm 80 buc",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 1 str. 33 cm 80 buc",
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm 80 buc.png",
@@ -234,7 +234,7 @@ export const productData = [
   {
     slug: "Puff 1 str. 33 cm Horeca",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 1 str. 33 cm Horeca",
     image: "/produse/servetele-de-masa/Puff 1 str. 33 cm Horeca.png",
@@ -284,7 +284,7 @@ export const productData = [
   {
     slug: "Puff select 2 str. 33 cm",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff select 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff select 2 str. 33 cm.png",
@@ -354,7 +354,7 @@ export const productData = [
   {
     slug: "Puff de luxe 2 str. 33 cm",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de luxe 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 33 cm.png",
@@ -428,7 +428,7 @@ export const productData = [
   {
     slug: "Puff de luxe 2 str. 38 cm",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de luxe 2 str. 38 cm",
     image: "/produse/servetele-de-masa/Puff de luxe 2 str. 38 cm.png",
@@ -498,7 +498,7 @@ export const productData = [
   {
     slug: "Puff eight fold 2 str. 33 cm",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff eight fold 2 str. 33 cm",
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 33 cm.png",
@@ -552,7 +552,7 @@ export const productData = [
   {
     slug: "Puff eight fold 2 str. 38 cm",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff eight fold 2 str. 38 cm",
     image: "/produse/servetele-de-masa/Puff eight fold 2 str. 38 cm.png",
@@ -606,7 +606,7 @@ export const productData = [
   {
     slug: "Puff de lux 2 str. Horeca",
     category: "Șervețele de masă",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de lux 2 str. Horeca",
     image: "/produse/servetele-de-masa/Puff de lux 2 str. Horeca.png",
@@ -658,7 +658,7 @@ export const productData = [
   {
     slug: "Fiore 1 str. 25 cm 50 buc",
     category: "Șervețele de masă",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 1 str. 25 cm 50 buc",
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 50 buc.png",
@@ -708,7 +708,7 @@ export const productData = [
   {
     slug: "Fiore 1 str. 25 cm 100 buc",
     category: "Șervețele de masă",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 1 str. 25 cm 100 buc",
     image: "/produse/servetele-de-masa/Fiore 1 str. 25 cm 100 buc.png",
@@ -758,7 +758,7 @@ export const productData = [
   {
     slug: "Fiore 1 str. 30 cm",
     category: "Șervețele de masă",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 1 str. 30 cm",
     image: "/produse/servetele-de-masa/Fiore 1 str. 30 cm.png",
@@ -808,7 +808,7 @@ export const productData = [
   {
     slug: "Fiore 1 str. 33 cm",
     category: "Șervețele de masă",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 1 str. 33 cm",
     image: "/produse/servetele-de-masa/Fiore 1 str. 33 cm.png",
@@ -860,7 +860,7 @@ export const productData = [
   {
     slug: "Neve economic 600 foi",
     category: "Șervețele de masă",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Neve economic 600 foi",
     image: "/produse/servetele-de-masa/Neve economic 600 foi.png",
@@ -913,7 +913,7 @@ export const productData = [
   {
     slug: "Puff de luxe 4 role",
     category: "Hârtie igienică",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de luxe 4 role",
     image: "/produse/hartie-igienica/Puff de luxe 4 role.png",
@@ -979,7 +979,7 @@ export const productData = [
   {
     slug: "Puff de luxe 8 role",
     category: "Hârtie igienică",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de luxe 8 role",
     image: "/produse/hartie-igienica/Puff de luxe 8 role.png",
@@ -1045,7 +1045,7 @@ export const productData = [
   {
     slug: "Puff super soft 8 role",
     category: "Hârtie igienică",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff super soft 8 role",
     image: "/produse/hartie-igienica/Puff super soft 8 role.png",
@@ -1113,7 +1113,7 @@ export const productData = [
   {
     slug: "Fiore 4 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 4 role",
     image: "/produse/hartie-igienica/Fiore 4 role.png",
@@ -1179,7 +1179,7 @@ export const productData = [
   {
     slug: "Fiore 16 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 16 role",
     image: "/produse/hartie-igienica/Fiore 16 role.png",
@@ -1245,7 +1245,7 @@ export const productData = [
   {
     slug: "Fiore 24 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 24 role",
     image: "/produse/hartie-igienica/Fiore 24 role.png",
@@ -1311,7 +1311,7 @@ export const productData = [
   {
     slug: "Fiore super soft 4 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore super soft 4 role",
     image: "/produse/hartie-igienica/Fiore super soft 4 role.png",
@@ -1377,7 +1377,7 @@ export const productData = [
   {
     slug: "Fiore super soft 8 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore super soft 8 role",
     image: "/produse/hartie-igienica/Fiore super soft 8 role.png",
@@ -1443,7 +1443,7 @@ export const productData = [
   {
     slug: "Fiore super soft 16 role",
     category: "Hârtie igienică",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore super soft 16 role",
     image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
@@ -1510,7 +1510,7 @@ export const productData = [
   {
     slug: "Neve Profesional 170 m",
     category: "Hârtie igienică",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Neve Profesional 170 m",
     image: "/produse/hartie-igienica/Neve Profesional 170 m.png",
@@ -1647,7 +1647,7 @@ export const productData = [
   {
     slug: "Puff 2 role 3 str.",
     category: "Prosoape de bucătărie",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 2 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 2 role 3 str..png",
@@ -1713,7 +1713,7 @@ export const productData = [
   {
     slug: "Puff 4 role 3 str.",
     category: "Prosoape de bucătărie",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 4 role 3 str.",
     image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
@@ -1779,7 +1779,7 @@ export const productData = [
   {
     slug: "Monorolă Puff",
     category: "Prosoape de bucătărie",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Monorolă Puff",
     image: "/produse/prosoape-de-bucatarie/Monorolă Puff.png",
@@ -1846,7 +1846,7 @@ export const productData = [
   {
     slug: "Fiore 2 role",
     category: "Prosoape de bucătărie",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 2 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 role.png",
@@ -1912,7 +1912,7 @@ export const productData = [
   {
     slug: "Fiore 4 role",
     category: "Prosoape de bucătărie",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 4 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 4 role.png",
@@ -1978,7 +1978,7 @@ export const productData = [
   {
     slug: "Fiore 8 role",
     category: "Prosoape de bucătărie",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 8 role",
     image: "/produse/prosoape-de-bucatarie/Fiore 8 role.png",
@@ -2044,7 +2044,7 @@ export const productData = [
   {
     slug: "Fiore 2 maxi role",
     category: "Prosoape de bucătărie",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 2 maxi role",
     image: "/produse/prosoape-de-bucatarie/Fiore 2 maxi role.png",
@@ -2110,7 +2110,7 @@ export const productData = [
   {
     slug: "Monorolă Fiore",
     category: "Prosoape de bucătărie",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Monorolă Fiore",
     image: "/produse/prosoape-de-bucatarie/Monorolă Fiore.png",
@@ -2178,7 +2178,7 @@ export const productData = [
   {
     slug: "Puff mozaic",
     category: "Șervețele Pop-up",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff mozaic",
     image: "/produse/pop-up/Puff mozaic.png",
@@ -2220,7 +2220,7 @@ export const productData = [
   {
     slug: "Puff trandafiri",
     category: "Șervețele Pop-up",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff trandafiri",
     image: "/produse/pop-up/Puff trandafiri.png",
@@ -2262,7 +2262,7 @@ export const productData = [
   {
     slug: "Puff paisley",
     category: "Șervețele Pop-up",
-    brand: "/marci/puff.png",
+    brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff paisley",
     image: "/produse/pop-up/Puff paisley.png",
@@ -2306,7 +2306,7 @@ export const productData = [
   {
     slug: "Fiore",
     category: "Șervețele Pop-up",
-    brand: "/marci/fiore.png",
+    brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore pop-up",
     image: "/produse/pop-up/Fiore.png",
@@ -2677,7 +2677,7 @@ export const productData = [
   {
     slug: "Prosop 61 m",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop 61 m",
     image: "/produse/AFH/Prosop 61 m.png",
@@ -2743,7 +2743,7 @@ export const productData = [
   {
     slug: "Prosop 80 m",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop 80 m",
     image: "/produse/AFH/Prosop 80 m.png",
@@ -2809,7 +2809,7 @@ export const productData = [
   {
     slug: "Prosop 100 m",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop 100 m",
     image: "/produse/AFH/Prosop 100 m.png",
@@ -2875,7 +2875,7 @@ export const productData = [
   {
     slug: "Prosop 150 m",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop 150 m",
     image: "/produse/AFH/Prosop 150 m.png",
@@ -2941,7 +2941,7 @@ export const productData = [
   {
     slug: "Prosop 200 m",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop 200 m",
     image: "/produse/AFH/Prosop 200 m.png",
@@ -3007,7 +3007,7 @@ export const productData = [
   {
     slug: "Prosop economic 350 foi",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop economic 350 foi",
     image: "/produse/AFH/Prosop economic 350 foi.png",
@@ -3073,7 +3073,7 @@ export const productData = [
   {
     slug: "Prosop economic 500 foi",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop economic 500 foi",
     image: "/produse/AFH/Prosop economic 500 foi.png",
@@ -3139,7 +3139,7 @@ export const productData = [
   {
     slug: "Prosop economic 700 foi",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop economic 700 foi",
     image: "/produse/AFH/Prosop economic 700 foi.png",
@@ -3205,7 +3205,7 @@ export const productData = [
   {
     slug: "Prosop economic 1000 foi",
     categoryAFH: "Role AFH",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop economic 1000 foi",
     image: "/produse/AFH/Prosop economic 1000 foi.png",
@@ -3271,7 +3271,7 @@ export const productData = [
   {
     slug: "Prosop economic v-fold",
     categoryAFH: "Prosop pilat",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop economic v-fold",
     image: "/produse/AFH/Prosop economic v-fold.png",
@@ -3320,7 +3320,7 @@ export const productData = [
   {
     slug: "Prosop profesional z-fold",
     categoryAFH: "Prosop pilat",
-    brand: "/marci/neve.png",
+    brand: "/marci/Neve.png",
     badge: "Neve",
     name: "Prosop profesional z-fold",
     image: "/produse/AFH/Prosop profesional z-fold.png",

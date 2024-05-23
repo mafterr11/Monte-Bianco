@@ -1,5 +1,5 @@
-import ProductPageClient from "./ProductPageClient"; // Import the client component
-import { productData } from "@/products";
+import ProductPageClient from './ProductPageClient'; // Import the client component
+import { productData } from '@/products';
 
 export async function generateStaticParams() {
   const paths = productData.map((product) => ({

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Underline } from "@/components/Underline";
 import { Undo2 } from "lucide-react";
 
-const ProductPage = ({product}) => {
+const ProductPageClient = ({ product }) => {
   const router = useRouter();
 
   const handleNextProduct = () => {
@@ -23,7 +23,6 @@ const ProductPage = ({product}) => {
     const nextProduct = categoryProducts[nextProductIndex];
     router.push(`/catalog/${encodeURIComponent(nextProduct.slug)}`);
   };
-
 
   return (
     <div className="min-h-screen pb-72 pt-24 md:mt-16">
@@ -131,4 +130,4 @@ const ProductPage = ({product}) => {
   );
 };
 
-export default ProductPage;
+export default ProductPageClient;

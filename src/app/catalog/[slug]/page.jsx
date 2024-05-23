@@ -1,14 +1,12 @@
-// app/away-from-home/[slug]/page.js (or .jsx / .ts / .tsx)
-
-import ProductPageClient from "./ProductPageClient"; // Import the client component
-import { productData } from "@/products";
+import ProductPageClient from './ProductPageClient';
+import { productData } from '@/products';
 
 export async function generateStaticParams() {
   const paths = productData.map((product) => ({
     slug: encodeURIComponent(product.slug),
   }));
 
-  console.log("Generated paths:", paths); // Debugging
+  console.log('Generated paths:', paths); // Debugging
   return paths;
 }
 

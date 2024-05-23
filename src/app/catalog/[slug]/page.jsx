@@ -1,19 +1,21 @@
 // app/away-from-home/[slug]/page.js (or .jsx / .ts / .tsx)
 
-import ProductPageClient from './ProductPageClient'; // Import the client component
-import { productData } from '@/products';
+import ProductPageClient from "./ProductPageClient"; // Import the client component
+import { productData } from "@/products";
 
 export async function generateStaticParams() {
   const paths = productData.map((product) => ({
-    slug: product.slug,
+    slug: encodeURIComponent(product.slug),
   }));
 
+  console.log("Generated paths:", paths); // Debugging
   return paths;
 }
 
 const ProductPage = ({ params }) => {
   const { slug } = params;
-  const product = productData.find((product) => product.slug === decodeURIComponent(slug));
+  const decodedSlug = decodeURIComponent(slug);
+  const product = productData.find((product) => product.slug === decodedSlug);
 
   if (!product) {
     return <p>Product not found</p>;

@@ -88,13 +88,13 @@ export const productData = [
     ],
   },
   {
-    slug: "Puff 3 str.",
+    slug: "Puff 3 str",
     category: "Batiste nazale",
     brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 3 str.",
-    image: "/produse/batiste-nazale/Puff 3 str..png",
-    alt: "Puff 3 str.",
+    image: "/produse/batiste-nazale/Puff 3 str.png",
+    alt: "Puff 3 str",
     grid: "grid-cols-2",
     color: [
       {
@@ -132,13 +132,13 @@ export const productData = [
   // Fiore
 
   {
-    slug: "Fiore 2 str.",
+    slug: "Fiore 2 str",
     category: "Batiste nazale",
     brand: "/marci/Fiore.png",
     badge: "Fiore",
     name: "Fiore 2 str.",
-    image: "/produse/batiste-nazale/Fiore 2 str..png",
-    alt: "Fiore 2 str.",
+    image: "/produse/batiste-nazale/Fiore 2 str.png",
+    alt: "Fiore 2 str",
     grid: "grid-cols-2",
     color: [
       {
@@ -1645,13 +1645,13 @@ export const productData = [
   //   Prosoape de bucătărie
   // Puff
   {
-    slug: "Puff 2 role 3 str.",
+    slug: "Puff 2 role 3 str",
     category: "Prosoape de bucătărie",
     brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 2 role 3 str.",
-    image: "/produse/prosoape-de-bucatarie/Puff 2 role 3 str..png",
-    alt: "Puff 2 role 3 str.",
+    image: "/produse/prosoape-de-bucatarie/Puff 2 role 3 str.png",
+    alt: "Puff 2 role 3 str",
     grid: "grid-cols-4",
     color: [
       {
@@ -1711,13 +1711,13 @@ export const productData = [
     ],
   },
   {
-    slug: "Puff 4 role 3 str.",
+    slug: "Puff 4 role 3 str",
     category: "Prosoape de bucătărie",
     brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff 4 role 3 str.",
-    image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str..png",
-    alt: "Puff 4 role 3 str.",
+    image: "/produse/prosoape-de-bucatarie/Puff 4 role 3 str.png",
+    alt: "Puff 4 role 3 str",
     grid: "grid-cols-4",
     color: [
       {

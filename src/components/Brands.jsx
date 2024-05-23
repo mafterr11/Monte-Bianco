@@ -25,7 +25,7 @@ const brands = [
     fadeSpeed: 0.8,
   },
   {
-    icon: "/marci/horeca.png",
+    icon: "/marci/Horeca.png",
     alt: "Logo Horeca - produse de hârtie pentru hoteluri, restaurante și cafenele",
     fadeSpeed: 1,
     class: "max-md:absolute left-24 bottom-20",

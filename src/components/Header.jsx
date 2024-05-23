@@ -64,7 +64,7 @@ const Header = () => {
       } fixed left-0 right-0 top-0 z-50 w-full border-b-[0.5px] border-black/50 py-[12px] transition-all duration-100 ease-in-out max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px]`}
     >
       {/* blurry overlay on mobile */}
-      <div className="inset-0 z-30 h-full w-full backdrop-blur-[5px] max-xl:absolute md:max-xl:backdrop-blur-[8px]"></div>
+      <div className="inset-0 z-30 h-full w-full backdrop-blur-[5px] max-xl:absolute md:max-2xl:backdrop-blur-[8px]"></div>
       {/* Container */}
       <div className="relative z-40 flex items-center justify-between">
         {/* Logo */}

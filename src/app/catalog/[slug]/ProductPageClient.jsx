@@ -4,7 +4,6 @@ import { productData } from "@/products";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Underline } from "@/components/Underline";
 import { Undo2 } from "lucide-react";
 
 const ProductPageClient = ({ product }) => {
@@ -26,11 +25,8 @@ const ProductPageClient = ({ product }) => {
 
   return (
     <div className="min-h-screen pb-72 pt-24 md:mt-16">
-      <h2 className="mx-auto mb-40 text-center max-md:mb-20">
-        <span className="relative">
+      <h2 className="mx-auto mb-40 text-center max-md:mb-20 underline decoration-wavy decoration-accent underline-offset-4">
           {product.name}{" "}
-          <Underline.underline className="absolute inset-x-0 -bottom-6 md:-bottom-10" />
-        </span>
       </h2>
       {/* Product CONTAINER */}
       <div className="flex justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end">

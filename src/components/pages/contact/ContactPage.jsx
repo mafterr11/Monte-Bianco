@@ -6,7 +6,6 @@ import { fadeIn } from "../../../../variants";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineFax } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
-import { Underline } from "@/components/Underline";
 
 const ContactPage = () => {
   return (
@@ -20,11 +19,8 @@ const ContactPage = () => {
         className="text-center uppercase"
       >
         <h2>Suntem aici pentru tine</h2>
-        <h3>
-          <span className="relative">
+        <h3 className="underline decoration-wavy decoration-accent underline-offset-4">
             Nu ezita să ne contactezi
-            <Underline.underline className="absolute inset-x-0 -bottom-10" />
-          </span>
         </h3>
       </motion.div>
       {/* Mobile Panel */}

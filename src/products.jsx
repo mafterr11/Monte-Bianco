@@ -1578,7 +1578,7 @@ export const productData = [
   {
     slug: "Horeca 170 m",
     category: "Hârtie igienică",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Horeca 170 m",
     image: "/produse/hartie-igienica/Horeca 170 m.png",
@@ -3369,7 +3369,7 @@ export const productData = [
   // Horeca
   {
     slug: "Prosop autocut 130 m",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Prosop autocut 130 m",
     image: "/produse/AFH/Prosop autocut 130 m.png",
@@ -3435,7 +3435,7 @@ export const productData = [
   {
     slug: "Șervețele 1 str. 33 cm",
     categoryAFH: "Șervețele",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Șervețele 1 str. 33 cm",
     image: "/produse/AFH/Șervețele 1 str. 33 cm.png",
@@ -3484,7 +3484,7 @@ export const productData = [
   {
     slug: "Șervețele 2 str. 33 cm 200 buc",
     categoryAFH: "Șervețele",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Șervețele 2 str. 33 cm 200 buc",
     image: "/produse/AFH/Șervețele 2 str. 33 cm 200 buc.png",
@@ -3557,7 +3557,7 @@ export const productData = [
   {
     slug: "Șervețele 2 str. 33 cm 250 buc",
     categoryAFH: "Șervețele",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Șervețele 2 str. 33 cm 250 buc",
     image: "/produse/AFH/Șervețele 2 str. 33 cm 250 buc.png",
@@ -3626,7 +3626,7 @@ export const productData = [
   {
     slug: "Prosop Horeca z-fold",
     categoryAFH: "Prosop pilat",
-    brand: "/marci/horeca.png",
+    brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Prosop Horeca z-fold",
     image: "/produse/AFH/Prosop z-fold.png",

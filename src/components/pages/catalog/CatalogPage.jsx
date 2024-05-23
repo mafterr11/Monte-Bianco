@@ -97,8 +97,7 @@ const CatalogPage = () => {
                   }`}
                   onClick={() => handleBrandChange(br)}
                 >
-                  <div className="absolute inset-0 z-30"></div>
-
+                  <div className="absolute inset-0 z-30"/>
                   {br && <Image src={br} width={120} height={60} alt={br} unoptimized/>}
                 </TabsTrigger>
               ))}

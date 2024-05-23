@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>http://localhost:3000/away-from-home</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/contact</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 4 str. de luxe</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 3 str. parfumate</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 2 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 1 str. 33 cm 80 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 1 str. 33 cm Horeca</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff select 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff de luxe 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff de luxe 2 str. 38 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff eight fold 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff eight fold 2 str. 38 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff de lux 2 str. Horeca</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 1 str. 25 cm 50 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 1 str. 25 cm 100 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 1 str. 30 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 1 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Neve economic 600 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff de luxe 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff de luxe 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff super soft 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 16 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 24 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore super soft 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore super soft 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore super soft 16 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Neve Profesional 170 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Horeca 170 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 2 role 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff 4 role 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Monorolă Puff</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 2 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore 2 maxi role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Monorolă Fiore</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff mozaic</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff trandafiri</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Puff paisley</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Fiore</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Cearceaf 50 cm 50 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Cearceaf 60 cm 50 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Cearceaf 50 cm 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Cearceaf 60 cm 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Dispenser z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Dispenser hârtie igienică</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Dispenser autocut</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop 61 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop 100 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop 150 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop 200 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop economic 350 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop economic 500 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop economic 700 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop economic 1000 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop economic v-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop profesional z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop autocut 130 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Șervețele 1 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Șervețele 2 str. 33 cm 200 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Șervețele 2 str. 33 cm 250 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/away-from-home/Prosop Horeca z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 4 str. de luxe</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 3 str. parfumate</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 2 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 1 str. 33 cm 80 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 1 str. 33 cm Horeca</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff select 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff de luxe 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff de luxe 2 str. 38 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff eight fold 2 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff eight fold 2 str. 38 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff de lux 2 str. Horeca</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 1 str. 25 cm 50 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 1 str. 25 cm 100 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 1 str. 30 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 1 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Neve economic 600 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff de luxe 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff de luxe 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff super soft 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 16 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 24 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore super soft 4 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore super soft 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore super soft 16 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Neve Profesional 170 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Horeca 170 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 2 role 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff 4 role 3 str.</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Monorolă Puff</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 2 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 8 role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore 2 maxi role</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Monorolă Fiore</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff mozaic</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff trandafiri</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Puff paisley</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Fiore</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Cearceaf 50 cm 50 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Cearceaf 60 cm 50 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Cearceaf 50 cm 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Cearceaf 60 cm 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Dispenser z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Dispenser hârtie igienică</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Dispenser autocut</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop 61 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop 80 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop 100 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop 150 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop 200 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop economic 350 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop economic 500 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop economic 700 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop economic 1000 foi</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop economic v-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop profesional z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop autocut 130 m</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Șervețele 1 str. 33 cm</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Șervețele 2 str. 33 cm 200 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Șervețele 2 str. 33 cm 250 buc</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/catalog/Prosop Horeca z-fold</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>http://localhost:3000/termeni-si-conditii</loc><lastmod>2024-05-21T20:51:52.275Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/</loc><lastmod>2024-05-23T20:03:41.061Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/termeni-si-conditii/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/contact/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%204%20str.%20de%20luxe/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%203%20str.%20parfumate/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%202%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%201%20str.%2033%20cm%2080%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%201%20str.%2033%20cm%20Horeca/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20select%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20de%20luxe%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20de%20luxe%202%20str.%2038%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20eight%20fold%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20eight%20fold%202%20str.%2038%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20de%20lux%202%20str.%20Horeca/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%201%20str.%2025%20cm%2050%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%201%20str.%2025%20cm%20100%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%201%20str.%2030%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%201%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Neve%20economic%20600%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20de%20luxe%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20de%20luxe%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20super%20soft%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%2016%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%2024%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%20super%20soft%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%20super%20soft%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%20super%20soft%2016%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Neve%20Profesional%20170%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Horeca%20170%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%202%20role%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%204%20role%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Monorol%C4%83%20Puff/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%202%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore%202%20maxi%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Monorol%C4%83%20Fiore/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20mozaic/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20trandafiri/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Puff%20paisley/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Fiore/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Cearceaf%2050%20cm%2050%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Cearceaf%2060%20cm%2050%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Cearceaf%2050%20cm%2080%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Cearceaf%2060%20cm%2080%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Dispenser%20z-fold/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Dispenser%20h%C3%A2rtie%20igienic%C4%83/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Dispenser%20autocut/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%2061%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%2080%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20100%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20150%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20200%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20economic%20350%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20economic%20500%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20economic%20700%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20economic%201000%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20economic%20v-fold/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20profesional%20z-fold/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20autocut%20130%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/%C8%98erve%C8%9Bele%201%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/%C8%98erve%C8%9Bele%202%20str.%2033%20cm%20200%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/%C8%98erve%C8%9Bele%202%20str.%2033%20cm%20250%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/Prosop%20Horeca%20z-fold/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%204%20str.%20de%20luxe/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%203%20str.%20parfumate/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%202%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%201%20str.%2033%20cm%2080%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%201%20str.%2033%20cm%20Horeca/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20select%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20de%20luxe%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20de%20luxe%202%20str.%2038%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20eight%20fold%202%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20eight%20fold%202%20str.%2038%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20de%20lux%202%20str.%20Horeca/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%201%20str.%2025%20cm%2050%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%201%20str.%2025%20cm%20100%20buc/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%201%20str.%2030%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%201%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Neve%20economic%20600%20foi/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20de%20luxe%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20de%20luxe%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20super%20soft%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%2016%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%2024%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%20super%20soft%204%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%20super%20soft%208%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%20super%20soft%2016%20role/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Neve%20Profesional%20170%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Horeca%20170%20m/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%202%20role%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%204%20role%203%20str/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Monorol%C4%83%20Puff/</loc><lastmod>2024-05-23T20:03:41.062Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%202%20role/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%208%20role/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore%202%20maxi%20role/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Monorol%C4%83%20Fiore/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20mozaic/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20trandafiri/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Puff%20paisley/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Fiore/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Cearceaf%2050%20cm%2050%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Cearceaf%2060%20cm%2050%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Cearceaf%2050%20cm%2080%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Cearceaf%2060%20cm%2080%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Dispenser%20z-fold/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Dispenser%20h%C3%A2rtie%20igienic%C4%83/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Dispenser%20autocut/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%2061%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%2080%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20100%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20150%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20200%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20economic%20350%20foi/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20economic%20500%20foi/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20economic%20700%20foi/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20economic%201000%20foi/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20economic%20v-fold/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20profesional%20z-fold/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20autocut%20130%20m/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/%C8%98erve%C8%9Bele%201%20str.%2033%20cm/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/%C8%98erve%C8%9Bele%202%20str.%2033%20cm%20200%20buc/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/%C8%98erve%C8%9Bele%202%20str.%2033%20cm%20250%20buc/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/away-from-home/Prosop%20Horeca%20z-fold/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/catalog/</loc><lastmod>2024-05-23T20:03:41.063Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

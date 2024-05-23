@@ -47,12 +47,12 @@ export function Hero() {
           ))}
         </CarouselContent>
       </Carousel>
-      <div className="absolute left-0 top-4 z-20 flex h-full w-full flex-col items-center justify-center gap-y-2 text-white xl:items-start xl:pb-20 xl:pl-60">
+      <div className="absolute left-0 xl:max-2xl:-left-32 top-4 z-20 flex h-full w-full flex-col items-center justify-center gap-y-2 text-white xl:items-start xl:pb-20 xl:pl-60">
         {/* <h4 className="max-xs:text-[20px] max-xs:text-center max-xs:pt-6 mb-[5px] text-white-text">Parerea dumneavoastra conteaza!</h4> */}
         <h4 className="text-center max-md:pt-12 md:text-left">
           <HeroTypewritter />
         </h4>
-        <h1 className="hidden max-w-4xl md:inline-block xl:mb-[35px]">
+        <h1 className="hidden max-w-4xl md:inline-block xl:mb-[20px] 2xl:mb-[35px]">
           30 de ani dedicați satisfacției clienților
         </h1>
         <p className="mb-[35px] hidden max-w-xl text-white-text md:inline-block md:max-xl:text-center lg:max-xl:max-w-2xl">

@@ -48,12 +48,12 @@ const AwayFromHomePage = () => {
         {/* tabs */}
         <Tabs className="relative mb-24 xl:mb-48">
           {/* Category and brand Tabs */}
-          <TabsList className="-left-24 top-8 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 xl:absolute">
+          <TabsList className="-left-12 top-8 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 xl:absolute">
             <div className="overflow mx-auto mb-12 grid h-full w-full grid-cols-1 gap-2 md:max-xl:w-1/2 lg:max-w-[940px]">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`w-[300px] border border-[#dadada] p-4 uppercase max-md:mx-auto md:w-auto ${activeFilter.type === "categoryAFH" && activeFilter.value === cat ? "bg-accent font-semibold text-white-text shadow-button" : ""}`}
+                  className={`w-[280px] border border-[#dadada] p-3 uppercase max-md:mx-auto md:w-auto ${activeFilter.type === "categoryAFH" && activeFilter.value === cat ? "bg-accent font-semibold text-white-text shadow-button" : ""}`}
                   onClick={() => handleCategoryChange(cat)}
                 >
                   {cat}

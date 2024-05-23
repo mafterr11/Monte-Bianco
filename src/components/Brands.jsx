@@ -5,17 +5,17 @@ import { fadeIn } from "../../variants";
 
 const brands = [
   {
-    icon: "/marci/puff.png",
+    icon: "/marci/Puff.png",
     alt: "Logo marca Puff - șervețele, hârtie igienică și batiste de lux",
     fadeSpeed: 0.2,
   },
   {
-    icon: "/marci/fiore.png",
+    icon: "/marci/Fiore.png",
     alt: "Logo marca Fiore - șervețele și hârtie igienică",
     fadeSpeed: 0.4,
   },
   {
-    icon: "/marci/neve.png",
+    icon: "/marci/Neve.png",
     alt: "Logo marca Neve - role de hârtie igienică de înaltă calitate",
     fadeSpeed: 0.6,
   },

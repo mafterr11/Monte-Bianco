@@ -24,8 +24,8 @@ const ProductPageClient = ({ product }) => {
   };
 
   return (
-    <div className="min-h-screen pb-72 pt-16 md:mt-16">
-      <h2 className="mx-auto xl:mb-24 2xl:mb-32 text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20">
+    <div className="min-h-screen pb-72 pt-16 max-md:pt-24 md:mt-16">
+      <h2 className="mx-auto text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20 xl:mb-24 2xl:mb-32">
         {product.name}{" "}
       </h2>
       {/* Product CONTAINER */}

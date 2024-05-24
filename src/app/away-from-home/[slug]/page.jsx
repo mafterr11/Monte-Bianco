@@ -1,4 +1,4 @@
-import ProductPageClient from './ProductPageAFHClient';
+import ProductPageAFHClient from './ProductPageAFHClient';
 import { productData } from '@/products';
 
 export async function generateStaticParams() {
@@ -19,7 +19,7 @@ const ProductPage = ({ params }) => {
     return <p>Product not found</p>;
   }
 
-  return <ProductPageClient product={product} />;
+  return <ProductPageAFHClient product={product} />;
 };
 
 export default ProductPage;

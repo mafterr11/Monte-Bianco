@@ -13,14 +13,11 @@ RewriteRule ^ %1 [L,R=301]
 # Rewrite URLs to the corresponding HTML files
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)/$ $1.html [L]
+RewriteRule ^(.*)/$ $1/index.html [L]
+RewriteRule ^(.*)$ $1.html [L]
 
 # Serve index.html for directory requests
 DirectoryIndex index.html
-
-# Rewrite all other URLs to their corresponding HTML files
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [L]
 
 # Fallback to index.html for Single Page Applications (SPA)
 RewriteCond %{REQUEST_FILENAME} !-f

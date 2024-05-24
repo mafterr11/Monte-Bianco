@@ -1,12 +1,12 @@
-import ProductPageAFHClient from './ProductPageAFHClient';
-import { productData } from '@/products';
+import ProductPageAFHClient from "./ProductPageAFHClient";
+import { productData } from "@/products";
 
 export async function generateStaticParams() {
   const paths = productData.map((product) => ({
     slug: encodeURIComponent(product.slug),
   }));
 
-  console.log('Generated paths:', paths); // Debugging
+  console.log("Generated paths:", paths); // Debugging
   return paths;
 }
 

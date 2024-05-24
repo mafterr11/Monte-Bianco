@@ -38,6 +38,7 @@ const CardProdus = ({ product, basePath }) => {
           {product.name}
         </h3>
         <div className="mt-auto pb-7 xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
+          {/* added ENCODE delete if dosent work */}
           <Link href={`${basePath}/${product.slug}`}>
             <Button size="card">Mai multe detalii</Button>
           </Link>

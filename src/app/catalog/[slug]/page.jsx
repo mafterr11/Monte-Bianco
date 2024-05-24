@@ -1,5 +1,5 @@
-import ProductPageClient from './ProductPageClient';
-import { productData } from '@/products';
+import ProductPageClient from "./ProductPageClient";
+import { productData } from "@/products";
 
 export async function generateStaticParams() {
   const paths = productData.map((product) => ({
@@ -9,6 +9,7 @@ export async function generateStaticParams() {
   console.log('Generated paths:', paths); // Debugging
   return paths;
 }
+
 
 const ProductPage = ({ params }) => {
   const { slug } = params;

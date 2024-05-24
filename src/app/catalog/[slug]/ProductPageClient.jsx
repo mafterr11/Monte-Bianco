@@ -8,13 +8,6 @@ import { Undo2 } from "lucide-react";
 
 const ProductPageClient = ({ product }) => {
   const router = useRouter();
-  // Auto animate colors (add conditions to the colors / text)
-  // const [hoverAnimationTriggered, setHoverAnimationTriggered] = useState(false);
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setHoverAnimationTriggered(true);
-  //   }, 1000);
-  // });
 
   const handleNextProduct = () => {
     const currentCategory = product.category;
@@ -58,7 +51,7 @@ const ProductPageClient = ({ product }) => {
             ))}
           </div>
           {/* Image with gradient background */}
-          <div className="relative h-[500px] w-[500px] max-md:mx-auto max-md:h-[400px] max-md:w-full">
+          <div className="relative h-[500px] w-[500px] max-md:mx-auto max-md:h-[400px] max-md:w-full xl:h-[450px] xl:w-[450px]">
             {" "}
             {/* Adjust width and height to match Image's dimensions */}
             <Image
@@ -88,15 +81,15 @@ const ProductPageClient = ({ product }) => {
                   {/* Flex Details */}
                   <div className="flex flex-col items-center justify-center gap-y-3 px-4">
                     {/* Image */}
-                    <>
+                    <div className="relative h-[55px] w-[112px]">
                       <Image
                         src={details.icon}
-                        width={112}
-                        height={75}
+                        fill
                         priority
                         alt={details.title}
+                        unoptimized
                       />
-                    </>
+                    </div>
                     {/* Title */}
                     <div className="max-w-[250px] text-center">
                       {details.title}
@@ -112,7 +105,7 @@ const ProductPageClient = ({ product }) => {
               <Button
                 variant="back"
                 size="back"
-                className="flex min-w-[240px] items-center justify-center gap-x-2"
+                className="flex min-w-[240px] items-center justify-center gap-x-2 xl:min-w-[220px]"
               >
                 Catalog
               </Button>
@@ -122,7 +115,7 @@ const ProductPageClient = ({ product }) => {
               onClick={handleNextProduct}
               variant="back"
               size="back"
-              className="flex min-w-[240px] items-center justify-center gap-x-2 bg-accent text-white hover:bg-accent/85"
+              className="flex min-w-[240px] items-center justify-center gap-x-2 bg-accent text-white hover:bg-accent/85 xl:min-w-[220px]"
             >
               Înainte
             </Button>

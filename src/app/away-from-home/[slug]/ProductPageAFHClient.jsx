@@ -1,11 +1,11 @@
 "use client";
-import {  useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { productData } from "@/products";
 
-const ProductPageAFHClient = ({product}) => {
+const ProductPageAFHClient = ({ product }) => {
   const router = useRouter();
   // Find the current product based on the slug
 
@@ -24,9 +24,9 @@ const ProductPageAFHClient = ({product}) => {
   };
 
   return (
-    <div className="min-h-screen pb-72 pt-24 md:mt-16">
-      <h2 className="mx-auto mb-40 text-center max-md:mb-20 underline decoration-wavy decoration-accent underline-offset-4">
-          {product.name}{" "}
+    <div className="min-h-screen pb-72 pt-16 md:mt-16">
+      <h2 className="mx-auto xl:mb-24 2xl:mb-32 text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20">
+        {product.name}{" "}
       </h2>
       {/* Product CONTAINER */}
       <div className="flex justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end">
@@ -51,7 +51,7 @@ const ProductPageAFHClient = ({product}) => {
             ))}
           </div>
           {/* Image with gradient background */}
-          <div className="relative h-[500px] w-[500px] max-md:mx-auto max-md:h-[400px] max-md:w-full">
+          <div className="relative h-[500px] w-[500px] max-md:mx-auto max-md:h-[400px] max-md:w-full xl:h-[450px] xl:w-[450px]">
             {" "}
             {/* Adjust width and height to match Image's dimensions */}
             <Image
@@ -61,7 +61,7 @@ const ProductPageAFHClient = ({product}) => {
               alt={product.alt}
               unoptimized
             />
-            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20"/>
+            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20" />
           </div>
         </div>
         {/* Right side */}
@@ -87,16 +87,15 @@ const ProductPageAFHClient = ({product}) => {
                   {/* Flex Details */}
                   <div className="flex flex-col items-center justify-center gap-y-3 px-4">
                     {/* Image */}
-                    <>
+                    <div className="relative h-[50px] w-[112px]">
                       <Image
                         src={details.icon}
-                        width={112}
-                        height={75}
+                        fill
                         priority
                         alt={details.title}
                         unoptimized
                       />
-                    </>
+                    </div>
                     {/* Title */}
                     <div className="max-w-[250px] text-center">
                       {details.title}
@@ -112,7 +111,7 @@ const ProductPageAFHClient = ({product}) => {
               <Button
                 variant="back"
                 size="back"
-                className="flex min-w-[240px] items-center justify-center gap-x-2"
+                className="flex min-w-[240px] items-center justify-center gap-x-2 xl:max-2xl:min-w-[220px]"
               >
                 Catalog
               </Button>
@@ -122,7 +121,7 @@ const ProductPageAFHClient = ({product}) => {
               onClick={handleNextProduct}
               variant="back"
               size="back"
-              className="flex min-w-[240px] items-center justify-center gap-x-2 bg-accent text-white hover:bg-accent/85"
+              className="flex min-w-[240px] items-center justify-center gap-x-2 bg-accent text-white hover:bg-accent/85  xl:max-2xl:min-w-[220px]"
             >
               Înainte
             </Button>

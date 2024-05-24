@@ -24,8 +24,8 @@ const ProductPageClient = ({ product }) => {
   };
 
   return (
-    <div className="min-h-screen pb-72 pt-24 md:mt-16">
-      <h2 className="mx-auto mb-40 text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20">
+    <div className="min-h-screen pb-72 pt-16 md:mt-16">
+      <h2 className="mx-auto xl:mb-24 2xl:mb-32 text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20">
         {product.name}{" "}
       </h2>
       {/* Product CONTAINER */}
@@ -81,7 +81,7 @@ const ProductPageClient = ({ product }) => {
                   {/* Flex Details */}
                   <div className="flex flex-col items-center justify-center gap-y-3 px-4">
                     {/* Image */}
-                    <div className="relative h-[55px] w-[112px]">
+                    <div className="relative h-[50px] w-[112px]">
                       <Image
                         src={details.icon}
                         fill

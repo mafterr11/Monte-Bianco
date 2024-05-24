@@ -8,6 +8,13 @@ import { Undo2 } from "lucide-react";
 
 const ProductPageClient = ({ product }) => {
   const router = useRouter();
+  // Auto animate colors (add conditions to the colors / text)
+  // const [hoverAnimationTriggered, setHoverAnimationTriggered] = useState(false);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setHoverAnimationTriggered(true);
+  //   }, 1000);
+  // });
 
   const handleNextProduct = () => {
     const currentCategory = product.category;
@@ -25,8 +32,8 @@ const ProductPageClient = ({ product }) => {
 
   return (
     <div className="min-h-screen pb-72 pt-24 md:mt-16">
-      <h2 className="mx-auto mb-40 text-center max-md:mb-20 underline decoration-wavy decoration-accent underline-offset-4">
-          {product.name}{" "}
+      <h2 className="mx-auto mb-40 text-center underline decoration-accent decoration-wavy underline-offset-4 max-md:mb-20">
+        {product.name}{" "}
       </h2>
       {/* Product CONTAINER */}
       <div className="flex justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end">
@@ -62,7 +69,7 @@ const ProductPageClient = ({ product }) => {
               alt={product.alt}
               unoptimized
             />
-            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20"/>
+            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20" />
           </div>
         </div>
         {/* Right side */}

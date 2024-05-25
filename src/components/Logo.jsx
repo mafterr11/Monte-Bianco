@@ -14,7 +14,6 @@ const Logo = () => {
           fill
           priority
           alt="Logo Monte Bianco - lider în produse de hârtie de calitate"
-          className="z-40"
           unoptimized
         />
       </div>

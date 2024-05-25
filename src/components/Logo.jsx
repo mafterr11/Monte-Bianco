@@ -8,15 +8,16 @@ const Logo = () => {
       <Link href="/">
         <div className="absolute inset-0 z-50"></div>
       </Link>
-      <Image
-        src={logo}
-        width={112}
-        height={50}
-        priority
-        alt="Logo Monte Bianco - lider în produse de hârtie de calitate"
-        className="z-40"
-        unoptimized
-      />
+      <div className="relative h-[40px] w-[112px]">
+        <Image
+          src={logo}
+          fill
+          priority
+          alt="Logo Monte Bianco - lider în produse de hârtie de calitate"
+          className="z-40"
+          unoptimized
+        />
+      </div>
     </div>
   );
 };

@@ -97,14 +97,22 @@ const CatalogPage = () => {
                   }`}
                   onClick={() => handleBrandChange(br)}
                 >
-                  <div className="absolute inset-0 z-30"/>
-                  {br && <Image src={br} width={120} height={60} alt={br} unoptimized/>}
+                  <div className="absolute inset-0 z-30" />
+                  {br && (
+                    <Image
+                      src={br}
+                      width={120}
+                      height={60}
+                      alt={br}
+                      unoptimized
+                    />
+                  )}
                 </TabsTrigger>
               ))}
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className="mx-auto mt-20 grid grid-cols-1 gap-10 text-lg md:mt-36 lg:grid-cols-2 xl:mt-44 xl:grid-cols-3 2xl:max-w-[80%]">
+          <div className="mx-auto mt-20 grid grid-cols-1 gap-10 text-lg md:mt-36 md:grid-cols-2 lg:max-w-[80%] xl:mt-44 xl:grid-cols-3 2xl:max-w-[80%]">
             {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/catalog" />

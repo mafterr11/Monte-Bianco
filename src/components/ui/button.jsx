@@ -15,7 +15,7 @@ const buttonVariants = cva(
       },
       size: {
         default: "h-10 px-6 py-6",
-        lg: "h-10 py-7 px-10",
+        lg: "h-10 py-7 px-10 max-md:py-6 max-md:px-8",
         thin: "h-9 rounded-[5px] px-3 md:max-xl:text-base md:max-xl:px-4 md:max-xl:h-12",
         card: "h-9 py-6 px-10",
         back: "h-10 py-7 px-20",

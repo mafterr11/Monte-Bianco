@@ -9,7 +9,7 @@ import { SlLocationPin } from "react-icons/sl";
 
 const ContactPage = () => {
   return (
-    <div className="mt-40 max-md:mt-32">
+    <div className="mt-40 md:max-xl:mt-28 max-md:mt-32">
       {/* Titlu */}
       <motion.div
         variants={fadeIn("down", 0.2)}
@@ -117,7 +117,7 @@ const ContactPage = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, ammount: 0.4 }}
-        className="container mx-auto mt-32 flex h-[900px] max-w-[1440px] flex-col-reverse gap-y-10 px-5 py-12 max-md:h-[200px] xl:pt-40"
+        className="container mx-auto mt-32 md:max-xl:mt-12 flex h-[900px] max-w-[1440px] flex-col-reverse gap-y-10 px-5 py-12 max-md:h-[200px] xl:pt-40"
       >
         <div className="iframe-container relative z-20 flex  h-full w-full flex-col justify-end rounded-lg border-2 border-black/10 p-10 md:flex-row md:items-end md:justify-start">
           <iframe

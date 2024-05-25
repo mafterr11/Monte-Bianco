@@ -6,10 +6,9 @@ export async function generateStaticParams() {
     slug: encodeURIComponent(product.slug),
   }));
 
-  console.log('Generated paths:', paths); // Debugging
+  console.log("Generated paths:", paths); // Debugging
   return paths;
 }
-
 
 const ProductPage = ({ params }) => {
   const { slug } = params;

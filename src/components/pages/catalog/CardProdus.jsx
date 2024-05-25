@@ -13,7 +13,7 @@ const CardProdus = ({ product, basePath }) => {
   return (
     <Card
       onClick={() => linkHandler()}
-      className="group group relative flex h-[520px] flex-col overflow-hidden border-2 border-black/15 bg-body-accent/20 hover:cursor-pointer md:max-xl:w-[400px]"
+      className="group group relative flex h-[520px] flex-col overflow-hidden border-2 border-black/15 bg-body-accent/20 hover:cursor-pointer md:max-xl:w-[350px]"
     >
       <CardHeader className="group bg-body-transparent p-0">
         <Badge className="absolute left-5 top-5 mb-2 bg-accent text-sm font-medium uppercase text-white">

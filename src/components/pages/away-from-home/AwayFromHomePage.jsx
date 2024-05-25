@@ -48,12 +48,12 @@ const AwayFromHomePage = () => {
         {/* tabs */}
         <Tabs className="relative mb-24 xl:mb-48">
           {/* Category and brand Tabs */}
-          <TabsList className="xl:-left-12 2xl:-left-20 top-8 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 xl:absolute">
+          <TabsList className="top-8 flex flex-col items-center justify-center gap-y-8 max-md:gap-y-48 xl:absolute xl:-left-12 2xl:-left-20">
             <div className="overflow mx-auto mb-12 grid h-full w-full grid-cols-1 gap-2 md:max-xl:w-1/2 lg:max-w-[940px]">
               {uniqueCategories.map((cat, index) => (
                 <TabsTrigger
                   key={index}
-                  className={`w-[280px] border border-[#dadada] p-3 uppercase max-md:mx-auto md:w-auto ${activeFilter.type === "categoryAFH" && activeFilter.value === cat ? "bg-accent font-semibold text-white-text shadow-button" : ""}`}
+                  className={`w-[280px] border border-[#dadada] p-3 uppercase max-xl:mx-auto md:w-auto md:max-xl:w-[260px] ${activeFilter.type === "categoryAFH" && activeFilter.value === cat ? "bg-accent font-semibold text-white-text shadow-button" : ""}`}
                   onClick={() => handleCategoryChange(cat)}
                 >
                   {cat}
@@ -62,7 +62,7 @@ const AwayFromHomePage = () => {
             </div>
           </TabsList>
           {/* Category Cards Mapping */}
-          <div className="mx-auto grid grid-cols-1 gap-10 text-lg max-xl:mt-[17rem] lg:grid-cols-2 xl:mt-24 xl:max-2xl:ml-40 xl:max-w-[90%] xl:grid-cols-3 2xl:w-full 2xl:max-w-[80%] 2xl:grid-cols-3">
+          <div className="mx-auto grid grid-cols-1 gap-10 text-lg max-xl:mt-[17rem] md:grid-cols-2 lg:max-w-[80%] xl:mt-24 xl:max-w-[90%] xl:grid-cols-3 xl:max-2xl:ml-40 2xl:w-full 2xl:max-w-[80%] 2xl:grid-cols-3">
             {filteredProducts.map((product, index) => (
               <TabsContent key={index}>
                 <CardProdus product={product} basePath="/away-from-home" />

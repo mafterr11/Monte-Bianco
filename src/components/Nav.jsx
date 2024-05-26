@@ -179,9 +179,9 @@ const Nav = ({ containerStyles, linkStyles }) => {
               href={link.path}
               className={`${linkStyles} ${
                 currentRoute === link.path
-                  ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
-                  : "hover text-base capitalize hover:scale-[0.97]"
-              }`}
+                  ? " font-semibold underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
+                  : "hover hover:scale-[0.97]"
+              } text-base capitalize`}
             >
               <span>{link.name}</span>
             </Link>

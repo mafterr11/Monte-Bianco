@@ -57,17 +57,17 @@ const rightMenu = [
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Fpuff.png",
-    icon: "/marci/puff.png",
+    icon: "/marci/Puff.png",
   },
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Ffiore.png",
-    icon: "/marci/fiore.png",
+    icon: "/marci/Fiore.png",
   },
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Fneve.png",
-    icon: "/marci/neve.png",
+    icon: "/marci/Neve.png",
   },
   {
     path: "/catalog",
@@ -77,7 +77,7 @@ const rightMenu = [
   {
     path: "/catalog",
     query: "brand=%2Fmarci%2Fhoreca.png",
-    icon: "/marci/horeca.png",
+    icon: "/marci/Horeca.png",
   },
 ];
 

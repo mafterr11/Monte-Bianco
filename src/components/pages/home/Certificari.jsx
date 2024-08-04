@@ -38,25 +38,48 @@ const certificate = [
 
 const Certificari = () => {
   return (
-    <section className="flex flex-1 flex-row flex-wrap items-center justify-center gap-8 px-8 py-24 lg:gap-x-24 xl:gap-x-40">
-      {certificate.map((certificat, index) => (
-        <motion.div
-          variants={fadeIn("down", certificat.fadeSpeed)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: true, ammount: 0.4 }}
-          key={index}
-        >
-          <Image
-            src={certificat.icon}
-            width={100}
-            height={70}
-            alt={certificat.name}
-            className="h-[70px] w-auto xs:max-xl:h-[85px] xl:h-[90px] "
-            unoptimized
-          />
-        </motion.div>
-      ))}
+    <section className="mb-12">
+      <div className="flex flex-1 flex-row flex-wrap items-center justify-center gap-8 px-8 py-24 pb-16 lg:gap-x-24 xl:gap-x-40">
+        {certificate.map((certificat, index) => (
+          <motion.div
+            variants={fadeIn("down", certificat.fadeSpeed)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, ammount: 0.4 }}
+            key={index}
+          >
+            <Image
+              src={certificat.icon}
+              width={100}
+              height={70}
+              alt={certificat.name}
+              className="h-[70px] w-auto xs:max-xl:h-[85px] xl:h-[90px]"
+              unoptimized
+            />
+          </motion.div>
+        ))}
+      </div>
+      <div className="flex items-center justify-center max-md:flex-col">
+          <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="nofollow">
+            <img
+              style={{ width: "250px" }}
+              src="https://wpfitness.eu/wp-content/uploads/2022/10/anpc-sal.png"
+              alt="Solutionarea Alternativa a Litigiilor"
+            />
+          </a>
+          <br />
+          <a
+            href="https://ec.europa.eu/consumers/odr"
+            target="_blank"
+            rel="nofollow"
+          >
+            <img
+              style={{ width: "250px" }}
+              src="https://wpfitness.eu/wp-content/uploads/2022/10/anpc-sol.png"
+              alt="Solutionarea Online a Litigiilor"
+            />
+          </a>
+        </div>
     </section>
   );
 };

@@ -32,7 +32,7 @@ const CardProdus = ({ product, basePath }) => {
             unoptimized
           />
           {/* Color */}
-          <div className="group absolute right-5 top-5 flex flex-col justify-center space-y-3 max-xl:container max-xl:flex-row max-xl:flex-wrap">
+          <div className="group absolute right-5 top-3 flex flex-col justify-center space-y-3 ">
             {/* Map through colors and create a circle for each */}
             {product.color
               .filter((color) => color.name !== "Alb")
@@ -42,7 +42,7 @@ const CardProdus = ({ product, basePath }) => {
                   className="flex flex-col items-center justify-center gap-y-1 transition-all duration-500 ease-in-out max-xl:justify-end"
                 >
                   <div
-                    className="h-9 w-9 rounded-full border border-black-text/40 shadow-button md:h-7 md:w-7"
+                    className="rounded-full border border-black-text/40 shadow-button h-7 w-7"
                     style={{ backgroundColor: color.color }}
                   />
                 </div>

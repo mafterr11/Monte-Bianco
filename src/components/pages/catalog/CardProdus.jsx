@@ -13,7 +13,7 @@ const CardProdus = ({ product, basePath }) => {
   return (
     <Card
       onClick={() => linkHandler()}
-      className="group group relative flex h-[520px] flex-col overflow-hidden border-2 border-black/15 bg-body-accent/20 hover:cursor-pointer md:max-xl:w-[350px]"
+      className="group relative flex h-[520px] flex-col overflow-hidden border-2 border-black/15 bg-body-accent/20 hover:cursor-pointer md:max-xl:w-[350px]"
     >
       <CardHeader className="group bg-body-transparent p-0">
         <Badge className="absolute left-5 top-5 mb-2 bg-accent text-sm font-medium uppercase text-white">
@@ -31,10 +31,27 @@ const CardProdus = ({ product, basePath }) => {
             priority
             unoptimized
           />
+          {/* Color */}
+          <div className="group absolute right-5 top-5 flex flex-col justify-center space-y-3 max-xl:container max-xl:flex-row max-xl:flex-wrap">
+            {/* Map through colors and create a circle for each */}
+            {product.color
+              .filter((color) => color.name !== "Alb")
+              .map((color, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center gap-y-1 transition-all duration-500 ease-in-out max-xl:justify-end"
+                >
+                  <div
+                    className="h-9 w-9 rounded-full border border-black-text/40 shadow-button md:h-7 md:w-7"
+                    style={{ backgroundColor: color.color }}
+                  />
+                </div>
+              ))}
+          </div>
         </div>
       </CardHeader>
       <div className="flex flex-grow flex-col items-center justify-between">
-        <h3 className="max-w-[95%] text-balance px-8 pt-8 text-center  leading-9 xl:text-[24px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
+        <h3 className="max-w-[95%] text-balance px-8 pt-8 text-center leading-9 xl:text-[24px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
           {product.name}
         </h3>
         <div className="mt-auto pb-7 xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">

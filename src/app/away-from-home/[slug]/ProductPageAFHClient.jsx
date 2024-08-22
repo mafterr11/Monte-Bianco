@@ -44,7 +44,7 @@ const ProductPageAFHClient = ({ product }) => {
                   className="h-9 w-9 rounded-full border border-black-text/40 shadow-button md:h-12 md:w-12"
                   style={{ backgroundColor: color.color }}
                 />
-                <div className="text-xs opacity-0 group-hover:opacity-100 md:text-sm">
+                <div className="text-xs opacity-0 group-hover:opacity-100 md:text-sm transition-all duration-500 ease-in-out">
                   {color.name}
                 </div>
               </div>

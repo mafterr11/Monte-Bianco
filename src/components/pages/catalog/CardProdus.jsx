@@ -23,7 +23,7 @@ const CardProdus = ({ product, basePath }) => {
           <div className="absolute inset-0 z-30" />
           <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20" />
           <Image
-            className="absolute bottom-0 h-[250px] w-[250px] rounded-t-[15px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]"
+            className="absolute bottom-0 h-[250px] w-[250px] rounded-t-[15px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1] xl:group-hover:-translate-y-4"
             src={product.image}
             width={276}
             height={255}
@@ -54,7 +54,7 @@ const CardProdus = ({ product, basePath }) => {
         <h3 className="max-w-[95%] text-balance px-8 pt-8 text-center leading-9 xl:text-[24px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
           {product.name}
         </h3>
-        <div className="mt-auto pb-7 xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
+        <div className="mt-auto pb-7">
           {/* added ENCODE delete if dosent work */}
           <Link href={`${basePath}/${product.slug}`}>
             <Button size="card">Mai multe detalii</Button>

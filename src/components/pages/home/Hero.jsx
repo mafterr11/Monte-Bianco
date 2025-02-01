@@ -70,7 +70,7 @@ export function Hero() {
         </Link>
       </div>
 
-      <div className="absolute left-0 top-0 z-10 h-full w-full bg-gradient-to-r from-black/70 to-black/20"></div>
+      <div className="absolute left-0 top-0 z-10 h-full w-full bg-linear-to-r from-black/70 to-black/20"></div>
     </section>
   );
 }

@@ -49,7 +49,7 @@ export const AnimatedTooltip = ({ children, message }) => {
             whiteSpace: "nowrap",
             pointerEvents: "none",
           }}
-          className="high-shadow absolute -left-0 -top-8 z-50 flex translate-x-1/2 flex-col items-center justify-center rounded-md border border-accent bg-gradient-to-t from-[#749db9] to-accent px-4 py-2 text-xs"
+          className="high-shadow absolute -left-0 -top-8 z-50 flex translate-x-1/2 flex-col items-center justify-center rounded-md border border-accent bg-linear-to-t from-[#749db9] to-accent px-4 py-2 text-xs"
         >
           <div className="relative z-30 text-base font-bold text-white-text">
             {message}

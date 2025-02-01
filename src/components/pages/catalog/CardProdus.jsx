@@ -21,7 +21,7 @@ const CardProdus = ({ product, basePath }) => {
         </Badge>
         <div className="group relative z-20 flex h-[300px] w-full items-center justify-center bg-no-repeat">
           <div className="absolute inset-0 z-30" />
-          <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20" />
+          <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-linear-to-t from-accent/30 via-accent/10 to-body-accent/20" />
           <Image
             className="absolute bottom-0 h-[250px] w-[250px] rounded-t-[15px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1] xl:group-hover:-translate-y-4"
             src={product.image}
@@ -50,7 +50,7 @@ const CardProdus = ({ product, basePath }) => {
           </div>
         </div>
       </CardHeader>
-      <div className="flex flex-grow flex-col items-center justify-between">
+      <div className="flex grow flex-col items-center justify-between">
         <h3 className="max-w-[95%] text-balance px-8 pt-8 text-center leading-9 xl:text-[24px] xl:transition-all xl:duration-500 xl:ease-in-out xl:group-hover:scale-[1.1]">
           {product.name}
         </h3>

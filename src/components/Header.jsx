@@ -59,7 +59,7 @@ const Header = () => {
         currentRoute === "/"
           ? active
             ? "border-b border-black-text/90 bg-body shadow-nav"
-            : "bg-body-transparent bg-opacity-0  text-white xl:backdrop-blur-[10px]"
+            : "bg-transparent bg-opacity-0 text-white xl:backdrop-blur-[10px]"
           : "border-b border-black-text/90 bg-body shadow-nav"
       } fixed left-0 right-0 top-0 z-50 w-full border-b-[0.5px] border-black/50 py-[12px] transition-all duration-100 ease-in-out max-md:px-[25px] md:max-xl:px-[40px] xl:px-[55px]`}
     >
@@ -72,7 +72,7 @@ const Header = () => {
         {/* Navigation */}
         {/* Desktop */}
         <Nav
-          containerStyles="hidden xl:flex gap-x-12 bg-body-transparent bg-opacity-0 ml-16"
+          containerStyles="hidden xl:flex gap-x-12 bg-transparent bg-opacity-0 ml-16"
           linkStyles="font-medium"
         />
         {/* Mobile */}

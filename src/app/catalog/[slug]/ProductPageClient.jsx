@@ -62,7 +62,7 @@ const ProductPageClient = ({ product }) => {
               alt={product.alt}
               unoptimized
             />
-            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-gradient-to-t from-accent/30 via-accent/10 to-body-accent/20" />
+            <div className="absolute bottom-0 z-0 h-[200px] w-full bg-linear-to-t from-accent/30 via-accent/10 to-body-accent/20" />
           </div>
         </div>
         {/* Right side */}

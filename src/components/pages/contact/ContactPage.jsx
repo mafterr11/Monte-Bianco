@@ -32,7 +32,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-wrap items-center justify-start rounded bg-body/90 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-wrap items-center justify-start rounded-sm bg-body/90 py-2 text-lg md:hidden lg:bg-body"
         >
           <a
             href="tel:+40722577771"
@@ -48,7 +48,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-wrap items-center justify-start rounded bg-body/90 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-wrap items-center justify-start rounded-sm bg-body/90 py-2 text-lg md:hidden lg:bg-body"
         >
           <a
             href="tel:+40245606286"
@@ -65,7 +65,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-col flex-wrap items-center justify-start rounded bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-col flex-wrap items-center justify-start rounded-sm bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
         >
           <span className="font-semibold">Vânzări:</span>
           <a
@@ -82,7 +82,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-col flex-wrap items-center justify-start rounded bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-col flex-wrap items-center justify-start rounded-sm bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
         >
           <span className="font-semibold">Sediu:</span>
           <a
@@ -99,7 +99,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-col flex-wrap items-center justify-start rounded bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-col flex-wrap items-center justify-start rounded-sm bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
         >
           <h2 className="text-lg font-semibold tracking-widest">
             Sediu social
@@ -118,7 +118,7 @@ const ContactPage = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, ammount: 0.4 }}
-          className="flex flex-col flex-wrap items-center justify-start rounded bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
+          className="flex flex-col flex-wrap items-center justify-start rounded-sm bg-body/90 px-3 py-2 text-lg md:hidden lg:bg-body"
         >
           <h2 className="text-lg font-semibold tracking-widest">
             Punct de lucru
@@ -152,7 +152,7 @@ const ContactPage = () => {
           {/* Container adresa/pct de lucru */}
           <div className="hidden flex-col items-center justify-center gap-x-5 md:flex xl:flex-row">
             {/* Sediu social */}
-            <div className="relative mb-4 flex flex-wrap items-center justify-start rounded bg-body/90 p-2 shadow-button drop-shadow-lg lg:bg-body">
+            <div className="relative mb-4 flex flex-wrap items-center justify-start rounded-sm bg-body/90 p-2 shadow-button drop-shadow-lg lg:bg-body">
               <SlLocationPin size={31} />
               <div className="flex flex-col px-6 md:w-[350px]">
                 <h2 className="text-lg font-semibold tracking-widest">
@@ -168,7 +168,7 @@ const ContactPage = () => {
               </div>
             </div>
             {/* Punct de lucru */}
-            <div className="relative mb-4 flex flex-wrap items-center justify-start rounded bg-body/90 p-2 shadow-button drop-shadow-lg lg:bg-body xl:ml-6">
+            <div className="relative mb-4 flex flex-wrap items-center justify-start rounded-sm bg-body/90 p-2 shadow-button drop-shadow-lg lg:bg-body xl:ml-6">
               <MapPinned size={33} strokeWidth={1.2} />
               <div className="flex flex-col px-6 md:w-[350px]">
                 <h2 className="text-lg font-semibold tracking-widest">
@@ -187,7 +187,7 @@ const ContactPage = () => {
           <div className="absolute right-12 top-12 flex flex-col items-end justify-center gap-y-6 md:max-xl:right-4">
             {/* Telefon */}
             <AnimatedTooltip message="Haidem să discutăm!">
-              <div className="hidden items-center justify-center gap-x-4 rounded bg-body/90 p-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
+              <div className="hidden items-center justify-center gap-x-4 rounded-sm bg-body/90 p-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
                 <FiPhoneCall size={25} />
                 <div className="flex-col flex-wrap md:flex">
                   <span className="font-semibold text-black">Tel:</span>{" "}
@@ -203,7 +203,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Fax */}
             <AnimatedTooltip message="Avem chiar și fax!">
-              <div className="hidden items-center justify-center gap-x-4 rounded bg-body/90 p-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
+              <div className="hidden items-center justify-center gap-x-4 rounded-sm bg-body/90 p-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
                 <MdOutlineFax size={32} />
                 <div className="flex-col flex-wrap md:flex">
                   <span className="font-semibold text-black">Fax:</span>{" "}
@@ -219,7 +219,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Vanzari */}
             <AnimatedTooltip message="Emailul departamentului de vânzări">
-              <div className="hidden flex-col flex-wrap items-start justify-start rounded bg-body/90 px-3 py-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
+              <div className="hidden flex-col flex-wrap items-start justify-start rounded-sm bg-body/90 px-3 py-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
                 <p className="font-semibold">Vânzări:</p>
                 <a
                   href="mailto: sales@montebianco.ro"
@@ -232,7 +232,7 @@ const ContactPage = () => {
             </AnimatedTooltip>
             {/* Sediu */}
             <AnimatedTooltip message="Emailul sediului nostru">
-              <div className="hidden flex-col flex-wrap items-start justify-start rounded bg-body/90 px-3 py-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
+              <div className="hidden flex-col flex-wrap items-start justify-start rounded-sm bg-body/90 px-3 py-2 text-lg shadow-button drop-shadow-lg md:flex lg:bg-body">
                 <p className="font-semibold">Sediu:</p>
                 <a
                   href="mailto: montebianco@montebianco.ro"

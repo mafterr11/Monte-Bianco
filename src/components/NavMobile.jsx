@@ -50,7 +50,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
       {/* nav trigger btn */}
       <div
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="cursor-pointer outline-none z-40"
+        className="cursor-pointer outline-hidden z-40"
       >
         <RiMenu2Line className="text-4xl transition-all duration-200" />
       </div>

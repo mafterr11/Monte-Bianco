@@ -10,8 +10,8 @@ export async function generateStaticParams() {
   return paths;
 }
 
-const ProductPage = ({ params }) => {
-  const { slug } = params;
+const ProductPage = async ({ params }) => {
+  const { slug } = await params;
   const decodedSlug = decodeURIComponent(slug);
   const product = productData.find((product) => product.slug === decodedSlug);
 

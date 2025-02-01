@@ -92,7 +92,7 @@ const CatalogPage = () => {
                   key={index}
                   className={`relative z-20 w-[300px] border border-[#dadada] uppercase max-md:mx-auto md:w-auto ${
                     activeFilter.type === "brand" && activeFilter.value === br
-                      ? "bg-gradient-to-t from-accent/35 via-accent/10 to-body-accent/10 shadow-button"
+                      ? "bg-linear-to-t from-accent/35 via-accent/10 to-body-accent/10 shadow-button"
                       : "hover:bg-accent/10"
                   }`}
                   onClick={() => handleBrandChange(br)}

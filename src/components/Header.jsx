@@ -54,7 +54,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header
+    <header 
       className={`${
         currentRoute === "/"
           ? active

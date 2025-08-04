@@ -187,7 +187,7 @@ const DropdownMenu = ({ containerStyles }) => {
                   <Link
                     href={`${link.path}?${link.query}`}
                     onClick={toggleDropdown}
-                  >
+                    >
                     {link.name}
                   </Link>
                 </li>
@@ -210,7 +210,7 @@ const DropdownMenu = ({ containerStyles }) => {
                   <Link
                     href={`${dropdownLink.path}?${dropdownLink.query}`}
                     onClick={toggleDropdown}
-                  >
+                    >
                     <Image
                       src={dropdownLink.icon}
                       width={120}

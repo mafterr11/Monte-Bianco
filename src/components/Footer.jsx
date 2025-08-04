@@ -16,17 +16,20 @@ const Footer = () => {
       {/* Center */}
       <div className="max-md:text-[13px] text-center">
         Creat de{" "}
-        <Link href="https://www.myriad-tech.ro/" className="hover-nav group">
+        <Link
+          href="https://www.myriad-tech.ro/"
+          className="hover-nav group"
+          >
           <span className="group-hover:font-semibold font-medium">Myriad Tech</span>
         </Link>{" "}
         - Toate drepturile rezervate
       </div>
       {/* Right side */}
       <div className="flex flex-col items-start justify-normal gap-y-2 max-md:flex-row max-md:gap-x-6">
-        <Link href="/termeni-si-conditii" className="hover-nav">
+        <Link href="/termeni-si-conditii" className="hover-nav" >
           <span className="text-[14px] xl:text-[16px]">Termeni și Condiții</span>
         </Link>
-        <Link href="/contact" className="hover-nav">
+        <Link href="/contact" className="hover-nav" >
           <span className="text-[14px] xl:text-[16px]">Contact</span>
         </Link>
       </div>

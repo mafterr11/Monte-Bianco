@@ -5,7 +5,7 @@ import logo from "../../public/logo.png";
 const Logo = () => {
   return (
     <div className="relative inline-block">
-      <Link href="/">
+      <Link href="/" >
         <div className="absolute inset-0 z-50"></div>
       </Link>
       <div className="relative h-[40px] w-[112px]">

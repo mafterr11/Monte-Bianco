@@ -19,7 +19,7 @@ const CTA = () => {
           <h3 className="mb-6 flex max-w-5xl flex-col items-center justify-center text-center">
             Nu ezitați să ne contactați! Părerea dumneavoastră contează
           </h3>
-          <Link href="/contact" className="group">
+          <Link href="/contact" className="group" >
             <Button className="gap-x-2 ">
               Contactați-ne{" "}
               <Send

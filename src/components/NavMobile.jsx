@@ -78,7 +78,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
                   href={link.path}
                   className="justify-base flex items-center gap-x-3"
                   onClick={() => setIsMenuOpen(false)}
-                >
+                  >
                   <div className={`${iconStyles}`}>{link.icon}</div>
                   <div className={`${linkStyles}`}>{link.name}</div>
                 </Link>

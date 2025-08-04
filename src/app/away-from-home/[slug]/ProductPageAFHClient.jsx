@@ -29,7 +29,7 @@ const ProductPageAFHClient = ({ product }) => {
         {product.name}{" "}
       </h2>
       {/* Product CONTAINER */}
-      <div className="flex justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end md:container">
+      <div className="flex mx-auto justify-center gap-x-8 max-xl:flex-col max-xl:gap-y-12 xl:items-end md:container">
         {/* Left side */}
         <div className="relative flex items-end justify-center gap-x-12 max-xl:flex-col-reverse max-xl:items-center max-xl:gap-y-6">
           {/* Color */}
@@ -107,7 +107,7 @@ const ProductPageAFHClient = ({ product }) => {
           </div>
           {/* Back button */}
           <div className="flex flex-col-reverse items-center justify-center gap-8 md:flex-row">
-            <Link href="/away-from-home">
+            <Link href="/away-from-home" >
               <Button
                 variant="back"
                 size="back"

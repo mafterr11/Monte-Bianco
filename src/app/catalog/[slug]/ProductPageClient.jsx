@@ -101,7 +101,7 @@ const ProductPageClient = ({ product }) => {
           </div>
           {/* Back button */}
           <div className="flex flex-col-reverse items-center justify-center gap-8 md:flex-row">
-            <Link href="/catalog">
+            <Link href="/catalog" >
               <Button
                 variant="back"
                 size="back"

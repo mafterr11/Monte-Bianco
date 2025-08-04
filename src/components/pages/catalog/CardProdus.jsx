@@ -56,7 +56,7 @@ const CardProdus = ({ product, basePath }) => {
         </h3>
         <div className="mt-auto pb-7">
           {/* added ENCODE delete if dosent work */}
-          <Link href={`${basePath}/${product.slug}`}>
+          <Link href={`${basePath}/${product.slug}`} >
             <Button size="card">Mai multe detalii</Button>
           </Link>
         </div>

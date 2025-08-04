@@ -98,7 +98,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                           ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
                           : "hover text-base capitalize hover:scale-[0.97]"
                       }`}
-                    >
+                      >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
@@ -112,10 +112,10 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         // href={dropdownLink.path}
                         href={`${dropdownLink.path}?${dropdownLink.query}`}
                         passHref
-                        legacyBehavior
+                        
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
-                          <div className="flex w-[18rem] gap-x-3 p-4 text-center">
+                        <NavigationMenuLink asChild className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
+                          <div className="flex flex-row justify-start w-[18rem] gap-x-3 p-4 text-center">
                             <span className="text-accent">&#9679;</span>
                             <div className="hover-nav font-medium text-black">
                               <span>{dropdownLink.name}</span>
@@ -142,7 +142,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                           ? "text-base font-semibold capitalize underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
                           : "hover text-base capitalize hover:scale-[0.97]"
                       }`}
-                    >
+                      >
                       <span>{link.name}</span>
                     </Link>
                   </NavigationMenuTrigger>
@@ -155,10 +155,10 @@ const Nav = ({ containerStyles, linkStyles }) => {
                         key={dropdownIndex}
                         href={`${dropdownLink.path}?${dropdownLink.query}`}
                         passHref
-                        legacyBehavior
+                        
                       >
-                        <NavigationMenuLink className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
-                          <div className="flex w-[15rem] gap-x-3 p-4 text-center">
+                        <NavigationMenuLink asChild className="flex flex-col items-center justify-center border-b-[0.5px] border-black hover:bg-accent/5">
+                          <div className="flex flex-row justify-start w-[15rem] gap-x-3 p-4 text-center">
                             <span className="text-accent">&#9679;</span>
                             <div className="hover-nav font-medium text-black">
                               <span>{dropdownLink.name}</span>
@@ -182,7 +182,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                   ? " font-semibold underline decoration-accent decoration-4 underline-offset-[1.7rem] hover:scale-[0.97]"
                   : "hover hover:scale-[0.97]"
               } text-base capitalize`}
-            >
+              >
               <span>{link.name}</span>
             </Link>
           );

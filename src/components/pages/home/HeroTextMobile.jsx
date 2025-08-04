@@ -11,7 +11,7 @@ const HeroTextMobile = () => {
         Apreciem in mod deosebit faptul ca ne-ati acordat increderea voastra si
         ca ne-ati oferit oportunitatea de a servi in mod constant.
       </p>
-      <Link href="/contact" className="inline-block md:hidden">
+      <Link href="/contact" className="inline-block md:hidden" >
         <Button size="lg">Contactati-ne</Button>
       </Link>
     </div>

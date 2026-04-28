@@ -129,50 +129,7 @@ export const productData = [
       },
     ],
   },
-  // Fiore
 
-  {
-    slug: "fiore-2-str",
-    category: "Batiste nazale",
-    brand: "/marci/Fiore.png",
-    badge: "Fiore",
-    name: "Fiore 2 str.",
-    image: "/produse/batiste-nazale/Fiore 2 str.png",
-    alt: "Fiore 2 str",
-    grid: "grid-cols-2",
-    color: [
-      {
-        name: "Alb",
-        color: "#FEFEFE",
-      },
-    ],
-    details: [
-      {
-        icon: "/produse/detalii/Straturi.svg",
-        title: "2 Straturi",
-      },
-      {
-        icon: "/produse/detalii/Dimensiuni.svg",
-        title: "Dimensiune 21x21",
-      },
-      {
-        icon: "/produse/detalii/PachetePerTipla.svg",
-        title: "1 Țiplă x 10 pachete x 10 batiste",
-      },
-      {
-        icon: "/produse/detalii/TiplePerBax.svg",
-        title: "24 țiple per cutie",
-      },
-      {
-        icon: "/produse/detalii/Volum.svg",
-        title: "0,0369 volum",
-      },
-      {
-        icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "48 cutii per palet",
-      },
-    ],
-  },
   // Șervețele de masă
 
   // Puff
@@ -296,16 +253,8 @@ export const productData = [
         color: "#FEFEFE",
       },
       {
-        name: "Magenta",
-        color: "#B2015C",
-      },
-      {
         name: "Bej",
         color: "#FFF6DD",
-      },
-      {
-        name: "Lavandă",
-        color: "#AFAAE4",
       },
       {
         name: "Galben",
@@ -357,7 +306,7 @@ export const productData = [
     brand: "/marci/Puff.png",
     badge: "Puff",
     name: "Puff de luxe 2 str. 33 cm",
-    image: "/produse/servetele-de-masa/Puff de luxe 2 str. 33 cm.png",
+    image: "/produse/servetele-de-masa/Puff de luxe 2 str. 33 cm.jpg",
     alt: "Puff de luxe 2 str. 33 cm",
     grid: "grid-cols-3",
     color: [
@@ -366,16 +315,8 @@ export const productData = [
         color: "#FEFEFE",
       },
       {
-        name: "Magenta",
-        color: "#B2015C",
-      },
-      {
         name: "Bej",
         color: "#FFF6DD",
-      },
-      {
-        name: "Lavandă",
-        color: "#AFAAE4",
       },
       {
         name: "Galben",
@@ -1440,72 +1381,7 @@ export const productData = [
       },
     ],
   },
-  {
-    slug: "fiore-super-soft-16-role",
-    category: "Hârtie igienică",
-    brand: "/marci/Fiore.png",
-    badge: "Fiore",
-    name: "Fiore super soft 16 role",
-    image: "/produse/hartie-igienica/Fiore super soft 16 role.png",
-    alt: "Fiore super soft 16 role",
-    grid: "grid-cols-4",
-    color: [
-      {
-        name: "Alb",
-        color: "#FEFEFE",
-      },
-    ],
-    details: [
-      {
-        icon: "/produse/detalii/Straturi.svg",
-        title: "2 Straturi",
-      },
-      {
-        icon: "/produse/detalii/role/Foi.svg",
-        title: "200 Foi",
-      },
-      {
-        icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "24 metrii",
-      },
-      {
-        icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
-      },
-      {
-        icon: "/produse/detalii/role/Lungime_foaie.svg",
-        title: "12 cm lungime",
-      },
-      {
-        icon: "/produse/detalii//role/Diametru_rola.svg",
-        title: "11.5 cm diam.",
-      },
-      {
-        icon: "/produse/detalii//role/Diametru_interior.svg",
-        title: "4.5 cm diam. interior",
-      },
-      {
-        icon: "/produse/detalii/role/Alimentare_centrala.svg",
-        title: "Nu",
-      },
-      {
-        icon: "/produse/detalii/role/Role_in_pachet.svg",
-        title: "16 role",
-      },
-      {
-        icon: "/produse/detalii/role/Pachete_in_bax.svg",
-        title: "6 pachete",
-      },
-      {
-        icon: "/produse/detalii/Volum.svg",
-        title: "0.1232 volum",
-      },
-      {
-        icon: "/produse/detalii/PachetePerCutie.svg",
-        title: "22 de pachete",
-      },
-    ],
-  },
+
   // Neve
   {
     slug: "neve-profesional-170-m",
@@ -2176,13 +2052,13 @@ export const productData = [
   //   Șervețele Pop-up
   // Puff
   {
-    slug: "puff-mozaic",
+    slug: "puff-lotus",
     category: "Șervețele Pop-up",
     brand: "/marci/Puff.png",
     badge: "Puff",
-    name: "Puff mozaic",
-    image: "/produse/pop-up/Puff mozaic.png",
-    alt: "Puff mozaic",
+    name: "Puff lotus",
+    image: "/produse/pop-up/Puff lotus.png",
+    alt: "Puff lotus",
     grid: "grid-cols-3",
     color: [
       {
@@ -2260,13 +2136,55 @@ export const productData = [
     ],
   },
   {
-    slug: "puff-paisley",
+    slug: "puff-magnolie",
     category: "Șervețele Pop-up",
     brand: "/marci/Puff.png",
     badge: "Puff",
-    name: "Puff paisley",
-    image: "/produse/pop-up/Puff paisley.png",
-    alt: "Puff paisley",
+    name: "Puff magnolie",
+    image: "/produse/pop-up/Puff magnolie.png",
+    alt: "Puff magnolie",
+    grid: "grid-cols-3",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.svg",
+        title: "Dimensiune 21x21",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.svg",
+        title: "150 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.svg",
+        title: "24 țiple per cutie",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0,0496 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "32 cutii per palet",
+      },
+    ],
+  },
+  {
+    slug: "puff-red-blue",
+    category: "Șervețele Pop-up",
+    brand: "/marci/Puff.png",
+    badge: "Puff",
+    name: "Puff red-blue",
+    image: "/produse/pop-up/Puff red blue.png",
+    alt: "Puff red blue",
     grid: "grid-cols-3",
     color: [
       {
@@ -3495,16 +3413,8 @@ export const productData = [
         color: "#FEFEFE",
       },
       {
-        name: "Magenta",
-        color: "#B2015C",
-      },
-      {
         name: "Bej",
         color: "#FFF6DD",
-      },
-      {
-        name: "Lavandă",
-        color: "#AFAAE4",
       },
       {
         name: "Galben",
@@ -3568,16 +3478,8 @@ export const productData = [
         color: "#FEFEFE",
       },
       {
-        name: "Magenta",
-        color: "#B2015C",
-      },
-      {
         name: "Bej",
         color: "#FFF6DD",
-      },
-      {
-        name: "Lavandă",
-        color: "#AFAAE4",
       },
       {
         name: "Galben",

@@ -1,8 +1,9 @@
 "use client";
-// Assuming you have installed Framer Motion and Tailwind CSS correctly.
+
 import { motion, useCycle } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 const Path = (props) => (
   <motion.path
@@ -17,7 +18,9 @@ const Path = (props) => (
 const MenuButton = ({ onClick, isOpen }) => {
   return (
     <motion.button
-      className={`flex h-14 w-14 items-center justify-center bg-accent ${isOpen ? "rounded-full" : "rounded-[10px]"} cursor-pointer`}
+      className={`flex h-14 w-14 cursor-pointer items-center justify-center bg-accent ${
+        isOpen ? "rounded-full" : "rounded-[10px]"
+      }`}
       onClick={onClick}
       animate={isOpen ? "open" : "closed"}
       initial={false}
@@ -56,27 +59,27 @@ const MenuButton = ({ onClick, isOpen }) => {
 const rightMenu = [
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2Fpuff.png",
+    brand: "/marci/Puff.png",
     icon: "/marci/Puff.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2Ffiore.png",
+    brand: "/marci/Fiore.png",
     icon: "/marci/Fiore.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2Fneve.png",
+    brand: "/marci/Neve.png",
     icon: "/marci/Neve.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2FMBP.png",
+    brand: "/marci/MBP.png",
     icon: "/marci/MBP.png",
   },
   {
     path: "/catalog",
-    query: "brand=%2Fmarci%2Fhoreca.png",
+    brand: "/marci/Horeca.png",
     icon: "/marci/Horeca.png",
   },
 ];
@@ -84,30 +87,31 @@ const rightMenu = [
 const leftMenu = [
   {
     path: "/catalog",
-    query: "category=Batiste%20nazale",
+    category: "Batiste nazale",
     name: "Batiste nazale",
   },
   {
     path: "/catalog",
-    query: "category=Șervețele%20de%20masă",
+    category: "Șervețele de masă",
     name: "Șervețele de masă",
   },
   {
     path: "/catalog",
-    query: "category=Hârtie%20igienică",
+    category: "Hârtie igienică",
     name: "Hârtie igienică",
   },
   {
     path: "/catalog",
-    query: "category=Prosoape%20de%20bucătărie",
+    category: "Prosoape de bucătărie",
     name: "Prosoape de bucătărie",
   },
   {
     path: "/catalog",
-    query: "category=Șervețele%20Pop-up",
+    category: "Șervețele Pop-up",
     name: "Șervețele Pop-up",
   },
 ];
+
 const slideVerticalAnimation = {
   open: {
     rotateX: 0,
@@ -149,15 +153,32 @@ const slideHorizontalAnimation = {
 };
 
 const DropdownMenu = ({ containerStyles }) => {
+  const searchParams = useSearchParams();
+
   const [isOpen, toggleDropdown] = useCycle(false, true);
   const [isLeftMenu, toggleMenu] = useCycle(true, false);
-  const leftMenuHeight = (leftMenu.length + 1) * 65; // Height in pixels, adjust as needed
-  const rightMenuHeight = (rightMenu.length + 1) * 65; // Height in pixels, adjust as needed
+
+  const activeCategory =
+    searchParams.get("category") || "Toate produsele";
+
+  const leftMenuHeight = (leftMenu.length + 1) * 65;
+  const rightMenuHeight = (rightMenu.length + 1) * 65;
   const height = isLeftMenu ? leftMenuHeight : rightMenuHeight;
+
+  const getCategoryHref = (category) => {
+    return `/catalog?category=${encodeURIComponent(category)}`;
+  };
+
+  const getBrandHref = (brand) => {
+    return `/catalog?category=${encodeURIComponent(
+      activeCategory,
+    )}&brand=${encodeURIComponent(brand)}`;
+  };
 
   return (
     <div className={`fixed z-40 ${containerStyles} py-96`}>
       <MenuButton onClick={toggleDropdown} isOpen={isOpen} />
+
       <motion.div
         className="absolute right-2 top-[28rem] z-20 w-[18rem] overflow-hidden rounded-lg border-2 border-body-accent bg-gradient-blue shadow-lg"
         style={{ height }}
@@ -173,27 +194,30 @@ const DropdownMenu = ({ containerStyles }) => {
         >
           <motion.div className="flex h-full w-[18rem] flex-col px-8">
             <h4
-              className="my-8 cursor-pointer text-center text-xl transition duration-200 "
+              className="my-8 cursor-pointer text-center text-xl transition duration-200"
               onClick={toggleMenu}
             >
               Către mărci &#8594;
             </h4>
+
             <ul className="flex flex-1 flex-col items-center justify-around pb-4">
-              {leftMenu.map((link, i) => (
+              {leftMenu.map((link) => (
                 <li
-                  key={i}
+                  key={link.category}
                   className="cursor-pointer py-3 text-center font-medium transition duration-200"
                 >
                   <Link
-                    href={`${link.path}?${link.query}`}
+                    href={getCategoryHref(link.category)}
                     onClick={toggleDropdown}
-                    >
+                    scroll={false}
+                  >
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </motion.div>
+
           <motion.div className="absolute right-[16.5rem] top-0 flex h-full w-[18rem] flex-col items-center justify-center px-8">
             <h4
               className="my-3 cursor-pointer items-center text-center text-xl transition duration-200"
@@ -201,16 +225,18 @@ const DropdownMenu = ({ containerStyles }) => {
             >
               &#8592; Categorii
             </h4>
+
             <ul className="flex flex-col items-center justify-around">
-              {rightMenu.map((dropdownLink, i) => (
+              {rightMenu.map((dropdownLink) => (
                 <li
-                  key={i}
+                  key={dropdownLink.brand}
                   className="w-[100px] cursor-pointer py-3 transition duration-200 focus:bg-gradient-blue"
                 >
                   <Link
-                    href={`${dropdownLink.path}?${dropdownLink.query}`}
+                    href={getBrandHref(dropdownLink.brand)}
                     onClick={toggleDropdown}
-                    >
+                    scroll={false}
+                  >
                     <Image
                       src={dropdownLink.icon}
                       width={120}

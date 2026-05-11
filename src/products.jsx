@@ -2635,6 +2635,48 @@ export const productData = [
       },
     ],
   },
+   {
+    slug: "dispenser-hig-smart",
+    categoryAFH: "Dispenser",
+    brand: "/marci/MBP.png",
+    badge: "MB Profesional",
+    name: "Dispenser HIG smart",
+    image: "/produse/AFH/Dispener HIG SMART.png",
+    alt: "Dispenser HIG smart",
+    grid: "grid-cols-1",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        title: "Plastic",
+      },
+    ],
+  },
+   {
+    slug: "dispenser-servetele",
+    categoryAFH: "Dispenser",
+    brand: "/marci/MBP.png",
+    badge: "MB Profesional",
+    name: "Dispenser Servetele",
+    image: "/produse/AFH/Dispenser SERVETELE.png",
+    alt: "Dispenser servetele",
+    grid: "grid-cols-1",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        title: "Plastic",
+      },
+    ],
+  },
 
   // Neve
   {

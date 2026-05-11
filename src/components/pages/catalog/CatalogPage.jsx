@@ -15,6 +15,8 @@ const CatalogPage = () => {
   const [activeCategory, setActiveCategory] = useState("Toate produsele");
   const [activeBrand, setActiveBrand] = useState("");
 
+  const catalogProducts = productData.filter((product) => product.category);
+
   useEffect(() => {
     const categoryFromUrl = searchParams.get("category");
     const brandFromUrl = searchParams.get("brand");
@@ -26,29 +28,29 @@ const CatalogPage = () => {
     setActiveBrand(brandFromUrl ? decodeURIComponent(brandFromUrl) : "");
   }, [searchParams]);
 
-const handleCategoryChange = (cat) => {
-  const isSameCategory = activeCategory === cat;
+  const handleCategoryChange = (cat) => {
+    const isSameCategory = activeCategory === cat;
 
-  setActiveCategory(cat);
+    setActiveCategory(cat);
 
-  if (isSameCategory && activeBrand) {
-    setActiveBrand("");
+    if (isSameCategory && activeBrand) {
+      setActiveBrand("");
 
-    router.push(`/catalog?category=${encodeURIComponent(cat)}`, {
+      router.push(`/catalog?category=${encodeURIComponent(cat)}`, {
+        scroll: false,
+      });
+
+      return;
+    }
+
+    const query = activeBrand
+      ? `/catalog?category=${encodeURIComponent(cat)}&brand=${encodeURIComponent(activeBrand)}`
+      : `/catalog?category=${encodeURIComponent(cat)}`;
+
+    router.push(query, {
       scroll: false,
     });
-
-    return;
-  }
-
-  const query = activeBrand
-    ? `/catalog?category=${encodeURIComponent(cat)}&brand=${encodeURIComponent(activeBrand)}`
-    : `/catalog?category=${encodeURIComponent(cat)}`;
-
-  router.push(query, {
-    scroll: false,
-  });
-};
+  };
 
   const handleBrandChange = (br) => {
     setActiveBrand(br);
@@ -61,8 +63,8 @@ const handleCategoryChange = (cat) => {
     );
   };
 
-  const productsWithBrands = productData.filter((product) => product.brand);
-  const productsWithCategories = productData.filter(
+  const productsWithBrands = catalogProducts.filter((product) => product.brand);
+  const productsWithCategories = catalogProducts.filter(
     (product) => product.category,
   );
 
@@ -73,7 +75,7 @@ const handleCategoryChange = (cat) => {
 
   const uniqueBrands = [...new Set(productsWithBrands.map((p) => p.brand))];
 
-  const visibleProducts = productData.filter((product) => {
+  const visibleProducts = catalogProducts.filter((product) => {
     const matchesCategory =
       activeCategory === "Toate produsele" ||
       product.category === activeCategory;
@@ -109,7 +111,7 @@ const handleCategoryChange = (cat) => {
               ))}
             </div>
 
-            <div className="mx-auto grid h-full w-full grid-cols-1 gap-2 max-md:mt-6 md:grid-cols-5 lg:max-w-[800px]">
+            <div className="mx-auto grid place-items-center h-full w-full grid-cols-1 gap-2 max-md:mt-6 md:grid-cols-4 lg:max-w-[600px]">
               {uniqueBrands.map((br) => (
                 <TabsTrigger
                   key={br}
@@ -139,8 +141,12 @@ const handleCategoryChange = (cat) => {
 
           <TabsContent value={activeBrand || activeCategory}>
             <div className="mx-auto mt-20 grid grid-cols-1 gap-10 text-lg md:mt-36 md:grid-cols-2 lg:max-w-[80%] xl:mt-44 xl:max-w-[90%] xl:grid-cols-3 2xl:max-w-[80%]">
-              {visibleProducts.map((product, i) => (
-                <CardProdus key={i} product={product} basePath="/catalog" />
+              {visibleProducts.map((product) => (
+                <CardProdus
+                  key={product.slug}
+                  product={product}
+                  basePath="/catalog"
+                />
               ))}
             </div>
           </TabsContent>

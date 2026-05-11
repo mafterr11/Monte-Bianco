@@ -1786,7 +1786,7 @@ export const productData = [
     ],
   },
   {
-    slug: "fiore-4-role",
+    slug: "fiore-4-role-prosoape",
     category: "Prosoape de bucătărie",
     brand: "/marci/Fiore.png",
     badge: "Fiore",
@@ -2574,6 +2574,7 @@ export const productData = [
   },
   {
     slug: "dispenser-z-fold",
+    categoryAFH: "Dispenser",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     name: "Dispenser z-fold",
@@ -2594,6 +2595,7 @@ export const productData = [
   },
   {
     slug: "dispenser-hartie-igienica",
+    categoryAFH: "Dispenser",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     name: "Dispenser hârtie igienică",
@@ -2614,6 +2616,7 @@ export const productData = [
   },
   {
     slug: "dispenser-autocut",
+    categoryAFH: "Dispenser",
     brand: "/marci/MBP.png",
     badge: "MB Profesional",
     name: "Dispenser autocut",
@@ -3394,7 +3397,7 @@ export const productData = [
   },
   // Horeca
   {
-    slug: "Prosop-autocut-130-m",
+    slug: "prosop-autocut-130-m",
     brand: "/marci/Horeca.png",
     badge: "Horeca",
     name: "Prosop autocut 130 m",

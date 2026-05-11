@@ -3340,6 +3340,72 @@ export const productData = [
     ],
   },
   {
+    slug: "hig-neve-smart-170-m",
+    categoryAFH: "Role AFH",
+    brand: "/marci/Neve.png",
+    badge: "Neve",
+    name: "Hig Neve Smart 170 m",
+    image: "/produse/AFH/Hig Neve Smart 170 m.png",
+    alt: "Hig Neve Smart 170 m",
+    grid: "grid-cols-4",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "740 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "170.2 metri",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "13.5 cm lățime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "23 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "20 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "6 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Nu",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "4 pachete",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0.0216 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "84 de pachete",
+      },
+    ],
+  },
+  {
     slug: "prosop-economic-v-fold",
     categoryAFH: "Prosop pilat",
     brand: "/marci/Neve.png",

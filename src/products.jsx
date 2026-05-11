@@ -257,8 +257,8 @@ export const productData = [
         color: "#FFF6DD",
       },
       {
-        name: "Galben",
-        color: "#FADF12",
+        name: "Crem",
+        color: "#F5EFD6",
       },
       {
         name: "Roșu",
@@ -319,8 +319,8 @@ export const productData = [
         color: "#FFF6DD",
       },
       {
-        name: "Galben",
-        color: "#FADF12",
+        name: "Crem",
+        color: "#F5EFD6",
       },
       {
         name: "Roșu",
@@ -393,8 +393,8 @@ export const productData = [
         color: "#AFAAE4",
       },
       {
-        name: "Galben",
-        color: "#FADF12",
+        name: "Crem",
+        color: "#F5EFD6",
       },
       {
         name: "Roșu",
@@ -877,11 +877,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "17.4 metrii",
+        title: "17.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -943,11 +943,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "17.4 metrii",
+        title: "17.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1009,11 +1009,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "20.4 metrii",
+        title: "20.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1077,11 +1077,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "14.4 metrii",
+        title: "14.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1143,11 +1143,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "14.4 metrii",
+        title: "14.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1209,11 +1209,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "14.4 metrii",
+        title: "14.4 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1275,11 +1275,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "24 metrii",
+        title: "24 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1341,11 +1341,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "24 metrii",
+        title: "24 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1409,11 +1409,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "170 metrii",
+        title: "170 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1477,11 +1477,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "170 metrii",
+        title: "170 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "9.7 cm lătime",
+        title: "9.7 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1546,11 +1546,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "10.61 metrii",
+        title: "10.61 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "25 cm lătime",
+        title: "25 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1612,11 +1612,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "10.66 metrii",
+        title: "10.66 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "25 cm lătime",
+        title: "25 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1678,11 +1678,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "42 metrii",
+        title: "42 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "25 cm lătime",
+        title: "25 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1745,11 +1745,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "10.25 metrii",
+        title: "10.25 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22.5 cm lătime",
+        title: "22.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1811,11 +1811,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "10.25 metrii",
+        title: "10.25 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22.5 cm lătime",
+        title: "22.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1877,11 +1877,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "10.25 metrii",
+        title: "10.25 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22.5 cm lătime",
+        title: "22.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -1943,11 +1943,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "26.65 metrii",
+        title: "26.65 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22.5 cm lătime",
+        title: "22.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2009,11 +2009,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "26.65 metrii",
+        title: "26.65 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22.5 cm lătime",
+        title: "22.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2177,6 +2177,48 @@ export const productData = [
       },
     ],
   },
+   {
+    slug: "puff-fata-si-maini",
+    category: "Șervețele Pop-up",
+    brand: "/marci/Puff.png",
+    badge: "Puff",
+    name: "Puff pentru față și mâini",
+    image: "/produse/pop-up/Puff pentru față și mâini.png",
+    alt: "Puff pentru față și mâini",
+    grid: "grid-cols-3",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.svg",
+        title: "Dimensiune 21x22",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.svg",
+        title: "120 șervețele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.svg",
+        title: "10 țiple per cutie",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0,0236 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "32 cutii per palet",
+      },
+    ],
+  },
   {
     slug: "puff-red-blue",
     category: "Șervețele Pop-up",
@@ -2292,11 +2334,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "50 metrii",
+        title: "50 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "50 cm lătime",
+        title: "50 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2358,11 +2400,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "50 metrii",
+        title: "50 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "60 cm lătime",
+        title: "60 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2424,11 +2466,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "80 metrii",
+        title: "80 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "50 cm lătime",
+        title: "50 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2490,11 +2532,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "80 metrii",
+        title: "80 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "60 cm lătime",
+        title: "60 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2618,11 +2660,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "61 metrii",
+        title: "61 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22 cm lătime",
+        title: "22 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2684,11 +2726,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "80 metrii",
+        title: "80 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22 cm lătime",
+        title: "22 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2750,11 +2792,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "100 metrii",
+        title: "100 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "22 cm lătime",
+        title: "22 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2816,11 +2858,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "150 metrii",
+        title: "150 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "24.5 cm lătime",
+        title: "24.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2882,11 +2924,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "200 metrii",
+        title: "200 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "24.5 cm lătime",
+        title: "24.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -2922,6 +2964,72 @@ export const productData = [
       },
     ],
   },
+   {
+    slug: "prosop-230-m",
+    categoryAFH: "Role AFH",
+    brand: "/marci/Neve.png",
+    badge: "Neve",
+    name: "Prosop 230 m",
+    image: "/produse/AFH/Prosop Neve Practic 230m.png",
+    alt: "Prosop 230 m",
+    grid: "grid-cols-4",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      },
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/role/Foi.svg",
+        title: "1000 Foi",
+      },
+      {
+        icon: "/produse/detalii/role/Metri_rola.svg",
+        title: "230 metri",
+      },
+      {
+        icon: "/produse/detalii//role/Latime_foaie.svg",
+        title: "20.5 cm lățime",
+      },
+      {
+        icon: "/produse/detalii/role/Lungime_foaie.svg",
+        title: "23 cm lungime",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_rola.svg",
+        title: "20 cm diam.",
+      },
+      {
+        icon: "/produse/detalii//role/Diametru_interior.svg",
+        title: "6 cm diam. interior",
+      },
+      {
+        icon: "/produse/detalii/role/Alimentare_centrala.svg",
+        title: "Da",
+      },
+      {
+        icon: "/produse/detalii/role/Role_in_pachet.svg",
+        title: "1 rolă",
+      },
+      {
+        icon: "/produse/detalii/role/Pachete_in_bax.svg",
+        title: "192 pachete",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0.0492 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "32 de pachete",
+      },
+    ],
+  },
   {
     slug: "prosop-economic-350-foi",
     categoryAFH: "Role AFH",
@@ -2948,11 +3056,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "80.5 metrii",
+        title: "80.5 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "20 cm lătime",
+        title: "20 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -3014,11 +3122,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "115 metrii",
+        title: "115 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "20 cm lătime",
+        title: "20 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -3080,11 +3188,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "161 metrii",
+        title: "161 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "24.5 cm lătime",
+        title: "24.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -3146,11 +3254,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "2305 metrii",
+        title: "2305 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "24.5 cm lătime",
+        title: "24.5 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -3310,11 +3418,11 @@ export const productData = [
       },
       {
         icon: "/produse/detalii/role/Metri_rola.svg",
-        title: "130 metrii",
+        title: "130 metri",
       },
       {
         icon: "/produse/detalii//role/Latime_foaie.svg",
-        title: "20.3 cm lătime",
+        title: "20.3 cm lățime",
       },
       {
         icon: "/produse/detalii/role/Lungime_foaie.svg",
@@ -3417,8 +3525,8 @@ export const productData = [
         color: "#FFF6DD",
       },
       {
-        name: "Galben",
-        color: "#FADF12",
+        name: "Crem",
+        color: "#F5EFD6",
       },
       {
         name: "Roșu",
@@ -3482,8 +3590,8 @@ export const productData = [
         color: "#FFF6DD",
       },
       {
-        name: "Galben",
-        color: "#FADF12",
+        name: "Crem",
+        color: "#F5EFD6",
       },
       {
         name: "Roșu",
@@ -3522,6 +3630,104 @@ export const productData = [
       {
         icon: "/produse/detalii/PachetePerCutie.svg",
         title: "42 cutii per palet",
+      },
+    ],
+  },
+   {
+    slug: "servetele-eight-fold-33-33-140-buc",
+    categoryAFH: "Șervețele",
+    brand: "/marci/Horeca.png",
+    badge: "Horeca",
+    name: "Șervețele Eight Fold 33x33 140 buc",
+    image: "/produse/AFH/Servetele Eight Fold 33x33 140 buc.png",
+    alt: "Servetele Eight Fold 33x33 140 buc",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      }
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "2 Straturi",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.svg",
+        title: "Pliat in 8",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.svg",
+        title: "Dimensiune 33x33",
+      },
+      {
+        icon: "/produse/detalii/Lipici.svg",
+        title: "Fara lipici",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.svg",
+        title: "140 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.svg",
+        title: "8 țiple per cutie",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0,0512 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "36 cutii per palet",
+      },
+    ],
+  },
+   {
+    slug: "servetele-25-cm-90-buc",
+    categoryAFH: "Șervețele",
+    brand: "/marci/Horeca.png",
+    badge: "Horeca",
+    name: "Șervețele 25 cm 90 buc",
+    image: "/produse/AFH/Servetele 25 cm 90 buc.png",
+    alt: "Servetele 25 cm 90 buc",
+    color: [
+      {
+        name: "Alb",
+        color: "#FEFEFE",
+      }
+    ],
+    details: [
+      {
+        icon: "/produse/detalii/Straturi.svg",
+        title: "1 Strat",
+      },
+      {
+        icon: "/produse/detalii/Impachetat.svg",
+        title: "Pliat in 4",
+      },
+      {
+        icon: "/produse/detalii/Dimensiuni.svg",
+        title: "Dimensiune 25x25",
+      },
+      {
+        icon: "/produse/detalii/Lipici.svg",
+        title: "Fara lipici",
+      },
+      {
+        icon: "/produse/detalii/PachetePerTipla.svg",
+        title: "90 servetele",
+      },
+      {
+        icon: "/produse/detalii/TiplePerBax.svg",
+        title: "72 țiple per cutie",
+      },
+      {
+        icon: "/produse/detalii/Volum.svg",
+        title: "0,1040 volum",
+      },
+      {
+        icon: "/produse/detalii/PachetePerCutie.svg",
+        title: "72 cutii per palet",
       },
     ],
   },
